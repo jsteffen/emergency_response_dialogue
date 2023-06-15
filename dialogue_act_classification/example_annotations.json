@@ -1,0 +1,173 @@
+[
+  {
+    "turn_tokens": [
+      "D5",
+      "ist",
+      "zum",
+      "Treffpunkt",
+      "angekommen"
+    ],
+    "dialogue_act": "Information_geben",
+    "einsatzbefehl_slots": {
+      "auftrag_tags": [
+        "O",
+        "O",
+        "B",
+        "I",
+        "O"
+      ],
+      "auftrag_tokens": [
+        "zum",
+        "Treffpunkt"
+      ],
+      "einheit_tags": [
+        "B",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "einheit_tokens": [
+        "D5"
+      ],
+      "mittel_tags": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "mittel_tokens": [],
+      "ziel_tags": [
+        "O",
+        "O",
+        "B",
+        "I",
+        "O"
+      ],
+      "ziel_tokens": [
+        "zum",
+        "Treffpunkt"
+      ],
+      "weg_tags": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "weg_tokens": []
+    },
+    "iso_dialogue_act": "Zusage"
+  },
+  {
+    "turn_tokens": [
+      "UGV",
+      "2",
+      "ist",
+      "bereit"
+    ],
+    "dialogue_act": "Information_geben",
+    "einsatzbefehl_slots": {
+      "auftrag_tags": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "auftrag_tokens": [],
+      "einheit_tags": [
+        "B",
+        "I",
+        "O",
+        "O"
+      ],
+      "einheit_tokens": [
+        "UGV",
+        "2"
+      ],
+      "mittel_tags": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "mittel_tokens": [],
+      "ziel_tags": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "ziel_tokens": [],
+      "weg_tags": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "weg_tokens": []
+    },
+    "iso_dialogue_act": "Zusage"
+  },
+  {
+    "turn_tokens": [
+      "UGV",
+      "vorr\u00e4ngig",
+      "weiter",
+      "Personen",
+      "suchen"
+    ],
+    "dialogue_act": "Einsatzbefehl",
+    "einsatzbefehl_slots": {
+      "auftrag_tags": [
+        "O",
+        "B",
+        "I",
+        "I",
+        "I"
+      ],
+      "auftrag_tokens": [
+        "vorr\u00e4ngig",
+        "weiter",
+        "Personen",
+        "suchen"
+      ],
+      "einheit_tags": [
+        "B",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "einheit_tokens": [
+        "UGV"
+      ],
+      "mittel_tags": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "mittel_tokens": [],
+      "ziel_tags": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "ziel_tokens": [],
+      "weg_tags": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "weg_tokens": []
+    },
+    "iso_dialogue_act": "Information_geben"
+  }
+]
