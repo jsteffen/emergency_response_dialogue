@@ -1,0 +1,282 @@
+id,speakers,isoda,tokens,tags
+0,UAV,Information geben,UAV hat Softwareprobleme wir versuchen es zu beheben,2
+1,TL,Sonstiges,Ja verstanden,2
+2,TL,Einsatzbefehl,Bitte melden wenn wieder einsatzbereit,1
+3,UAV,Sonstiges,Verstanden,7
+4,TL,Kontakt Anfrage,UGV-1 für Einsatzleiter,4
+5,UGV-1,Kontakt Bestätigung,Hier UGV-1,5
+6,TL,Information nachfragen,Wie ist der Status?,3
+7,UGV-1,Information geben,Ja ich hab mich hier erst weiter nach vorne bewegt,2
+8,UGV-1,Information geben,Weiter keine Feststellung rechts ist der Feuerlöscher,2
+9,UGV-1,Information geben,Auf der linken Seite sehe ich eine Palette mit Wellen,2
+10,UGV-1,Einsatzbefehl,Werde weiter geradeaus erkunden kommen,2
+11,UGV-1,Zusage,Ja war schon weiter,2
+12,UAV,Information geben,UAV ist wieder einsatzbereit,2
+13,TL,Sonstiges,Ja verstanden,2
+14,TL,Einsatzbefehl,Dann bitte erneut starten und dann in östlicher Richtung erst mal fliegen,1
+15,TL,Einsatzbefehl,Dass du dass du mal ein Foto machst du auf Höhe von ASA 310,1
+16,TL,Information geben,Ich orientiere mich nur an der Karte das heißt nach rechts wäre Osten du folgst einfach der langen Straße praktisch,2
+17,UAV,Sonstiges,Alles klar,7
+18,UAV,Zusage,danke,6
+19,UGV-2,Kontakt Anfrage,Teamleiter von UGV-2,4
+20,TL,Kontakt Bestätigung,Höre,5
+21,UGV-2,Information geben,Ich hab dir gerade ein Bild geschickt,2
+22,UGV-2,Information geben,Da steht ein Stuhl auf dem Stuhl liegt ein Paket und vor dem Stuhl steht ein Paket,2
+23,UGV-2,Information geben,Sicht ist relativ schlecht,2
+24,UGV-2,Information geben,das blendet stark,2
+25,TL,Information nachfragen,Ist das schlimm?,3
+26,TL,Sonstiges,Ja ist verstanden,2
+27,TL,Information geben,Ich habe gerade keine Connection,2
+28,TL,Information geben,kann dein Foto nicht sehen,2
+29,TL,Zusage,Bleib mal gerade an der Position,1
+30,TL,Kontakt Bestätigung,wir starten dich noch gerade neu,2
+31,TL,Kontakt Anfrage,UGV-2 von Einsatzleiter,4
+32,UGV-2,Kontakt Bestätigung,UGV-2,5
+33,TL,Information geben,Also ich kann das eine nicht gut erkennen,2
+34,TL,Einsatzbefehl,Dein Einsatzauftrag trotzdem setz den Arm ein und nimm die Probe auf,1
+35,UAV,Information geben,UAV hat Bilder in westlicher Blickrichtung verfügbar,2
+36,TL,Sonstiges,Ja ist verstanden,2
+37,UGV-1,Kontakt Anfrage,Teamleader von UGV-1 kommen,4
+38,TL,Kontakt Bestätigung,Kommen,5
+39,UGV-1,Information geben,Ja ich hab dir jetzt mal ein Foto von meinem Standort geschickt,2
+40,UGV-1,Information geben,Sehe den Tango rechtseitig vor mir,2
+41,UGV-1,Einsatzbefehl,Würd jetzt weiter geradeaus fahren und da weiter erkunden,2
+42,TL,Sonstiges,Moment warten,6
+43,TL,Kontakt Bestätigung,UGV-1,4
+44,UGV-1,Kontakt Bestätigung,Hier UGV-1,5
+45,TL,Einsatzbefehl,Wo laufen denn deine Fotos gerade rein in welchen dieser Container?,3
+46,TL,Information geben,Ja ich hab sie gefunden sie sind in Sankt Augustin,2
+47,UGV-1,Zusage,Ja ich erkunde dann weiter geradeaus kommen,2
+48,TL,Absage,Negativ,0
+49,TL,Sonstiges,Nähere dich mal UGV-2,1
+50,TL,Information geben,da sind zwei Proben die er eventuell aufnehmen muss,2
+51,TL,Einsatzbefehl,Fahr mal bitte näher daran,1
+52,TL,Einsatzbefehl,und mach mal Foto wie er das macht,1
+53,TL,Einsatzbefehl,Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst,1
+54,UGV-1,Zusage,Ja ich gehe jetzt vor zu UGV-2,7
+55,UGV-1,Einsatzbefehl,und versuch die Probenentnahme zu fotografieren kommen,7
+56,TL,Kontakt Anfrage,UAV für Einsatzleiter,4
+57,TL,Information nachfragen,Wo ist gerade dein Standort?,3
+58,UAV,Information geben,Ungefähr an der Position von ASA 310,2
+59,TL,Sonstiges,Okay,2
+60,TL,Information nachfragen,Hast du das letzte Foto gepublished?,3
+61,TL,Information geben,Ich konnte es noch nicht sehen,2
+62,UAV,Information geben,Der UAV Pilot berichtet von Rauch der aus der Halle kommt,2
+63,UAV,Einsatzbefehl,Wir versuchen davon ein Foto zu machen,2
+64,TL,Sonstiges,Ja verstanden,7
+65,UGV-1,Kontakt Anfrage,Teamleader von UGV-1 kommen,4
+66,TL,Kontakt Bestätigung,Höre,5
+67,UGV-1,Information geben,Ich seh ein extrem helles hell beleuchtetes Gerät,2
+68,UGV-1,Information geben,Ich kann's nicht erkennen was es ist,2
+69,TL,Sonstiges,Ja was willst du mir damit sagen?,3
+70,UGV-1,Zusage,Ja schau mal auf das Foto,2
+71,TL,Information geben,Foto 235?,3
+72,UGV-1,Information geben,Kann ich dir nicht genau sagen,2
+73,UGV-1,Information geben,Kann ich nicht bestätigen,2
+74,TL,Kontakt Anfrage,UAV für Einsatzleitung,4
+75,UAV,Kontakt Bestätigung,UAV hört,5
+76,TL,Information geben,Also ich kann keine Rauchentwicklung auf deinem Foto erkennen,2
+77,TL,Einsatzbefehl,Kreise mal bitte jetzt dann um ASA 352 herum,1
+78,TL,Zusage,Und mach sozusagen mal ein Rundumfoto das heißt aus den anderen beiden Himmelsrichtungen auch noch,1
+79,UAV,Information geben,Das kann ich hier leider nicht erkennen,0
+80,UAV,Information_nachfragen,Das letzte Foto das ich geshared habe?,3
+81,TL,Sonstiges,Okay das scheint 297 zu sein,2
+82,UGV-1,Kontakt Anfrage,Teamleader von UGV-1 kommen,4
+83,TL,Kontakt Bestätigung,Höre,5
+84,UGV-1,Information geben,Ja im letzten Foto das ich geteilt habe ich versucht die Probenentnahme zu fotografieren kommen,2
+85,TL,Sonstiges,Ja,2
+86,TL,Zusage,Ja ich guck's mir an,2
+87,TL,Kontakt Anfrage,UAV für Einsatzleitung kommen,4
+88,UAV,Kontakt Bestätigung,UAV hört,5
+89,TL,Information nachfragen,Wo ist dieser eine Eingang jetzt genau ist der praktisch südlich von ASA 310?,3
+90,UAV,Information geben,Das ist südlich das ist es an der an der Position wo Echo-Start wo der Echo-Punkt ist also der der Halleneingang hier,2
+91,TL,Sonstiges,O. k.,2
+92,UGV-1,Kontakt Anfrage,Teamleader von UGV-1 kommen,4
+93,TL,Kontakt Bestätigung,UGV-1 kommen Sie,5
+94,UGV-1,Zusage,Ja ich versuch die Probeentnahmen zu fotografieren,2
+95,UGV-1,Information geben,Habe aber hier extrem schlechte Sicht,2
+96,UGV-1,Kontakt Anfrage,aufgrund von reflektierendem Licht,2
+97,UGV-1,Kontakt Bestätigung,kommen,4
+98,TL,Sonstiges,Ja verstanden,2
+99,TL,Kontakt Anfrage,UGV-1 von Einsatzleitung,4
+100,UGV-1,Kontakt Bestätigung,UGV-1 hört,5
+101,TL,Information geben,Ja die UAV hat berichtet dass es eine Rauchentwicklung gibt aus dem Hallentorbogen wo unser Startpunkt ist,2
+102,TL,Einsatzbefehl,Kannst du dich in die Richtung zurückbegeben und da mal nachgucken,1
+103,UGV-1,Zusage,Ja ich versuch zum Startpunkt zurückzukehren und prüfe ob Rauchentwicklung,7
+104,TL,Information geben,Wenn's geht fährst du nicht den Weg zurück den du gekommen bist sondern eben erst mal Richtung Süden von Darmstadt aus und dann wieder Richtung Richtung Startpunkt sozusagen,1
+105,UGV-1,Zusage,Ja ich prüf das ob ich da weiterkomme kommen,7
+106,UGV-2,Kontakt Anfrage,Teamleiter von UGV-2,4
+107,TL,Kontakt Bestätigung,Höre,5
+108,UGV-2,Information geben,Die erste Probe genommen und in den Korb abgelegt,2
+109,UGV-2,Information geben,versuche jetzt die zweite auf dem Stuhl zu nehmen,2
+110,TL,Sonstiges,Ja verstanden,7
+111,TL,Information nachfragen,Konntest du schon mal was erkennen sind die Behälter dicht oder undicht?,3
+112,UGV-2,Information geben,Das ist nicht erkennbar,2
+113,UGV-2,Information geben,es handelt sich scheinbar um Papp-Pakete kleine,2
+114,TL,Information nachfragen,Und konntest du irgendwelche Markierungen darauf erkennen oder Schilder?,3
+115,UGV-2,Zusage,Ich versuch gleich nach dem Ablegen vom zweiten nochmal nen Blick auf den anderen zu werfen,2
+116,UGV-1,Zusage,Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen,2
+117,UGV-1,Information geben,Könnte linksseitig schauen ob ich nen Blick auf die auf die andere Seite bekommen kann,2
+118,UGV-1,Information geben,aber der Weg wird wahrscheinlich nicht zur Verfügung stehen,2
+119,UGV-1,Kontakt Bestätigung,kommen,4
+120,TL,Einsatzbefehl,Fahr trotzdem erst mal in die Richtung,1
+121,UGV-2,Kontakt Anfrage,Teamleiter von UGV-2,4
+122,TL,Kontakt Bestätigung,Höre,5
+123,UGV-2,Information geben,Auf dem Stuhl befinden sich zwei Pakete,2
+124,UGV-2,Information geben,Eins davon ist mit dem Gefahrgutssymbol reizend das X gekennzeichnet Trader Oxyn Nummer eins,2
+125,TL,Einsatzbefehl,Kannst du ein Foto machen?,1
+126,UGV-2,Information nachfragen,Kann ich ein Snapshot von der linken Seite machen weißt du das?,3
+127,UAV,Kontakt Anfrage,Teamleiter von UAV,4
+128,TL,Kontakt Bestätigung,Höre,5
+129,UAV,Information geben,Ich habe ein Übersicht ein Übersichtsfoto geshared von ungefähr der Position Tango ASA 352,2
+130,UAV,Information geben,Und jetzt sind wir gelandet um den Akku zu tauschen,2
+131,UAV,Einsatzbefehl,Erbitte weitere Anweisungen,3
+132,TL,Sonstiges,Ja,2
+133,TL,Kontakt Anfrage,der Einsatzleiter an alle,4
+134,TL,Einsatzbefehl,Wenn ihr Fotos macht bitte gebt mir die Fotonummer,1
+135,TL,Information geben,ich verlier gerade jetzt ein bisschen den Überblick über die Fotos,2
+136,UGV-1,Kontakt Anfrage,Teamleiter von UGV-1 kommen,4
+137,TL,Kontakt Bestätigung,Höre,5
+138,UGV-1,Information geben,Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein,2
+139,UGV-1,Information geben,Aber kann da nicht näher erkunden da da ein Geländer im Weg ist,2
+140,UGV-1,Information geben,Ich hab dir ein Foto gemacht,2
+141,UGV-1,Zusage,Ich meine müsste Foto 300 sein,2
+142,UGV-1,Kontakt Bestätigung,kommen,4
+143,TL,Sonstiges,Ja verstanden,2
+144,UGV-1,Kontakt Anfrage,Teamleader von UGV-1 kommen,4
+145,UGV-1,Information geben,Ich hab die Connection zur Database verloren,2
+146,TL,Sonstiges,Ja okay,2
+147,TL,Zusage,dann machen wir mal gerade einen Neustart,2
+148,UAV,Kontakt Anfrage,Teamleiter von UAV,4
+149,TL,Kontakt Bestätigung,Höre,5
+150,UAV,Information geben,UAV ist wieder startbereit,2
+151,UGV-1,Kontakt Anfrage,Teamleader von UGV-1,4
+152,TL,Einsatzbefehl,UAV dann bitte starten Live-Monitoring,1
+153,TL,Einsatzbefehl,guck mal ob du da weitere Rauchentwicklungen finden kannst,1
+154,TL,Kontakt Bestätigung,UGV-1,5
+155,UGV-1,Information geben,Ja ich hab hier keine Reaktion bei dem Roboter und keine Verbindung mehr zur Datenbank,2
+156,UGV-1,Kontakt Bestätigung,kommen,4
+157,TL,Kontakt Anfrage,UGV-2 für Einsatzleiter,4
+158,UGV-2,Kontakt Bestätigung,UGV-2,5
+159,TL,Information nachfragen,Gibt's ein technisches Problem bei dir?,3
+160,UGV-2,Information geben,Ja ich versuchte ihn gerade in den Behälter zu setzen aber irgendwie hat er sich aufgehangen,2
+161,TL,Sonstiges,Ja verstanden,2
+162,TL,Sonstiges,Das heißt du kannst im Moment gar nichts machen?,3
+163,UGV-2,Information geben,Also ich hab gerade die Rückmeldung gekriegt dass bei UGV-2 das Kamerakabel zu oft oben drumgewickelt ist,2
+164,UGV-2,Information geben,und dass deshalb der Arm nicht mehr geht,2
+165,TL,Sonstiges,Okay,2
+166,TL,Information nachfragen,konntest du denn eine Probenahme beenden?,3
+167,UGV-2,Information geben,Die erste Probenahme ist beendet das zweite Paket hängt in der Place pose über der Box,2
+168,TL,Sonstiges,Gut,2
+169,TL,Zusage,das heißt du kannst dich jetzt ja gar nicht bewegen?,3
+170,UGV-2,Information geben,Das könnte man ausprobieren ob man sich bewegen kann aber ich denke eher nicht,2
+171,TL,Sonstiges,Halt deine Position,1
+172,UAV,Kontakt Anfrage,Teamleader von UAV,4
+173,TL,Kontakt Bestätigung,Höre,5
+174,UAV,Information geben,Wir haben weitere Fotos von der Rauchentwickung direkt an der Startposition am Eingang,2
+175,UAV,Information geben,Leider kann ich nicht sehen welches die Fotonummern sind,2
+176,UAV,Information geben,Kann ich versuchen,2
+177,UAV,Information geben,Wir haben da wahrscheinlich dann Probleme mit der Datenverbindung,2
+178,UAV,Information geben,Aber wir werden's mal versuchen,2
+179,TL,Sonstiges,Ja verstanden,7
+180,TL,Kontakt Anfrage,UGV-1 für Einsatzleiter,4
+181,TL,Kontakt Anfrage,UGV UGV-1,4
+182,UGV-1,Kontakt Anfrage,UGV-1,5
+183,TL,Information nachfragen,Wie ist jetzt dein Status,3
+184,UGV-1,Sonstiges,Eher Status 6,2
+185,UGV-1,Kontakt Bestätigung,kommen,4
+186,TL,Sonstiges,Okay,2
+187,TL,Information_nachfragen,d.h. wir haben beide UGV im Moment nicht einsatzbereit?,3
+188,UGV-1,Sonstiges,Richtig verstanden,7
+189,UAV,Information geben,UAV landet,2
+190,TL,Sonstiges,Ja verstanden,2
+191,TL,Einsatzbefehl,dann für euch Ende der Mission,1
+192,TL,Kontakt Anfrage,UGV-2 für Einsatzleiter,4
+193,UGV-2,Kontakt Bestätigung,UGV-2 hört,5
+194,TL,Zusage,Ja dann versuch vorsichtig zurückzukommen,1
+195,UGV-2,Zusage,Ja dann versuche ich mal vorsichtig zurückzukommen,7
+196,UGV-1,Kontakt Anfrage,Teamleader von UGV-1,4
+197,TL,Kontakt Bestätigung,Höre,5
+198,UGV-1,Information geben,Ja my robot is lost,2
+199,TL,Sonstiges,Ja,2
+200,TL,Einsatzbefehl,dann Missionsende für Sie,1
+201,TL,Kontakt Anfrage,Andreas Andreas von Markus kommen,4
+202,UGV-1,Kontakt Bestätigung,ja Andreas kommen,5
+203,TL,Kontakt Anfrage,Bodenroboter zwei von Markus kommen,4
+204,TL,Kontakt Anfrage,Feuerwehr Bochum von Markus kommen,4
+205,UGV-1,Kontakt Anfrage,Markus von Andreas kommen,4
+206,TL,Kontakt Bestätigung,Andreas kommen,5
+207,UGV-1,Information geben,ich wäre soweit einsatzbereit,2
+208,UGV-1,Information geben,soll ich meinen Erkundungsbefehl fortsetzen oder beginnen?,3
+209,TL,Information geben,ja umgehend beginnen ohne möglichst wenig Zeitverzögerung um eine höhere Erfolgschance zur Menschenrettung zu haben,2
+210,UGV-1,Sonstiges,ja verstanden ich beginne mit der Erkundung,2
+211,TL,Kontakt Anfrage,Andreas von Markus kommen,4
+212,UGV-1,Kontakt Bestätigung,ja Andreas kommen,5
+213,TL,Information nachfragen,gibt es schon irgendwelche nennenswerten Erkenntnisse?,3
+214,UGV-1,Absage,negativ keine nennenswerten Erkenntnisse,0
+215,TL,Sonstiges,ja verstanden,2
+216,TL,Kontakt Anfrage,Andreas von Markus kommen,4
+217,UGV-1,Kontakt Bestätigung,ja Andreas kommen,5
+218,TL,Information_nachfragen,hat er schon irgendwelche nenneswerten Erkenntnisse mit Hinblick auf besondere Gefahren oder thermische Ausbreitung?,3
+219,UGV-1,Absage,nein negativ,0
+220,TL,Sonstiges,ja das ist gut zu wissen verstanden,2
+221,TL,Einsatzbefehl,Andreas und Daniel könnt ihr mir beide jeweils schon mal ein Foto von eurem aktuellen Standort senden?,1
+222,UGV-1,Information geben,meine Kamera die Realbild-Kamera ist ausgefallen,0
+223,UGV-1,Information geben,ich kann dir lediglich ein Wärmebild schicken,2
+224,TL,Zusage,das ist eigentlich nicht notwendig,0
+225,UGV-1,Sonstiges,okay,2
+226,UGV-1,Einsatzbefehl,sobald ich eine Veränderung habe schicke ich dir ein Bild,2
+227,TL,Sonstiges,verstanden,7
+228,UAV,Kontakt Anfrage,Markus für Dirk,4
+229,TL,Kontakt Bestätigung,Dirk kommen,5
+230,UAV,Information geben,die Drohne wird startbereit gemacht,2
+231,UAV,Information geben,wir werden gleich mit der Personensuche starten,2
+232,TL,Sonstiges,ja,2
+233,TL,Einsatzbefehl,den Suchbeginn bitte mitteilen,1
+234,TL,Information geben,der Einsatz-Auftrag ist unverändert Erkundung nach Personen,2
+235,UGV-1,Sonstiges,verstanden,2
+236,UAV,Kontakt Anfrage,Markus für Dirk,4
+237,TL,Kontakt Bestätigung,Dirk kommen,5
+238,UAV,Information geben,die Drohne startet jetzt,2
+239,TL,Sonstiges,hier Markus verstanden,2
+240,TL,Kontakt Anfrage,Andreas von Markus kommen,4
+241,UGV-1,Kontakt Bestätigung,hier Andreas kommen,5
+242,TL,Information nachfragen,gibt es irgendwelche Erkenntnisse zur Personensuche?,3
+243,UGV-1,Kontakt Bestätigung,bis dato noch nicht,0
+244,UGV-1,Information geben,ich bin jetzt einen Weg bis zum Ende weitergefahren und dann gehe ich linker Handregel weiter,2
+245,TL,Sonstiges,ja verstanden,2
+246,TL,Kontakt Anfrage,Daniel von Markus kommen,4
+247,UGV-2,Kontakt Bestätigung,Daniel hört,5
+248,TL,Information nachfragen,gibt es schon irgendwelche Erkenntnisse über das Ausmaß das Schadenausmaß und Gefahren?,3
+249,UGV-2,Absage,nein negativ,0
+250,UGV-2,Information geben,befinde mich noch in der Startposition,2
+251,TL,Sonstiges,das ist verstanden,2
+252,TL,Kontakt Anfrage,Dirk von Markus kommen,4
+253,UAV,Kontakt Bestätigung,hier ist Dirk,5
+254,UAV,Information geben,nein ich habe zur Zeit überhaupt kein Bild von der Drohne,2
+255,TL,Sonstiges,das ist verstanden,2
+256,UGV-1,Kontakt Anfrage,Markus von Andreas kommen,4
+257,TL,Kontakt Bestätigung,Andreas kommen,5
+258,UGV-1,Information geben,ich bin eine Etage hochgefahren als den Startgang ganz durch dann links ein Stockwerk gewechselt,2
+259,UGV-1,Information geben,ich habe hier extreme Rauchentwicklung,2
+260,TL,Sonstiges,ja das ist verstanden,2
+261,UGV-1,Information geben,aber aktuell noch keine Hitze-Direktion,2
+262,TL,Information nachfragen,ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?,3
+263,UGV-1,Zusage,meine Einschätzung unter PA jederzeit möglich ja,7
+264,TL,Sonstiges,das ist verstanden,2
+265,UGV-1,Kontakt Anfrage,Markus von Andreas kommen,4
+266,TL,Kontakt Bestätigung,hier Markus kommen,5
+267,UGV-1,Information geben,im ersten Obergeschoss wo ich mich gerade aufhalte müsste auch der Brandherd sein,2
+268,UGV-1,Information geben,ich habe hier jetzt gerade eine Hitzequelle ausgemacht definitiv keine Person,2
+269,TL,Sonstiges,hier Markus verstanden,2
+270,UGV-2,Kontakt Anfrage,Andreas von Daniel,4
+271,UGV-1,Kontakt Bestätigung,hier Andreas kommen,5
+272,UGV-2,Kontakt Anfrage,Markus von Daniel,4
+273,TL,Kontakt Bestätigung,hier Markus,5
+274,UGV-2,Information geben,Roboter hat zwei komplette Aussetzer funktionert dann gar nicht,2
+275,TL,Sonstiges,Daniel ich hab dich verstanden,2
+276,TL,Kontakt Bestätigung,hier Markus an alle Roboter,4
+277,TL,Einsatzbefehl,baldmöglich erstes Bildmaterial senden,1
+278,TL,Einsatzbefehl,einmal eine Rundumsicht,1
+279,TL,Information geben,vier Bilder 360-Grad-Abdeckung,1
+280,UGV-1,Sonstiges,Andreas verstanden,7

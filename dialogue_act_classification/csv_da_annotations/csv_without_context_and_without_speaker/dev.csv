@@ -1,0 +1,282 @@
+id,tokens,tags
+0,UAV hat Softwareprobleme wir versuchen es zu beheben,2
+1,Ja verstanden,2
+2,Bitte melden wenn wieder einsatzbereit,1
+3,Verstanden,7
+4,UGV-1 für Einsatzleiter,4
+5,Hier UGV-1,5
+6,Wie ist der Status?,3
+7,Ja ich hab mich hier erst weiter nach vorne bewegt,2
+8,Weiter keine Feststellung rechts ist der Feuerlöscher,2
+9,Auf der linken Seite sehe ich eine Palette mit Wellen,2
+10,Werde weiter geradeaus erkunden kommen,2
+11,Ja war schon weiter,2
+12,UAV ist wieder einsatzbereit,2
+13,Ja verstanden,2
+14,Dann bitte erneut starten und dann in östlicher Richtung erst mal fliegen,1
+15,Dass du dass du mal ein Foto machst du auf Höhe von ASA 310,1
+16,Ich orientiere mich nur an der Karte das heißt nach rechts wäre Osten du folgst einfach der langen Straße praktisch,2
+17,Alles klar,7
+18,danke,6
+19,Teamleiter von UGV-2,4
+20,Höre,5
+21,Ich hab dir gerade ein Bild geschickt,2
+22,Da steht ein Stuhl auf dem Stuhl liegt ein Paket und vor dem Stuhl steht ein Paket,2
+23,Sicht ist relativ schlecht,2
+24,das blendet stark,2
+25,Ist das schlimm?,3
+26,Ja ist verstanden,2
+27,Ich habe gerade keine Connection,2
+28,kann dein Foto nicht sehen,2
+29,Bleib mal gerade an der Position,1
+30,wir starten dich noch gerade neu,2
+31,UGV-2 von Einsatzleiter,4
+32,UGV-2,5
+33,Also ich kann das eine nicht gut erkennen,2
+34,Dein Einsatzauftrag trotzdem setz den Arm ein und nimm die Probe auf,1
+35,UAV hat Bilder in westlicher Blickrichtung verfügbar,2
+36,Ja ist verstanden,2
+37,Teamleader von UGV-1 kommen,4
+38,Kommen,5
+39,Ja ich hab dir jetzt mal ein Foto von meinem Standort geschickt,2
+40,Sehe den Tango rechtseitig vor mir,2
+41,Würd jetzt weiter geradeaus fahren und da weiter erkunden,2
+42,Moment warten,6
+43,UGV-1,4
+44,Hier UGV-1,5
+45,Wo laufen denn deine Fotos gerade rein in welchen dieser Container?,3
+46,Ja ich hab sie gefunden sie sind in Sankt Augustin,2
+47,Ja ich erkunde dann weiter geradeaus kommen,2
+48,Negativ,0
+49,Nähere dich mal UGV-2,1
+50,da sind zwei Proben die er eventuell aufnehmen muss,2
+51,Fahr mal bitte näher daran,1
+52,und mach mal Foto wie er das macht,1
+53,Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst,1
+54,Ja ich gehe jetzt vor zu UGV-2,7
+55,und versuch die Probenentnahme zu fotografieren kommen,7
+56,UAV für Einsatzleiter,4
+57,Wo ist gerade dein Standort?,3
+58,Ungefähr an der Position von ASA 310,2
+59,Okay,2
+60,Hast du das letzte Foto gepublished?,3
+61,Ich konnte es noch nicht sehen,2
+62,Der UAV Pilot berichtet von Rauch der aus der Halle kommt,2
+63,Wir versuchen davon ein Foto zu machen,2
+64,Ja verstanden,7
+65,Teamleader von UGV-1 kommen,4
+66,Höre,5
+67,Ich seh ein extrem helles hell beleuchtetes Gerät,2
+68,Ich kann's nicht erkennen was es ist,2
+69,Ja was willst du mir damit sagen?,3
+70,Ja schau mal auf das Foto,2
+71,Foto 235?,3
+72,Kann ich dir nicht genau sagen,2
+73,Kann ich nicht bestätigen,2
+74,UAV für Einsatzleitung,4
+75,UAV hört,5
+76,Also ich kann keine Rauchentwicklung auf deinem Foto erkennen,2
+77,Kreise mal bitte jetzt dann um ASA 352 herum,1
+78,Und mach sozusagen mal ein Rundumfoto das heißt aus den anderen beiden Himmelsrichtungen auch noch,1
+79,Das kann ich hier leider nicht erkennen,0
+80,Das letzte Foto das ich geshared habe?,3
+81,Okay das scheint 297 zu sein,2
+82,Teamleader von UGV-1 kommen,4
+83,Höre,5
+84,Ja im letzten Foto das ich geteilt habe ich versucht die Probenentnahme zu fotografieren kommen,2
+85,Ja,2
+86,Ja ich guck's mir an,2
+87,UAV für Einsatzleitung kommen,4
+88,UAV hört,5
+89,Wo ist dieser eine Eingang jetzt genau ist der praktisch südlich von ASA 310?,3
+90,Das ist südlich das ist es an der an der Position wo Echo-Start wo der Echo-Punkt ist also der der Halleneingang hier,2
+91,O. k.,2
+92,Teamleader von UGV-1 kommen,4
+93,UGV-1 kommen Sie,5
+94,Ja ich versuch die Probeentnahmen zu fotografieren,2
+95,Habe aber hier extrem schlechte Sicht,2
+96,aufgrund von reflektierendem Licht,2
+97,kommen,4
+98,Ja verstanden,2
+99,UGV-1 von Einsatzleitung,4
+100,UGV-1 hört,5
+101,Ja die UAV hat berichtet dass es eine Rauchentwicklung gibt aus dem Hallentorbogen wo unser Startpunkt ist,2
+102,Kannst du dich in die Richtung zurückbegeben und da mal nachgucken,1
+103,Ja ich versuch zum Startpunkt zurückzukehren und prüfe ob Rauchentwicklung,7
+104,Wenn's geht fährst du nicht den Weg zurück den du gekommen bist sondern eben erst mal Richtung Süden von Darmstadt aus und dann wieder Richtung Richtung Startpunkt sozusagen,1
+105,Ja ich prüf das ob ich da weiterkomme kommen,7
+106,Teamleiter von UGV-2,4
+107,Höre,5
+108,Die erste Probe genommen und in den Korb abgelegt,2
+109,versuche jetzt die zweite auf dem Stuhl zu nehmen,2
+110,Ja verstanden,7
+111,Konntest du schon mal was erkennen sind die Behälter dicht oder undicht?,3
+112,Das ist nicht erkennbar,2
+113,es handelt sich scheinbar um Papp-Pakete kleine,2
+114,Und konntest du irgendwelche Markierungen darauf erkennen oder Schilder?,3
+115,Ich versuch gleich nach dem Ablegen vom zweiten nochmal nen Blick auf den anderen zu werfen,2
+116,Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen,2
+117,Könnte linksseitig schauen ob ich nen Blick auf die auf die andere Seite bekommen kann,2
+118,aber der Weg wird wahrscheinlich nicht zur Verfügung stehen,2
+119,kommen,4
+120,Fahr trotzdem erst mal in die Richtung,1
+121,Teamleiter von UGV-2,4
+122,Höre,5
+123,Auf dem Stuhl befinden sich zwei Pakete,2
+124,Eins davon ist mit dem Gefahrgutssymbol reizend das X gekennzeichnet Trader Oxyn Nummer eins,2
+125,Kannst du ein Foto machen?,1
+126,Kann ich ein Snapshot von der linken Seite machen weißt du das?,3
+127,Teamleiter von UAV,4
+128,Höre,5
+129,Ich habe ein Übersicht ein Übersichtsfoto geshared von ungefähr der Position Tango ASA 352,2
+130,Und jetzt sind wir gelandet um den Akku zu tauschen,2
+131,Erbitte weitere Anweisungen,3
+132,Ja,2
+133,der Einsatzleiter an alle,4
+134,Wenn ihr Fotos macht bitte gebt mir die Fotonummer,1
+135,ich verlier gerade jetzt ein bisschen den Überblick über die Fotos,2
+136,Teamleiter von UGV-1 kommen,4
+137,Höre,5
+138,Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein,2
+139,Aber kann da nicht näher erkunden da da ein Geländer im Weg ist,2
+140,Ich hab dir ein Foto gemacht,2
+141,Ich meine müsste Foto 300 sein,2
+142,kommen,4
+143,Ja verstanden,2
+144,Teamleader von UGV-1 kommen,4
+145,Ich hab die Connection zur Database verloren,2
+146,Ja okay,2
+147,dann machen wir mal gerade einen Neustart,2
+148,Teamleiter von UAV,4
+149,Höre,5
+150,UAV ist wieder startbereit,2
+151,Teamleader von UGV-1,4
+152,UAV dann bitte starten Live-Monitoring,1
+153,guck mal ob du da weitere Rauchentwicklungen finden kannst,1
+154,UGV-1,5
+155,Ja ich hab hier keine Reaktion bei dem Roboter und keine Verbindung mehr zur Datenbank,2
+156,kommen,4
+157,UGV-2 für Einsatzleiter,4
+158,UGV-2,5
+159,Gibt's ein technisches Problem bei dir?,3
+160,Ja ich versuchte ihn gerade in den Behälter zu setzen aber irgendwie hat er sich aufgehangen,2
+161,Ja verstanden,2
+162,Das heißt du kannst im Moment gar nichts machen?,3
+163,Also ich hab gerade die Rückmeldung gekriegt dass bei UGV-2 das Kamerakabel zu oft oben drumgewickelt ist,2
+164,und dass deshalb der Arm nicht mehr geht,2
+165,Okay,2
+166,konntest du denn eine Probenahme beenden?,3
+167,Die erste Probenahme ist beendet das zweite Paket hängt in der Place pose über der Box,2
+168,Gut,2
+169,das heißt du kannst dich jetzt ja gar nicht bewegen?,3
+170,Das könnte man ausprobieren ob man sich bewegen kann aber ich denke eher nicht,2
+171,Halt deine Position,1
+172,Teamleader von UAV,4
+173,Höre,5
+174,Wir haben weitere Fotos von der Rauchentwickung direkt an der Startposition am Eingang,2
+175,Leider kann ich nicht sehen welches die Fotonummern sind,2
+176,Kann ich versuchen,2
+177,Wir haben da wahrscheinlich dann Probleme mit der Datenverbindung,2
+178,Aber wir werden's mal versuchen,2
+179,Ja verstanden,7
+180,UGV-1 für Einsatzleiter,4
+181,UGV UGV-1,4
+182,UGV-1,5
+183,Wie ist jetzt dein Status,3
+184,Eher Status 6,2
+185,kommen,4
+186,Okay,2
+187,d.h. wir haben beide UGV im Moment nicht einsatzbereit?,3
+188,Richtig verstanden,7
+189,UAV landet,2
+190,Ja verstanden,2
+191,dann für euch Ende der Mission,1
+192,UGV-2 für Einsatzleiter,4
+193,UGV-2 hört,5
+194,Ja dann versuch vorsichtig zurückzukommen,1
+195,Ja dann versuche ich mal vorsichtig zurückzukommen,7
+196,Teamleader von UGV-1,4
+197,Höre,5
+198,Ja my robot is lost,2
+199,Ja,2
+200,dann Missionsende für Sie,1
+201,Andreas Andreas von Markus kommen,4
+202,ja Andreas kommen,5
+203,Bodenroboter zwei von Markus kommen,4
+204,Feuerwehr Bochum von Markus kommen,4
+205,Markus von Andreas kommen,4
+206,Andreas kommen,5
+207,ich wäre soweit einsatzbereit,2
+208,soll ich meinen Erkundungsbefehl fortsetzen oder beginnen?,3
+209,ja umgehend beginnen ohne möglichst wenig Zeitverzögerung um eine höhere Erfolgschance zur Menschenrettung zu haben,2
+210,ja verstanden ich beginne mit der Erkundung,2
+211,Andreas von Markus kommen,4
+212,ja Andreas kommen,5
+213,gibt es schon irgendwelche nennenswerten Erkenntnisse?,3
+214,negativ keine nennenswerten Erkenntnisse,0
+215,ja verstanden,2
+216,Andreas von Markus kommen,4
+217,ja Andreas kommen,5
+218,hat er schon irgendwelche nenneswerten Erkenntnisse mit Hinblick auf besondere Gefahren oder thermische Ausbreitung?,3
+219,nein negativ,0
+220,ja das ist gut zu wissen verstanden,2
+221,Andreas und Daniel könnt ihr mir beide jeweils schon mal ein Foto von eurem aktuellen Standort senden?,1
+222,meine Kamera die Realbild-Kamera ist ausgefallen,0
+223,ich kann dir lediglich ein Wärmebild schicken,2
+224,das ist eigentlich nicht notwendig,0
+225,okay,2
+226,sobald ich eine Veränderung habe schicke ich dir ein Bild,2
+227,verstanden,7
+228,Markus für Dirk,4
+229,Dirk kommen,5
+230,die Drohne wird startbereit gemacht,2
+231,wir werden gleich mit der Personensuche starten,2
+232,ja,2
+233,den Suchbeginn bitte mitteilen,1
+234,der Einsatz-Auftrag ist unverändert Erkundung nach Personen,2
+235,verstanden,2
+236,Markus für Dirk,4
+237,Dirk kommen,5
+238,die Drohne startet jetzt,2
+239,hier Markus verstanden,2
+240,Andreas von Markus kommen,4
+241,hier Andreas kommen,5
+242,gibt es irgendwelche Erkenntnisse zur Personensuche?,3
+243,bis dato noch nicht,0
+244,ich bin jetzt einen Weg bis zum Ende weitergefahren und dann gehe ich linker Handregel weiter,2
+245,ja verstanden,2
+246,Daniel von Markus kommen,4
+247,Daniel hört,5
+248,gibt es schon irgendwelche Erkenntnisse über das Ausmaß das Schadenausmaß und Gefahren?,3
+249,nein negativ,0
+250,befinde mich noch in der Startposition,2
+251,das ist verstanden,2
+252,Dirk von Markus kommen,4
+253,hier ist Dirk,5
+254,nein ich habe zur Zeit überhaupt kein Bild von der Drohne,2
+255,das ist verstanden,2
+256,Markus von Andreas kommen,4
+257,Andreas kommen,5
+258,ich bin eine Etage hochgefahren als den Startgang ganz durch dann links ein Stockwerk gewechselt,2
+259,ich habe hier extreme Rauchentwicklung,2
+260,ja das ist verstanden,2
+261,aber aktuell noch keine Hitze-Direktion,2
+262,ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?,3
+263,meine Einschätzung unter PA jederzeit möglich ja,7
+264,das ist verstanden,2
+265,Markus von Andreas kommen,4
+266,hier Markus kommen,5
+267,im ersten Obergeschoss wo ich mich gerade aufhalte müsste auch der Brandherd sein,2
+268,ich habe hier jetzt gerade eine Hitzequelle ausgemacht definitiv keine Person,2
+269,hier Markus verstanden,2
+270,Andreas von Daniel,4
+271,hier Andreas kommen,5
+272,Markus von Daniel,4
+273,hier Markus,5
+274,Roboter hat zwei komplette Aussetzer funktionert dann gar nicht,2
+275,Daniel ich hab dich verstanden,2
+276,hier Markus an alle Roboter,4
+277,baldmöglich erstes Bildmaterial senden,1
+278,einmal eine Rundumsicht,1
+279,vier Bilder 360-Grad-Abdeckung,1
+280,Andreas verstanden,7

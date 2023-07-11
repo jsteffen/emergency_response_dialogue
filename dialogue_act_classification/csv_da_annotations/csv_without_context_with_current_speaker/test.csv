@@ -1,0 +1,284 @@
+id,speakers,tokens,tags
+0,UGV-1,Markus von Andreas kommen,4
+1,TL,Andreas kommen,5
+2,UGV-1,habe im ersten OG gerade in der Brandentwicklung ein Gefahrgut-Fass grün mit der Kennzeichnung umweltgefährdender Stoff entdeckt,2
+3,TL,kannst du sehen ob irgendwelches Medium ausläuft?,3
+4,UGV-1,es handelt sich um ein 200-Liter-Fass,2
+5,UGV-1,ob ein Medium ausläuft kann ich dir aktuell nicht sagen,2
+6,TL,Aussetzung von Thermik?,3
+7,UGV-1,keine Thermik,0
+8,TL,okay,2
+9,TL,vorrängig weiter Personen suchen,1
+10,UGV-1,ja ich setze Personensuche fort,7
+11,UAV,Markus für Dirk,4
+12,TL,Dirk kommen,5
+13,UAV,die Drohne fliegt,2
+14,UAV,ich habe ein Objekt von dem Rauch austritt,2
+15,UAV,ich schick das Foto,2
+16,TL,das ist gut,7
+17,TL,einmal aus der Ferne und einmal aus der Nähe wenn möglich,1
+18,UGV-1,Markus von Andreas kommen,4
+19,TL,Andreas kommen,5
+20,UGV-1,eine Person liegend am Boden gefunden erstes OG bei der Brandentwicklung,2
+21,UGV-1,rechtsseitig vom Hochofen das Ding mit den Löchern,2
+22,UGV-1,ich schicke dir gleich ein Foto,2
+23,TL,nochmal wiederholen Andreas,1
+24,UGV-1,eine Person am Boden liegend gefunden,2
+25,UGV-1,erstes Geschoss bei der Brandentwicklung,2
+26,UGV-1,ich schicke dir gleich Fotos,2
+27,TL,verstanden,2
+28,TL,wie weit ist das von dem Treppenabsatz denn entfernt?,3
+29,UGV-1,gefühlte 10 bis 20 meter,2
+30,TL,Treppenabsatz ersten OG nach 10 bis 20 metern linker Seite erste Person korrekt?,3
+31,UGV-1,den Flur geradeaus durch links die Treppe rauf danach rechts abbiegen dann am Hochofen den Hochofen folgen,2
+32,UGV-1,dann finden sie die Person,2
+33,TL,hier Markus verstanden,2
+34,UGV-1,Bild kommt gleich,2
+35,UAV,Markus für Dirk,4
+36,TL,Dirk kommen,5
+37,UAV,Funkübertragung zur Zeit nicht möglich,2
+38,UAV,die Drohne ist gelandet wir reparieren,2
+39,TL,hier Markus verstanden,2
+40,UGV-1,Markus von Andreas kommen,4
+41,TL,Andreas kommen,5
+42,UGV-1,ich setze Personensuche fort,2
+43,TL,ja verstanden,2
+44,TL,sollen also zwei bis drei Vermisste sein nach den ersten Aussagen,2
+45,UGV-1,ja verstanden zwei bis drei Vermisste,2
+46,TL,Andreas von Markus kommen,4
+47,UGV-1,Hier Andreas kommen,5
+48,TL,sind wir da gleich dass wir jetzt zwei Personen gefunden haben oder Bilder von zwei unterschiedlichen Personen haben?,3
+49,UGV-1,nein,0
+50,UGV-1,ich habe dir einmal ein Thermo-Image der Person geschickt und einmal ein Live-Bild der Person,2
+51,TL,ja,2
+52,TL,also es handelt sich um eine Person richtig?,3
+53,UGV-1,das ist richtig ich habe eine Person gefunden,7
+54,UGV-1,das Thermo-Image war eher danach hab ich ein Wechsel vorgenommen um dir ein Live-Bild zu schicken,2
+55,TL,das ist verstanden,2
+56,UAV,Markus für Dirk,4
+57,TL,Dirk kommen,5
+58,UAV,die Drohne ist wieder in der Luft,2
+59,UAV,ich habe ein Infrarotbild geschickt da sind zwei Personen zu sehen jetzt nähert sich dort eine dritte,2
+60,TL,hier Markus verstanden,2
+61,TL,also gehfähige Personen im Gefahrenbereich?,3
+62,UAV,ja zumindest in der Nähe davon direkt neben dem Hochofen,7
+63,TL,hier Markus verstanden,2
+64,TL,Dirk von Markus kommen,4
+65,UAV,Dirk hört,5
+66,TL,hast du Erkenntnis über zwei gehfähige Personen anhand dieses Bildes was ich auch erhalten habe?,3
+67,UAV,das ist korrekt,7
+68,TL,Andreas mitgehört?,3
+69,UGV-1,ja Andreas mitgehört zwei Personen in der Nähe des Hochofens,7
+70,TL,also haben wir insgesamt vier Personen im Gefahrenbereich?,3
+71,UAV,Markus für Dirk,4
+72,TL,Dirk kommen,5
+73,UAV,es handelt sich um drei Personen die nebeneinander stehen,2
+74,TL,drei gehfähige Personen richtig?,3
+75,UAV,ja,7
+76,UAV,das Bild hab ich dir zugesandt,2
+77,TL,hier Markus verstanden,2
+78,TL,Andreas mitgehört?,3
+79,UGV-1,ja Andreas mitgehört drei gehfähige Personen,7
+80,TL,wir haben drei gehfähige und eine am Boden liegende Person,2
+81,UGV-1,Markus von Andreas,4
+82,TL,Andreas kommen,5
+83,UGV-1,Frage sind diese Personen alle bei der liegenden Person?,3
+84,TL,die drei gehfähigen sind nah beieinander,2
+85,UGV-1,ja verstanden,2
+86,UAV,Markus für Dirk,4
+87,UAV,Markus für Dirk kommen,4
+88,TL,Dirk kommen,5
+89,UAV,so wie ich das gerade gesehen hatte war da noch ein Kopf zu sehen,2
+90,UAV,also es passt gut dass das drei gehfähige Personen an einer liegenden sind,2
+91,TL,hier Markus verstanden,2
+92,TL,wir machen jetzt mal einen Schnitt in der Zeit mache ich eine Übergabe,2
+93,UGV-1,Markus von Andreas kommen,4
+94,TL,hier Markus kommen,5
+95,UGV-1,Frage die drei gehfähigen Personen wurden aus der Luft erkannt ist das richtig?,3
+96,TL,das ist korrekt,7
+97,UGV-1,ja verstanden,2
+98,TL,hier Markus an alle Operator,4
+99,TL,zwei Minuten Funkstille zwecks Übergabe,2
+100,UGV-1,Andreas verstanden,2
+101,UGV-2,Daniel verstanden,2
+102,TL,Daniel von Markus kommen,4
+103,UGV-2,Daniel hört,5
+104,TL,warten,6
+105,TL,Andreas von Markus kommen,4
+106,UGV-1,hier Andreas kommen,5
+107,TL,warten,6
+108,TL,Dirk von Markus kommen,4
+109,UAV,hier ist Dirk,5
+110,TL,hier Markus an alle Operator,4
+111,TL,Wechsel des Leaders,2
+112,UAV,Dirk hat verstanden,2
+113,UGV-1,Andreas hat verstanden,2
+114,UGV-2,Daniel hat verstanden,2
+115,UAV,Thorsten für Dirk kommen,4
+116,TL,Thorsten hört Dirk kommt,5
+117,UAV,ich hab zwei Bilder gerade geschickt das eine mit vier Personen die alle gehfähig sind,2
+118,UAV,dann ein weiteres Bild einer Person oberhalb von den anderen erkenntlich an der Warnweste,2
+119,TL,also ich wiederhole wir haben vier Personen die sind gehfähig und eine weitere Person mit Warnweste auch gehfähig,2
+120,TL,wir haben keine am Boden liegend befindliche Person ist das korrekt?,3
+121,UAV,das ist korrekt,7
+122,TL,gut,2
+123,TL,wie verhalten sich die vier Personen verlassen sie das Gebäude und wenn ja in welche Richtung?,3
+124,UGV-1,Thorsten von Andreas kommen,4
+125,TL,Thorsten hört Andreas kommt,5
+126,UGV-1,ich habe dir ebenfalls Bilder von drei Personen die aufeinander stehen rübergeschickt,2
+127,TL,ich hoffe ihr habt auch eine Landmarke gesetzt,3
+128,UGV-1,der weitere der steht war die Person die vorhin gelegen hat optischen Augenscheins nach,2
+129,TL,ja ich werte gerade die Bilder aus kommen,2
+130,UGV-1,ja verstanden,2
+131,UAV,Thorsten für Dirk,4
+132,TL,Thorsten hört kommen,5
+133,UAV,die Situation von gerade kann ich jetzt nicht mehr gut einsehen weil die Rauchwolke genau davor ist,2
+134,UAV,ich erkunde das Umfeld weiter,2
+135,TL,ja such mal noch weiter,2
+136,TL,Hinweis an alle die vermisste Person ist noch nicht gefunden kommen,2
+137,UAV,Thorsten für Dirk,4
+138,TL,Thorsten hört kommen,5
+139,UAV,die Drohne landet wir müssen Akku tauschen,2
+140,UAV,und das Bild hängt,2
+141,TL,ja verstanden,2
+142,TL,Roboter 1 und Roboter 2 ich habe hier zwei Fotos auf einem Foto ist ein Wärmebild da kann sich eine am Boden liegende Person befinden,2
+143,TL,wer hat dieses Foto gemacht kommen,3
+144,UGV-1,das war Roboter 1,2
+145,TL,Roboter 1 können Sie den Standort nochmal anfahren,1
+146,TL,und von dort geradeaus weiter auf die Person zufahren?,1
+147,UGV-1,ja ich kann den Standort direkt nochmal anfahren,7
+148,UGV-1,nur die Person steht jetzt,2
+149,TL,gehe davon aus das ist trotzdem die liegende Person ist die wir suchen und finden sollten,2
+150,UGV-1,das ist auch meine Vermutung,2
+151,UGV-1,habe Standort nochmal angefahren,2
+152,UGV-1,Foto ist versandt,2
+153,TL,verstanden,2
+154,UGV-1,soll ich an diesen Standort stehen bleiben?,3
+155,TL,ja korrekt da stehen bleiben,7
+156,TL,schauen Sie mal im Umkreis ob dort Rettungskräfte sich bewegen kommen,1
+157,UGV-1,ja ich fahre den Rettungskräften über meinen Angriffsweg entgegen und versuche sie zu lotsen,7
+158,UAV,Thorsten für Dirk kommen,4
+159,TL,Thorsten hört kommen,5
+160,UAV,die Drohne startet wieder,2
+161,TL,ja verstanden die Drohne startet wieder,2
+162,TL,folgenden Auftrag an Roboter 2 suchen Sie den Standort des Roboters 1,1
+163,TL,und dort finden Sie Rettungskräfte die Orientierungsprobleme haben um an die verunfallte Person zu gelangen kommen,1
+164,UGV-2,Roboter 2 hat gehört,2
+165,UGV-2,aber teilweise unfähig das umzusetzen,0
+166,UGV-2,weil mein Roboter sich teilweise gar nicht bewegt,2
+167,TL,letzten Teil des Satzes habe ich nicht verstanden,2
+168,TL,wiederholen,1
+169,UGV-2,der Roboter ist momentan wieder ausgesetzt kann sich also gar nicht bewegen,2
+170,UGV-2,und ich hab Probleme den zu bewegen,2
+171,UGV-2,weil die Kameras auch nicht so funktionieren wie sie sollten,2
+172,TL,verstanden,2
+173,TL,wenn betriebsbereit Auftrag durchführen,1
+174,UGV-2,ja verstanden,7
+175,TL,Dirk von Thorsten kommen,4
+176,UAV,Dirk hört,5
+177,TL,benötige Luftbild mit möglichst der leblosen Person die auf dem Wärmescan den ich hier habe zu sehen ist,1
+178,TL,als Anhaltspunkt in dem Bereich muss sich der Roboter 1 befinden kommen,2
+179,UAV,ist das ein Foto von mir?,3
+180,TL,nein das ist ein Foto von dem Roboter 1,0
+181,TL,Auftrag lautet aus der Luft versuchen den Roboter 1 zu finden und dann abzufotografieren,1
+182,UAV,das ist verstanden wir schalten um auf Wärmebild und gucken,7
+183,UGV-1,Teamleader von Roboter 1,4
+184,TL,Teamleader hört,5
+185,UGV-1,ich bin jetzt an dem Treppenabsatz sehe eine Person in orangefarbener Warnweste,2
+186,TL,verstanden Standort Treppenabsatz,2
+187,UGV-1,ja richtig,2
+188,TL,Dirk von Thorsten kommen,4
+189,UAV,Dirk hört,5
+190,TL,wir haben jetzt ein Trupp auf dem Weg zur verunfallten Person,2
+191,TL,neuer Auftrag Personsuche aus der Luft mittels Wärmebildkamera kommen,1
+192,UAV,Personensuche aus der Luft mittels Wärmebildkamera verstanden,7
+193,TL,Roboter 2 von Thorsten kommen,4
+194,UGV-2,Roboter 2 hört,5
+195,TL,wie ist der Stand der Dinge?,3
+196,UGV-2,bin auf dem Treppenabsatz aber weiter links gelegen,2
+197,UGV-2,und hab große Aussetzer,2
+198,UGV-2,alle paar Sekunden setzt mir der Roboter aus,2
+199,TL,verstanden Roboteraussetzer,2
+200,TL,in der Zwischenzeit schon irgend etwas an Personen festgestellt oder Lageveränderungen?,3
+201,UGV-2,negativ,0
+202,TL,okay,2
+203,UGV-1,Teamleader von Roboter 1 kommen,4
+204,TL,Teamleader hört Roboter 1,5
+205,UGV-1,ja habe die Rettungstrupps zum Standort der vermissten Person gebracht,2
+206,TL,nächster Auftrag weitere Personensuche,1
+207,TL,absuchen der Fläche vielleicht finden wir die Person dort mit dem Wärmebild,1
+208,UGV-1,ja verstanden ich suche weiter,7
+209,TL,Dirk von Thorsten kommen,4
+210,UAV,Dirk hört,5
+211,TL,Frage ist die Drohne noch in der Luft?,3
+212,UAV,ja die ist immer noch in der Luft,7
+213,TL,verstanden,2
+214,TL,Frage wie sieht's da mit der Brandausbreitung aus?,3
+215,UAV,also keine Suche nach Vermissten mehr?,3
+216,TL,guck mal auch nebenbei so ein bisschen nach dem Feuer,1
+217,UAV,negativ,0
+218,UAV,ich hab gerade Infrarot und diesen Kunstrauch sieht man dann nicht,2
+219,TL,ja verstanden,2
+220,TL,hab gerade gehört Feuer soll aus sein,2
+221,TL,noch suchen nach weiteren Personen,1
+222,UAV,Drohne landet wegen leerem Akku,0
+223,TL,ja hab ich mir fast gedacht,2
+224,UAV,Thorsten für Dirk,4
+225,TL,Thorsten hört kommen,5
+226,UAV,möchtest du normale oder Infrarot-Bilder haben?,3
+227,TL,ich möchte Infrarot-Bilder haben mit dem Ziel Leckagen festzustellen beziehungsweise Wärmestrahlung,2
+228,TL,Roboter 1 von Thorsten kommen,4
+229,UAV,hier Roboter 1 kommen,5
+230,TL,zur Lage Menschenrettung durchgeführt und abgeschlossen,2
+231,TL,jetzt gilt der Auftrag auslaufende Chemikalien und Gefahrstoffe zu finden und zu orten,1
+232,UAV,ja verstanden,7
+233,UAV,auf der Etage wo die Personen gefunden wurden befindet sich ein 200-Liter-Gefahrstoffbehälter Kennzeichnung umweltgefährdend,2
+234,UAV,Behältnis scheint dicht zu sein,2
+235,TL,stelle fest ein dichtes 200-Liter-Fass umweltgefährdend gekennzeichnet,2
+236,UAV,das ist korrekt,2
+237,TL,Robot 2 von Thorsten kommen,4
+238,UGV-2,Roboter 2 hört,5
+239,TL,Frage wie ist die Situation am Roboter?,3
+240,UGV-2,ich hab einen großen Zeitunterschied zwischen Bewegung und Eingabe,2
+241,UGV-2,und ich bin auf dem Weg zum Roboter 1,2
+242,TL,ja verstanden,2
+243,TL,zur Lage die Personen sind alle gerettet und der medizinischen Versorgung zugeführt,2
+244,TL,neuer Auftrag lautet Suchen von Leckagen von Undichtigkeiten und Chemikalien,1
+245,UGV-2,Roboter 2 hat verstanden,7
+246,UGV-1,Teamleader von Roboter 1 kommen,4
+247,TL,Teamleader hört kommen,5
+248,UGV-1,Treppenaufgang und dann direkt links blauer Kanister unbekannter Inhalt sieht auch ebenfalls dicht aus,2
+249,TL,wiederhole am Treppenausgang blauer Kanister,2
+250,UGV-1,ja richtig,2
+251,TL,verstanden,2
+252,TL,benötige Foto,1
+253,UGV-1,Foto ist versandt,2
+254,UAV,Thorsten für Dirk kommen,4
+255,TL,Thorsten hört kommen,5
+256,UAV,ich hab ein Bild jetzt geschickt auf einem Behältnis oben eine helle Person,2
+257,UAV,es könnten Personen sein das was hell leuchtet,2
+258,TL,ich werte das Bild aus,2
+259,UGV-1,Teamleader von Operator 1,4
+260,TL,Teamleader hört kommen,5
+261,UGV-1,ich habe dir gerade noch ein Foto von dem grünen Gefahrgutbehälter 200 liter rübergeschickt,2
+262,TL,von dem Fass?,3
+263,UGV-1,ja von dem Fass,7
+264,UGV-1,der ist in Sichtweite zu dem blauen Kanister,2
+265,TL,ja kann die Daten auswerten,2
+266,TL,hat zwar alles hier eine andere Farbe aber das Fass selber ist grün,2
+267,UGV-1,korrekt das Fass selber ist grün,2
+268,UAV,Thorsten für Dirk kommen,4
+269,TL,Thorsten hört kommen,5
+270,UAV,das Bild gerade würde ich ganz klar als Person einstufen,2
+271,UAV,ich kann dir gerne weitere Bilder zukommen lassen,2
+272,TL,ja würde ich mich darüber freuen,7
+273,TL,bräuchte nur noch ein klareres Foto von der Person,1
+274,UAV,gut,7
+275,UAV,links mittig ist die Person liegend,2
+276,TL,auf welchem Bild jetzt auf einem Wärmebild oder auf einem richtigen Foto?,3
+277,UAV,auf einem Wärmebild ist links liegend die Person auf einem zylindrigen Gegenstand,2
+278,TL,ja verstanden,2
+279,TL,Hinweis an alle eingeteilten Kräfte Übungsende,2
+280,UGV-1,Roboter 1 hat verstanden Übungsende,2
+281,UGV-2,Roboter 2 hat verstanden Übungsende,2
+282,UAV,Drohne hat verstanden Übungsende,2

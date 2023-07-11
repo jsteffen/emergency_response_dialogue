@@ -1,0 +1,282 @@
+id,speakers,previous_speakers,previous,tokens,tags
+0,UAV,None,Start,UAV hat Softwareprobleme wir versuchen es zu beheben,2
+1,TL,UAV,UAV hat Softwareprobleme wir versuchen es zu beheben,Ja verstanden,2
+2,TL,TL,Ja verstanden,Bitte melden wenn wieder einsatzbereit,1
+3,UAV,TL,Bitte melden wenn wieder einsatzbereit,Verstanden,7
+4,TL,UAV,Verstanden,UGV-1 für Einsatzleiter,4
+5,UGV-1,TL,UGV-1 für Einsatzleiter,Hier UGV-1,5
+6,TL,UGV-1,Hier UGV-1,Wie ist der Status?,3
+7,UGV-1,TL,Wie ist der Status?,Ja ich hab mich hier erst weiter nach vorne bewegt,2
+8,UGV-1,UGV-1,Ja ich hab mich hier erst weiter nach vorne bewegt,Weiter keine Feststellung rechts ist der Feuerlöscher,2
+9,UGV-1,UGV-1,Weiter keine Feststellung rechts ist der Feuerlöscher,Auf der linken Seite sehe ich eine Palette mit Wellen,2
+10,UGV-1,UGV-1,Auf der linken Seite sehe ich eine Palette mit Wellen,Werde weiter geradeaus erkunden kommen,2
+11,UGV-1,UGV-1,Werde weiter geradeaus erkunden kommen,Ja war schon weiter,2
+12,UAV,UGV-1,Ja war schon weiter,UAV ist wieder einsatzbereit,2
+13,TL,UAV,UAV ist wieder einsatzbereit,Ja verstanden,2
+14,TL,TL,Ja verstanden,Dann bitte erneut starten und dann in östlicher Richtung erst mal fliegen,1
+15,TL,TL,Dann bitte erneut starten und dann in östlicher Richtung erst mal fliegen,Dass du dass du mal ein Foto machst du auf Höhe von ASA 310,1
+16,TL,TL,Dass du dass du mal ein Foto machst du auf Höhe von ASA 310,Ich orientiere mich nur an der Karte das heißt nach rechts wäre Osten du folgst einfach der langen Straße praktisch,2
+17,UAV,TL,Ich orientiere mich nur an der Karte das heißt nach rechts wäre Osten du folgst einfach der langen Straße praktisch,Alles klar,7
+18,UAV,UAV,Alles klar,danke,6
+19,UGV-2,UAV,danke,Teamleiter von UGV-2,4
+20,TL,UGV-2,Teamleiter von UGV-2,Höre,5
+21,UGV-2,TL,Höre,Ich hab dir gerade ein Bild geschickt,2
+22,UGV-2,UGV-2,Ich hab dir gerade ein Bild geschickt,Da steht ein Stuhl auf dem Stuhl liegt ein Paket und vor dem Stuhl steht ein Paket,2
+23,UGV-2,UGV-2,Da steht ein Stuhl auf dem Stuhl liegt ein Paket und vor dem Stuhl steht ein Paket,Sicht ist relativ schlecht,2
+24,UGV-2,UGV-2,Sicht ist relativ schlecht,das blendet stark,2
+25,TL,UGV-2,das blendet stark,Ist das schlimm?,3
+26,TL,TL,Ist das schlimm?,Ja ist verstanden,2
+27,TL,TL,Ja ist verstanden,Ich habe gerade keine Connection,2
+28,TL,TL,Ich habe gerade keine Connection,kann dein Foto nicht sehen,2
+29,TL,TL,kann dein Foto nicht sehen,Bleib mal gerade an der Position,1
+30,TL,TL,Bleib mal gerade an der Position,wir starten dich noch gerade neu,2
+31,TL,TL,wir starten dich noch gerade neu,UGV-2 von Einsatzleiter,4
+32,UGV-2,TL,UGV-2 von Einsatzleiter,UGV-2,5
+33,TL,UGV-2,UGV-2,Also ich kann das eine nicht gut erkennen,2
+34,TL,TL,Also ich kann das eine nicht gut erkennen,Dein Einsatzauftrag trotzdem setz den Arm ein und nimm die Probe auf,1
+35,UAV,TL,Dein Einsatzauftrag trotzdem setz den Arm ein und nimm die Probe auf,UAV hat Bilder in westlicher Blickrichtung verfügbar,2
+36,TL,UAV,UAV hat Bilder in westlicher Blickrichtung verfügbar,Ja ist verstanden,2
+37,UGV-1,TL,Ja ist verstanden,Teamleader von UGV-1 kommen,4
+38,TL,UGV-1,Teamleader von UGV-1 kommen,Kommen,5
+39,UGV-1,TL,Kommen,Ja ich hab dir jetzt mal ein Foto von meinem Standort geschickt,2
+40,UGV-1,UGV-1,Ja ich hab dir jetzt mal ein Foto von meinem Standort geschickt,Sehe den Tango rechtseitig vor mir,2
+41,UGV-1,UGV-1,Sehe den Tango rechtseitig vor mir,Würd jetzt weiter geradeaus fahren und da weiter erkunden,2
+42,TL,UGV-1,Würd jetzt weiter geradeaus fahren und da weiter erkunden,Moment warten,6
+43,TL,TL,Moment warten,UGV-1,4
+44,UGV-1,TL,UGV-1,Hier UGV-1,5
+45,TL,UGV-1,Hier UGV-1,Wo laufen denn deine Fotos gerade rein in welchen dieser Container?,3
+46,TL,TL,Wo laufen denn deine Fotos gerade rein in welchen dieser Container?,Ja ich hab sie gefunden sie sind in Sankt Augustin,2
+47,UGV-1,TL,Ja ich hab sie gefunden sie sind in Sankt Augustin,Ja ich erkunde dann weiter geradeaus kommen,2
+48,TL,UGV-1,Ja ich erkunde dann weiter geradeaus kommen,Negativ,0
+49,TL,TL,Negativ,Nähere dich mal UGV-2,1
+50,TL,TL,Nähere dich mal UGV-2,da sind zwei Proben die er eventuell aufnehmen muss,2
+51,TL,TL,da sind zwei Proben die er eventuell aufnehmen muss,Fahr mal bitte näher daran,1
+52,TL,TL,Fahr mal bitte näher daran,und mach mal Foto wie er das macht,1
+53,TL,TL,und mach mal Foto wie er das macht,Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst,1
+54,UGV-1,TL,Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst,Ja ich gehe jetzt vor zu UGV-2,7
+55,UGV-1,UGV-1,Ja ich gehe jetzt vor zu UGV-2,und versuch die Probenentnahme zu fotografieren kommen,7
+56,TL,UGV-1,und versuch die Probenentnahme zu fotografieren kommen,UAV für Einsatzleiter,4
+57,TL,TL,UAV für Einsatzleiter,Wo ist gerade dein Standort?,3
+58,UAV,TL,Wo ist gerade dein Standort?,Ungefähr an der Position von ASA 310,2
+59,TL,UAV,Ungefähr an der Position von ASA 310,Okay,2
+60,TL,TL,Okay,Hast du das letzte Foto gepublished?,3
+61,TL,TL,Hast du das letzte Foto gepublished?,Ich konnte es noch nicht sehen,2
+62,UAV,TL,Ich konnte es noch nicht sehen,Der UAV Pilot berichtet von Rauch der aus der Halle kommt,2
+63,UAV,UAV,Der UAV Pilot berichtet von Rauch der aus der Halle kommt,Wir versuchen davon ein Foto zu machen,2
+64,TL,UAV,Wir versuchen davon ein Foto zu machen,Ja verstanden,7
+65,UGV-1,TL,Ja verstanden,Teamleader von UGV-1 kommen,4
+66,TL,UGV-1,Teamleader von UGV-1 kommen,Höre,5
+67,UGV-1,TL,Höre,Ich seh ein extrem helles hell beleuchtetes Gerät,2
+68,UGV-1,UGV-1,Ich seh ein extrem helles hell beleuchtetes Gerät,Ich kann's nicht erkennen was es ist,2
+69,TL,UGV-1,Ich kann's nicht erkennen was es ist,Ja was willst du mir damit sagen?,3
+70,UGV-1,TL,Ja was willst du mir damit sagen?,Ja schau mal auf das Foto,2
+71,TL,UGV-1,Ja schau mal auf das Foto,Foto 235?,3
+72,UGV-1,TL,Foto 235?,Kann ich dir nicht genau sagen,2
+73,UGV-1,UGV-1,Kann ich dir nicht genau sagen,Kann ich nicht bestätigen,2
+74,TL,UGV-1,Kann ich nicht bestätigen,UAV für Einsatzleitung,4
+75,UAV,TL,UAV für Einsatzleitung,UAV hört,5
+76,TL,UAV,UAV hört,Also ich kann keine Rauchentwicklung auf deinem Foto erkennen,2
+77,TL,TL,Also ich kann keine Rauchentwicklung auf deinem Foto erkennen,Kreise mal bitte jetzt dann um ASA 352 herum,1
+78,TL,TL,Kreise mal bitte jetzt dann um ASA 352 herum,Und mach sozusagen mal ein Rundumfoto das heißt aus den anderen beiden Himmelsrichtungen auch noch,1
+79,UAV,TL,Und mach sozusagen mal ein Rundumfoto das heißt aus den anderen beiden Himmelsrichtungen auch noch,Das kann ich hier leider nicht erkennen,0
+80,UAV,UAV,Das kann ich hier leider nicht erkennen,Das letzte Foto das ich geshared habe?,3
+81,TL,UAV,Das letzte Foto das ich geshared habe?,Okay das scheint 297 zu sein,2
+82,UGV-1,TL,Okay das scheint 297 zu sein,Teamleader von UGV-1 kommen,4
+83,TL,UGV-1,Teamleader von UGV-1 kommen,Höre,5
+84,UGV-1,TL,Höre,Ja im letzten Foto das ich geteilt habe ich versucht die Probenentnahme zu fotografieren kommen,2
+85,TL,UGV-1,Ja im letzten Foto das ich geteilt habe ich versucht die Probenentnahme zu fotografieren kommen,Ja,2
+86,TL,TL,Ja,Ja ich guck's mir an,2
+87,TL,TL,Ja ich guck's mir an,UAV für Einsatzleitung kommen,4
+88,UAV,TL,UAV für Einsatzleitung kommen,UAV hört,5
+89,TL,UAV,UAV hört,Wo ist dieser eine Eingang jetzt genau ist der praktisch südlich von ASA 310?,3
+90,UAV,TL,Wo ist dieser eine Eingang jetzt genau ist der praktisch südlich von ASA 310?,Das ist südlich das ist es an der an der Position wo Echo-Start wo der Echo-Punkt ist also der der Halleneingang hier,2
+91,TL,UAV,Das ist südlich das ist es an der an der Position wo Echo-Start wo der Echo-Punkt ist also der der Halleneingang hier,O. k.,2
+92,UGV-1,TL,O. k.,Teamleader von UGV-1 kommen,4
+93,TL,UGV-1,Teamleader von UGV-1 kommen,UGV-1 kommen Sie,5
+94,UGV-1,TL,UGV-1 kommen Sie,Ja ich versuch die Probeentnahmen zu fotografieren,2
+95,UGV-1,UGV-1,Ja ich versuch die Probeentnahmen zu fotografieren,Habe aber hier extrem schlechte Sicht,2
+96,UGV-1,UGV-1,Habe aber hier extrem schlechte Sicht,aufgrund von reflektierendem Licht,2
+97,UGV-1,UGV-1,aufgrund von reflektierendem Licht,kommen,4
+98,TL,UGV-1,kommen,Ja verstanden,2
+99,TL,TL,Ja verstanden,UGV-1 von Einsatzleitung,4
+100,UGV-1,TL,UGV-1 von Einsatzleitung,UGV-1 hört,5
+101,TL,UGV-1,UGV-1 hört,Ja die UAV hat berichtet dass es eine Rauchentwicklung gibt aus dem Hallentorbogen wo unser Startpunkt ist,2
+102,TL,TL,Ja die UAV hat berichtet dass es eine Rauchentwicklung gibt aus dem Hallentorbogen wo unser Startpunkt ist,Kannst du dich in die Richtung zurückbegeben und da mal nachgucken,1
+103,UGV-1,TL,Kannst du dich in die Richtung zurückbegeben und da mal nachgucken,Ja ich versuch zum Startpunkt zurückzukehren und prüfe ob Rauchentwicklung,7
+104,TL,UGV-1,Ja ich versuch zum Startpunkt zurückzukehren und prüfe ob Rauchentwicklung,Wenn's geht fährst du nicht den Weg zurück den du gekommen bist sondern eben erst mal Richtung Süden von Darmstadt aus und dann wieder Richtung Richtung Startpunkt sozusagen,1
+105,UGV-1,TL,Wenn's geht fährst du nicht den Weg zurück den du gekommen bist sondern eben erst mal Richtung Süden von Darmstadt aus und dann wieder Richtung Richtung Startpunkt sozusagen,Ja ich prüf das ob ich da weiterkomme kommen,7
+106,UGV-2,UGV-1,Ja ich prüf das ob ich da weiterkomme kommen,Teamleiter von UGV-2,4
+107,TL,UGV-2,Teamleiter von UGV-2,Höre,5
+108,UGV-2,TL,Höre,Die erste Probe genommen und in den Korb abgelegt,2
+109,UGV-2,UGV-2,Die erste Probe genommen und in den Korb abgelegt,versuche jetzt die zweite auf dem Stuhl zu nehmen,2
+110,TL,UGV-2,versuche jetzt die zweite auf dem Stuhl zu nehmen,Ja verstanden,7
+111,TL,TL,Ja verstanden,Konntest du schon mal was erkennen sind die Behälter dicht oder undicht?,3
+112,UGV-2,TL,Konntest du schon mal was erkennen sind die Behälter dicht oder undicht?,Das ist nicht erkennbar,2
+113,UGV-2,UGV-2,Das ist nicht erkennbar,es handelt sich scheinbar um Papp-Pakete kleine,2
+114,TL,UGV-2,es handelt sich scheinbar um Papp-Pakete kleine,Und konntest du irgendwelche Markierungen darauf erkennen oder Schilder?,3
+115,UGV-2,TL,Und konntest du irgendwelche Markierungen darauf erkennen oder Schilder?,Ich versuch gleich nach dem Ablegen vom zweiten nochmal nen Blick auf den anderen zu werfen,2
+116,UGV-1,UGV-2,Ich versuch gleich nach dem Ablegen vom zweiten nochmal nen Blick auf den anderen zu werfen,Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen,2
+117,UGV-1,UGV-1,Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen,Könnte linksseitig schauen ob ich nen Blick auf die auf die andere Seite bekommen kann,2
+118,UGV-1,UGV-1,Könnte linksseitig schauen ob ich nen Blick auf die auf die andere Seite bekommen kann,aber der Weg wird wahrscheinlich nicht zur Verfügung stehen,2
+119,UGV-1,UGV-1,aber der Weg wird wahrscheinlich nicht zur Verfügung stehen,kommen,4
+120,TL,UGV-1,kommen,Fahr trotzdem erst mal in die Richtung,1
+121,UGV-2,TL,Fahr trotzdem erst mal in die Richtung,Teamleiter von UGV-2,4
+122,TL,UGV-2,Teamleiter von UGV-2,Höre,5
+123,UGV-2,TL,Höre,Auf dem Stuhl befinden sich zwei Pakete,2
+124,UGV-2,UGV-2,Auf dem Stuhl befinden sich zwei Pakete,Eins davon ist mit dem Gefahrgutssymbol reizend das X gekennzeichnet Trader Oxyn Nummer eins,2
+125,TL,UGV-2,Eins davon ist mit dem Gefahrgutssymbol reizend das X gekennzeichnet Trader Oxyn Nummer eins,Kannst du ein Foto machen?,1
+126,UGV-2,TL,Kannst du ein Foto machen?,Kann ich ein Snapshot von der linken Seite machen weißt du das?,3
+127,UAV,UGV-2,Kann ich ein Snapshot von der linken Seite machen weißt du das?,Teamleiter von UAV,4
+128,TL,UAV,Teamleiter von UAV,Höre,5
+129,UAV,TL,Höre,Ich habe ein Übersicht ein Übersichtsfoto geshared von ungefähr der Position Tango ASA 352,2
+130,UAV,UAV,Ich habe ein Übersicht ein Übersichtsfoto geshared von ungefähr der Position Tango ASA 352,Und jetzt sind wir gelandet um den Akku zu tauschen,2
+131,UAV,UAV,Und jetzt sind wir gelandet um den Akku zu tauschen,Erbitte weitere Anweisungen,3
+132,TL,UAV,Erbitte weitere Anweisungen,Ja,2
+133,TL,TL,Ja,der Einsatzleiter an alle,4
+134,TL,TL,der Einsatzleiter an alle,Wenn ihr Fotos macht bitte gebt mir die Fotonummer,1
+135,TL,TL,Wenn ihr Fotos macht bitte gebt mir die Fotonummer,ich verlier gerade jetzt ein bisschen den Überblick über die Fotos,2
+136,UGV-1,TL,ich verlier gerade jetzt ein bisschen den Überblick über die Fotos,Teamleiter von UGV-1 kommen,4
+137,TL,UGV-1,Teamleiter von UGV-1 kommen,Höre,5
+138,UGV-1,TL,Höre,Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein,2
+139,UGV-1,UGV-1,Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein,Aber kann da nicht näher erkunden da da ein Geländer im Weg ist,2
+140,UGV-1,UGV-1,Aber kann da nicht näher erkunden da da ein Geländer im Weg ist,Ich hab dir ein Foto gemacht,2
+141,UGV-1,UGV-1,Ich hab dir ein Foto gemacht,Ich meine müsste Foto 300 sein,2
+142,UGV-1,UGV-1,Ich meine müsste Foto 300 sein,kommen,4
+143,TL,UGV-1,kommen,Ja verstanden,2
+144,UGV-1,TL,Ja verstanden,Teamleader von UGV-1 kommen,4
+145,UGV-1,UGV-1,Teamleader von UGV-1 kommen,Ich hab die Connection zur Database verloren,2
+146,TL,UGV-1,Ich hab die Connection zur Database verloren,Ja okay,2
+147,TL,TL,Ja okay,dann machen wir mal gerade einen Neustart,2
+148,UAV,TL,dann machen wir mal gerade einen Neustart,Teamleiter von UAV,4
+149,TL,UAV,Teamleiter von UAV,Höre,5
+150,UAV,TL,Höre,UAV ist wieder startbereit,2
+151,UGV-1,UAV,UAV ist wieder startbereit,Teamleader von UGV-1,4
+152,TL,UGV-1,Teamleader von UGV-1,UAV dann bitte starten Live-Monitoring,1
+153,TL,TL,UAV dann bitte starten Live-Monitoring,guck mal ob du da weitere Rauchentwicklungen finden kannst,1
+154,TL,TL,guck mal ob du da weitere Rauchentwicklungen finden kannst,UGV-1,5
+155,UGV-1,TL,UGV-1,Ja ich hab hier keine Reaktion bei dem Roboter und keine Verbindung mehr zur Datenbank,2
+156,UGV-1,UGV-1,Ja ich hab hier keine Reaktion bei dem Roboter und keine Verbindung mehr zur Datenbank,kommen,4
+157,TL,UGV-1,kommen,UGV-2 für Einsatzleiter,4
+158,UGV-2,TL,UGV-2 für Einsatzleiter,UGV-2,5
+159,TL,UGV-2,UGV-2,Gibt's ein technisches Problem bei dir?,3
+160,UGV-2,TL,Gibt's ein technisches Problem bei dir?,Ja ich versuchte ihn gerade in den Behälter zu setzen aber irgendwie hat er sich aufgehangen,2
+161,TL,UGV-2,Ja ich versuchte ihn gerade in den Behälter zu setzen aber irgendwie hat er sich aufgehangen,Ja verstanden,2
+162,TL,TL,Ja verstanden,Das heißt du kannst im Moment gar nichts machen?,3
+163,UGV-2,TL,Das heißt du kannst im Moment gar nichts machen?,Also ich hab gerade die Rückmeldung gekriegt dass bei UGV-2 das Kamerakabel zu oft oben drumgewickelt ist,2
+164,UGV-2,UGV-2,Also ich hab gerade die Rückmeldung gekriegt dass bei UGV-2 das Kamerakabel zu oft oben drumgewickelt ist,und dass deshalb der Arm nicht mehr geht,2
+165,TL,UGV-2,und dass deshalb der Arm nicht mehr geht,Okay,2
+166,TL,TL,Okay,konntest du denn eine Probenahme beenden?,3
+167,UGV-2,TL,konntest du denn eine Probenahme beenden?,Die erste Probenahme ist beendet das zweite Paket hängt in der Place pose über der Box,2
+168,TL,UGV-2,Die erste Probenahme ist beendet das zweite Paket hängt in der Place pose über der Box,Gut,2
+169,TL,TL,Gut,das heißt du kannst dich jetzt ja gar nicht bewegen?,3
+170,UGV-2,TL,das heißt du kannst dich jetzt ja gar nicht bewegen?,Das könnte man ausprobieren ob man sich bewegen kann aber ich denke eher nicht,2
+171,TL,UGV-2,Das könnte man ausprobieren ob man sich bewegen kann aber ich denke eher nicht,Halt deine Position,1
+172,UAV,TL,Halt deine Position,Teamleader von UAV,4
+173,TL,UAV,Teamleader von UAV,Höre,5
+174,UAV,TL,Höre,Wir haben weitere Fotos von der Rauchentwickung direkt an der Startposition am Eingang,2
+175,UAV,UAV,Wir haben weitere Fotos von der Rauchentwickung direkt an der Startposition am Eingang,Leider kann ich nicht sehen welches die Fotonummern sind,2
+176,UAV,UAV,Leider kann ich nicht sehen welches die Fotonummern sind,Kann ich versuchen,2
+177,UAV,UAV,Kann ich versuchen,Wir haben da wahrscheinlich dann Probleme mit der Datenverbindung,2
+178,UAV,UAV,Wir haben da wahrscheinlich dann Probleme mit der Datenverbindung,Aber wir werden's mal versuchen,2
+179,TL,UAV,Aber wir werden's mal versuchen,Ja verstanden,7
+180,TL,TL,Ja verstanden,UGV-1 für Einsatzleiter,4
+181,TL,TL,UGV-1 für Einsatzleiter,UGV UGV-1,4
+182,UGV-1,TL,UGV UGV-1,UGV-1,5
+183,TL,UGV-1,UGV-1,Wie ist jetzt dein Status,3
+184,UGV-1,TL,Wie ist jetzt dein Status,Eher Status 6,2
+185,UGV-1,UGV-1,Eher Status 6,kommen,4
+186,TL,UGV-1,kommen,Okay,2
+187,TL,TL,Okay,d.h. wir haben beide UGV im Moment nicht einsatzbereit?,3
+188,UGV-1,TL,d.h. wir haben beide UGV im Moment nicht einsatzbereit?,Richtig verstanden,7
+189,UAV,UGV-1,Richtig verstanden,UAV landet,2
+190,TL,UAV,UAV landet,Ja verstanden,2
+191,TL,TL,Ja verstanden,dann für euch Ende der Mission,1
+192,TL,TL,dann für euch Ende der Mission,UGV-2 für Einsatzleiter,4
+193,UGV-2,TL,UGV-2 für Einsatzleiter,UGV-2 hört,5
+194,TL,UGV-2,UGV-2 hört,Ja dann versuch vorsichtig zurückzukommen,1
+195,UGV-2,TL,Ja dann versuch vorsichtig zurückzukommen,Ja dann versuche ich mal vorsichtig zurückzukommen,7
+196,UGV-1,UGV-2,Ja dann versuche ich mal vorsichtig zurückzukommen,Teamleader von UGV-1,4
+197,TL,UGV-1,Teamleader von UGV-1,Höre,5
+198,UGV-1,TL,Höre,Ja my robot is lost,2
+199,TL,UGV-1,Ja my robot is lost,Ja,2
+200,TL,TL,Ja,dann Missionsende für Sie,1
+201,TL,TL,dann Missionsende für Sie,Andreas Andreas von Markus kommen,4
+202,UGV-1,TL,Andreas Andreas von Markus kommen,ja Andreas kommen,5
+203,TL,UGV-1,ja Andreas kommen,Bodenroboter zwei von Markus kommen,4
+204,TL,TL,Bodenroboter zwei von Markus kommen,Feuerwehr Bochum von Markus kommen,4
+205,UGV-1,TL,Feuerwehr Bochum von Markus kommen,Markus von Andreas kommen,4
+206,TL,UGV-1,Markus von Andreas kommen,Andreas kommen,5
+207,UGV-1,TL,Andreas kommen,ich wäre soweit einsatzbereit,2
+208,UGV-1,UGV-1,ich wäre soweit einsatzbereit,soll ich meinen Erkundungsbefehl fortsetzen oder beginnen?,3
+209,TL,UGV-1,soll ich meinen Erkundungsbefehl fortsetzen oder beginnen?,ja umgehend beginnen ohne möglichst wenig Zeitverzögerung um eine höhere Erfolgschance zur Menschenrettung zu haben,2
+210,UGV-1,TL,ja umgehend beginnen ohne möglichst wenig Zeitverzögerung um eine höhere Erfolgschance zur Menschenrettung zu haben,ja verstanden ich beginne mit der Erkundung,2
+211,TL,UGV-1,ja verstanden ich beginne mit der Erkundung,Andreas von Markus kommen,4
+212,UGV-1,TL,Andreas von Markus kommen,ja Andreas kommen,5
+213,TL,UGV-1,ja Andreas kommen,gibt es schon irgendwelche nennenswerten Erkenntnisse?,3
+214,UGV-1,TL,gibt es schon irgendwelche nennenswerten Erkenntnisse?,negativ keine nennenswerten Erkenntnisse,0
+215,TL,UGV-1,negativ keine nennenswerten Erkenntnisse,ja verstanden,2
+216,TL,TL,ja verstanden,Andreas von Markus kommen,4
+217,UGV-1,TL,Andreas von Markus kommen,ja Andreas kommen,5
+218,TL,UGV-1,ja Andreas kommen,hat er schon irgendwelche nenneswerten Erkenntnisse mit Hinblick auf besondere Gefahren oder thermische Ausbreitung?,3
+219,UGV-1,TL,hat er schon irgendwelche nenneswerten Erkenntnisse mit Hinblick auf besondere Gefahren oder thermische Ausbreitung?,nein negativ,0
+220,TL,UGV-1,nein negativ,ja das ist gut zu wissen verstanden,2
+221,TL,TL,ja das ist gut zu wissen verstanden,Andreas und Daniel könnt ihr mir beide jeweils schon mal ein Foto von eurem aktuellen Standort senden?,1
+222,UGV-1,TL,Andreas und Daniel könnt ihr mir beide jeweils schon mal ein Foto von eurem aktuellen Standort senden?,meine Kamera die Realbild-Kamera ist ausgefallen,0
+223,UGV-1,UGV-1,meine Kamera die Realbild-Kamera ist ausgefallen,ich kann dir lediglich ein Wärmebild schicken,2
+224,TL,UGV-1,ich kann dir lediglich ein Wärmebild schicken,das ist eigentlich nicht notwendig,0
+225,UGV-1,TL,das ist eigentlich nicht notwendig,okay,2
+226,UGV-1,UGV-1,okay,sobald ich eine Veränderung habe schicke ich dir ein Bild,2
+227,TL,UGV-1,sobald ich eine Veränderung habe schicke ich dir ein Bild,verstanden,7
+228,UAV,TL,verstanden,Markus für Dirk,4
+229,TL,UAV,Markus für Dirk,Dirk kommen,5
+230,UAV,TL,Dirk kommen,die Drohne wird startbereit gemacht,2
+231,UAV,UAV,die Drohne wird startbereit gemacht,wir werden gleich mit der Personensuche starten,2
+232,TL,UAV,wir werden gleich mit der Personensuche starten,ja,2
+233,TL,TL,ja,den Suchbeginn bitte mitteilen,1
+234,TL,TL,den Suchbeginn bitte mitteilen,der Einsatz-Auftrag ist unverändert Erkundung nach Personen,2
+235,UGV-1,TL,der Einsatz-Auftrag ist unverändert Erkundung nach Personen,verstanden,2
+236,UAV,UGV-1,verstanden,Markus für Dirk,4
+237,TL,UAV,Markus für Dirk,Dirk kommen,5
+238,UAV,TL,Dirk kommen,die Drohne startet jetzt,2
+239,TL,UAV,die Drohne startet jetzt,hier Markus verstanden,2
+240,TL,TL,hier Markus verstanden,Andreas von Markus kommen,4
+241,UGV-1,TL,Andreas von Markus kommen,hier Andreas kommen,5
+242,TL,UGV-1,hier Andreas kommen,gibt es irgendwelche Erkenntnisse zur Personensuche?,3
+243,UGV-1,TL,gibt es irgendwelche Erkenntnisse zur Personensuche?,bis dato noch nicht,0
+244,UGV-1,UGV-1,bis dato noch nicht,ich bin jetzt einen Weg bis zum Ende weitergefahren und dann gehe ich linker Handregel weiter,2
+245,TL,UGV-1,ich bin jetzt einen Weg bis zum Ende weitergefahren und dann gehe ich linker Handregel weiter,ja verstanden,2
+246,TL,TL,ja verstanden,Daniel von Markus kommen,4
+247,UGV-2,TL,Daniel von Markus kommen,Daniel hört,5
+248,TL,UGV-2,Daniel hört,gibt es schon irgendwelche Erkenntnisse über das Ausmaß das Schadenausmaß und Gefahren?,3
+249,UGV-2,TL,gibt es schon irgendwelche Erkenntnisse über das Ausmaß das Schadenausmaß und Gefahren?,nein negativ,0
+250,UGV-2,UGV-2,nein negativ,befinde mich noch in der Startposition,2
+251,TL,UGV-2,befinde mich noch in der Startposition,das ist verstanden,2
+252,TL,TL,das ist verstanden,Dirk von Markus kommen,4
+253,UAV,TL,Dirk von Markus kommen,hier ist Dirk,5
+254,UAV,UAV,hier ist Dirk,nein ich habe zur Zeit überhaupt kein Bild von der Drohne,2
+255,TL,UAV,nein ich habe zur Zeit überhaupt kein Bild von der Drohne,das ist verstanden,2
+256,UGV-1,TL,das ist verstanden,Markus von Andreas kommen,4
+257,TL,UGV-1,Markus von Andreas kommen,Andreas kommen,5
+258,UGV-1,TL,Andreas kommen,ich bin eine Etage hochgefahren als den Startgang ganz durch dann links ein Stockwerk gewechselt,2
+259,UGV-1,UGV-1,ich bin eine Etage hochgefahren als den Startgang ganz durch dann links ein Stockwerk gewechselt,ich habe hier extreme Rauchentwicklung,2
+260,TL,UGV-1,ich habe hier extreme Rauchentwicklung,ja das ist verstanden,2
+261,UGV-1,TL,ja das ist verstanden,aber aktuell noch keine Hitze-Direktion,2
+262,TL,UGV-1,aber aktuell noch keine Hitze-Direktion,ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?,3
+263,UGV-1,TL,ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?,meine Einschätzung unter PA jederzeit möglich ja,7
+264,TL,UGV-1,meine Einschätzung unter PA jederzeit möglich ja,das ist verstanden,2
+265,UGV-1,TL,das ist verstanden,Markus von Andreas kommen,4
+266,TL,UGV-1,Markus von Andreas kommen,hier Markus kommen,5
+267,UGV-1,TL,hier Markus kommen,im ersten Obergeschoss wo ich mich gerade aufhalte müsste auch der Brandherd sein,2
+268,UGV-1,UGV-1,im ersten Obergeschoss wo ich mich gerade aufhalte müsste auch der Brandherd sein,ich habe hier jetzt gerade eine Hitzequelle ausgemacht definitiv keine Person,2
+269,TL,UGV-1,ich habe hier jetzt gerade eine Hitzequelle ausgemacht definitiv keine Person,hier Markus verstanden,2
+270,UGV-2,TL,hier Markus verstanden,Andreas von Daniel,4
+271,UGV-1,UGV-2,Andreas von Daniel,hier Andreas kommen,5
+272,UGV-2,UGV-1,hier Andreas kommen,Markus von Daniel,4
+273,TL,UGV-2,Markus von Daniel,hier Markus,5
+274,UGV-2,TL,hier Markus,Roboter hat zwei komplette Aussetzer funktionert dann gar nicht,2
+275,TL,UGV-2,Roboter hat zwei komplette Aussetzer funktionert dann gar nicht,Daniel ich hab dich verstanden,2
+276,TL,TL,Daniel ich hab dich verstanden,hier Markus an alle Roboter,4
+277,TL,TL,hier Markus an alle Roboter,baldmöglich erstes Bildmaterial senden,1
+278,TL,TL,baldmöglich erstes Bildmaterial senden,einmal eine Rundumsicht,1
+279,TL,TL,einmal eine Rundumsicht,vier Bilder 360-Grad-Abdeckung,1
+280,UGV-1,TL,vier Bilder 360-Grad-Abdeckung,Andreas verstanden,7
