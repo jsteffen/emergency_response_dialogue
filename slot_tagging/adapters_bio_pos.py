@@ -46,7 +46,7 @@ batch_size = 16
 
 do_train = False
 
-anno_type = 'neg_samples' # 'neg_samples' 
+anno_type = 'neg_samples' # 'neg_samples'
 task = "mittel"# 'auftrag', 'einheit', 'mittel', 'ziel', 'weg'
 labels = ['O', 'B', 'I']#, '[PAD]']
 id2label = {id_: label for id_, label in enumerate(labels)}
@@ -123,12 +123,10 @@ def get_pos_embeds(tokens):
         tags.append(pos_tags['O'])
     tags = tags+[pos_tags['O']]
     return tags
-    
+
 def encode_data(data):
     encoded = tokenizer([' '.join(doc.split()) for doc in data["tokens"]], pad_to_max_length=True, padding="max_length", max_length=max_len_bio, truncation=True, add_special_tokens=True)
     bert_out = bert_model(torch.tensor(encoded['input_ids']), torch.tensor(encoded['attention_mask']))
-    pos_tags = []
-    
     pos_tags = []
     for sample in data['tokens']:
         sample = ' '.join(sample.split())
@@ -138,7 +136,6 @@ def encode_data(data):
     encoded["pos_input"] = embedded_pos_tags
     encoded["pos_labels"] = pos_tags
     return encoded    
-    
     
 def encode_labels(example):
     r_tags = []
@@ -224,7 +221,6 @@ if do_train:
             expected = torch.flatten(batch["labels"].long(), 0, 1)
             loss = loss_function(predictions, expected)
             loss.backward()
-            
             optimizer.step()
             optimizer.zero_grad()
             if i % 10000 == 0:
@@ -240,7 +236,6 @@ if do_train:
                         batch[k] = torch.stack(v).to(device)
                     else:
                         batch[k] = v.to(device)
-                
                 outputs = model(batch["input_ids"], attention_mask=batch["attention_mask"], pos_input=batch["pos_input"], adapter_names=[task])
                 predictions = torch.argmax(outputs[0], 1)
                 expected = batch["labels"].float()
@@ -249,7 +244,6 @@ if do_train:
                 mexpected = torch.flatten(batch["labels"].long(), 0, 1)
                 loss = loss_function(mpredictions, mexpected)
                 dev_losses.append(loss.item())
-        
                 predictions_list.append(predictions)
                 expected_list.append(expected)
             cur_epoch_dev_loss = round(sum(dev_losses)/len(dev_losses),3)
@@ -294,7 +288,6 @@ for i, batch in enumerate(test_dataloader):
     outputs = model(batch["input_ids"], attention_mask=batch["attention_mask"], pos_input=batch["pos_input"], adapter_names=[task])
     predictions = torch.argmax(outputs[0], 1)
     expected = batch["labels"].float()
-    
     predictions_list.append(predictions)
     expected_list.append(expected)
 print('Test set evaluation!', task)

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "bias": true,
+    "head_type": "classification",
+    "label2id": {
+      "Absage": 0,
+      "Einsatzbefehl": 1,
+      "Information_geben": 2,
+      "Information_nachfragen": 3,
+      "Kontakt_Anfrage": 4,
+      "Kontakt_Bestaetigung": 5,
+      "Sonstiges": 6,
+      "Zusage": 7
+    },
+    "layers": 2,
+    "num_labels": 8,
+    "use_pooler": true
+  },
+  "hidden_size": 768,
+  "model_class": "BertAdapterModel",
+  "model_name": "bert-base-german-cased",
+  "model_type": "bert",
+  "name": "dact_masked_0-2_1_head",
+  "version": "3.1.0"
+}

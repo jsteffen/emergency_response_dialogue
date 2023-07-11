@@ -24,7 +24,7 @@ def get_masked_augmentation(input_text, proportion):
     masked_indices.sort()
     masked_ids = deepcopy(input_ids)
     for masked_index in masked_indices:
-        try:       
+        try:
             masked_ids[masked_index] = tokenizer.mask_token_id
         except:
             print('masked_indices:', masked_indices, '\n', 'masked_ids:', masked_ids, '\n', 'masked_index:', masked_index)
@@ -34,7 +34,7 @@ def get_masked_augmentation(input_text, proportion):
         orig_ids.append(input_ids[idx])
     result = mask_model(torch.tensor([masked_ids]))
     grouped_ids = result[0][:, masked_indices].topk(10).indices.tolist()[0]
-    for group_i, pred_ids in enumerate(grouped_ids):        
+    for group_i, pred_ids in enumerate(grouped_ids):
         masked_index = masked_indices[group_i]
         for pred_id in pred_ids:
             masked_ids[masked_index] = pred_id
@@ -43,13 +43,12 @@ def get_masked_augmentation(input_text, proportion):
             if pred_id!=orig_ids[group_i] and not(predicted_word.startswith('##')) and not('unused_punctuation' in predicted_word): # and not(predicted_word in string.punctuation)
                 print('>>>>>', predicted_word)
                 break
-                
     print('Original:', tokenizer.decode(input_ids))
     print('Augmented:', tokenizer.decode(masked_ids))
     aug_text = tokenizer.decode(masked_ids)
     return aug_text
-    
-def get_random_augmentation(input_text, proportion):    
+
+def get_random_augmentation(input_text, proportion):
     aug_text = ''
     input_tokens = tokenizer.tokenize(input_text)
     input_ids = tokenizer.convert_tokens_to_ids(input_tokens)
@@ -63,7 +62,7 @@ def get_random_augmentation(input_text, proportion):
     idx2operation = dict()
     for i, idx in enumerate(modified_indices):
         idx2operation[idx] = operations[i]
-    assert(len(modified_indices)==len(operations))   
+    assert(len(modified_indices)==len(operations))
     new_subtokens = deepcopy(input_ids)
     # idx is a position
     for idx, _ in enumerate(input_ids):
@@ -86,17 +85,16 @@ def get_random_augmentation(input_text, proportion):
                 #assert(not(other_value in ['[CLS]', '[SEP]']))
                 #assert(not(new_subtokens[idx] in ['[CLS]', '[SEP]']))
                 new_subtokens[other_idx] = new_subtokens[idx]
-                new_subtokens[idx] = other_value   
+                new_subtokens[idx] = other_value
     edited_subtokens = []
     for new_id, el in enumerate(new_subtokens):
         if type(el) is list:
             edited_subtokens.extend(el)
         elif el is not None:
             edited_subtokens.append(el)
-                
     print('Original:', tokenizer.decode(input_ids))
     print('Augmented:', tokenizer.decode(edited_subtokens))
-    aug_text = tokenizer.decode(edited_subtokens)   
+    aug_text = tokenizer.decode(edited_subtokens)
     return aug_text
 
 def augment_samples(fname, aug_type, num_of_rounds, proportion):

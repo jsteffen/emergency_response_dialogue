@@ -140,7 +140,6 @@ if do_training:
 
     trainer.train()
     print(trainer.evaluate())
-    
     if anno_type=="low_resource_turn_and_speaker":
         model.save_adapter("adapters/low_resource_adapters/"+task+"_"+low_resource_annotation_prefix.replace(".","-")+"adapter/", task)
         model.save_head("heads/low_resource_heads/"+task+"_"+low_resource_annotation_prefix.replace(".","-")+"head/", task+"_head")
@@ -195,7 +194,6 @@ for i, intext in enumerate(intexts):
     if len(prediction)>0:
         predicted_label = prediction[0]["label"]
     gold_label = id2label[gold_labels[i]]
-    
     if predicted_label==gold_label:
         match+=1
         scores[predicted_label]["tp"]+=1
@@ -203,7 +201,6 @@ for i, intext in enumerate(intexts):
         #print(prediction, intext, ">>>", predicted_label, gold_label)
         scores[predicted_label]["fp"]+=1
         scores[gold_label]["fn"]+=1
-        
 print("Accuracy:", round(match/len(intexts),3), "matched:", match, "total:", len(intexts))
 print("F1 scores:")
 f1scores = 0
@@ -228,4 +225,3 @@ for label in all_labels:
     print(label, "F1:", round(f1score,3))
 # compute macro f1 score (avg)
 print("Macro F1:", round(f1scores/len(all_labels),3))    
-

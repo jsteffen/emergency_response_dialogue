@@ -12,7 +12,7 @@ def count_samples(fname):
             else:
                 label2rows[label] = 1
     print(label2rows)
-    
+
 def reduce_samples(fname, threshold):
     with open(fname) as f:
         lines = f.readlines()
@@ -37,11 +37,12 @@ def write_new_samples(new_fname, label2rows):
         random.shuffle(all_rows)
         for row in all_rows:
             f.write(row)
-    
+
 dtype = 'dev' # 'train' or 'dev'
 threshold = 10 # max number of samples per category; 30 for train and 10 for dev    
 fname = 'csv_original/'+dtype+'.csv'
 new_fname = 'csv_da_annotations/csv_low_resource/'+dtype+'.csv'    
+
 print('Original distribution:')
 count_samples(fname)
 label2rows = reduce_samples(fname, threshold)

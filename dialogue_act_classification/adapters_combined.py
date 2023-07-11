@@ -57,7 +57,6 @@ def add_speaker_prev_turn(intexts, speakers, add_prev_turn):
         else:
             new_text = speakers[i]+' [SEP] '+turn
         new_intexts.append(new_text)
-        
     return new_intexts
 
 # annotate turns with dialogue acts, ISO labels and slots for the orders (Einsatzbefehl)
@@ -71,7 +70,6 @@ def add_speaker_prev_turn(intexts, speakers, add_prev_turn):
 def annotate_turns(intexts, speakers=None, with_previous_turn=True, with_speaker=True, annotate_dact=True, annotate_iso=False, annotate_slots=True):
     turn_annotations = []
     intexts = normalize_text(intexts)    
-
     # domain-specific dialogue act classification
     if annotate_dact:
         # prepare model input, adapter and head if only the speaker is used (no previous turn)
@@ -112,7 +110,7 @@ def annotate_turns(intexts, speakers=None, with_previous_turn=True, with_speaker
         model.load_head('heads/dact_iso/dact_head')
         model.active_adapters = adapter
         iso_classifier = TextClassificationPipeline(model=model, tokenizer=tokenizer, task="iso", device=device)
-        for i_text, intext in enumerate(intexts):     
+        for i_text, intext in enumerate(intexts):
             turn_annotations[i_text]['iso_dialogue_act'] = iso_classifier(intext)[0]['label']
 
     # slot tagging for Einsatzbefehl
@@ -128,7 +126,6 @@ def annotate_turns(intexts, speakers=None, with_previous_turn=True, with_speaker
                 annotated_tokens, slot_tokens = remap_annotations(annotation, intext)
                 turn_annotations[i_text]['einsatzbefehl_slots'][task+'_tags'] = annotated_tokens
                 turn_annotations[i_text]['einsatzbefehl_slots'][task+'_tokens'] = slot_tokens
-    
     return turn_annotations
 
 # write annotations into json file

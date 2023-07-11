@@ -87,7 +87,6 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
         model.to(device)
         model.set_active_adapters([[task]])
         model.train_adapter([task])
-    
         class_weights = torch.FloatTensor([1.5, 1.5, 1.0]).to(device)
         loss_function = nn.CrossEntropyLoss(weight=class_weights)
         no_decay = ["bias", "LayerNorm.weight"]
@@ -105,7 +104,6 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
                 expected = torch.flatten(batch["labels"].long(), 0, 1)
                 loss = loss_function(predictions, expected)
                 loss.backward()
-                
                 optimizer.step()
                 optimizer.zero_grad()
                 if i % 10000 == 0:
@@ -125,7 +123,6 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
                     mexpected = torch.flatten(batch["labels"].long(), 0, 1)
                     loss = loss_function(mpredictions, mexpected)
                     dev_losses.append(loss.item())
-            
                     predictions_list.append(predictions)
                     expected_list.append(expected)
                 cur_epoch_dev_loss = round(sum(dev_losses)/len(dev_losses),3)
@@ -144,7 +141,6 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
                     print("Micro f1:", f1_score(true_labels, predicted_labels, average="micro"))
                     print("Macro f1:", f1_score(true_labels, predicted_labels, average="macro"))
                     print("Weighted f1:", f1_score(true_labels, predicted_labels, average="weighted"))
-                
 
         print("Best epoch:", best_epoch, prev_smallest_dev_loss, task)
 
@@ -186,6 +182,4 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
         print("Micro f1:", f1_score(true_labels, predicted_labels, average="micro"))
         print("Macro f1:", f1_score(true_labels, predicted_labels, average="macro"))
         print("Weighted f1:", f1_score(true_labels, predicted_labels, average="weighted"))
-    
-
 
