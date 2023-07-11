@@ -1,0 +1,49 @@
+id,tokens,tags
+413,Der Trupp transportert die Verletzten mit hilfe von Krankentrage,O O O O O B I I I
+394,Angriffstrupp bricht die Tür mit der Brechstange,O O O O B I I
+232,ja dann werden wir jetzt fliegen und versuchen Bilder vor der Unfallstelle aufzunehmen,O O O O O O O O O O O O O
+404,Für Sie Auftrag die Metallstäben mit dem Bolzenschneider trennen,O O O O O B I I O
+2238,Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst,O O O O O O O O O O O O O
+1822,Angriffstrupp zur Personenrettung unter PA mit erster Rohr in die dritte Etage über das Treppenhaus vor,O O O O O B I I O O O O O O O O
+2159,Du machst mir jetzt ein Foto dann gucken wir,O O O O O O O O O
+360,Wassertrupp mit dem Rollschlauch zur Brandbekämpfung vor,O B I I O O O
+388,Wassertrupp zur Löschwasserentnahme durch eingebaute Tiefenpumpen vor,O O O B I I O
+456,Drohnenoperator zur Personensuche mit WHS vor,O O O B I O
+184,UGV 1 versuch noch in hochsweite ein bisschen nähere Ergebnisse zu kriegen,O O O O O O O O O O O O
+450,Sie bewegen sich zum Fenster auf der rechten Seite,O O O O O O O O O
+438,D drei öffnet die Tür mit dem Plasmaschneider,O O O O O B I I
+410,Sie trennen die Türpfosten am Fahrzeug mit dem Schneidgerät,O O O O O O B I I
+1596,schickst du mir dann auch von da mal ein Foto,O O O O O O O O O O
+389,Wassertrupp zur Löschwasserentnahme durch Wandhydranten vor,O O O B I O
+964,dort mit dem Roboter hinfahren und mit der Menschensuche beginnen,O B I I O O O O O O
+408,Sie trennen Metallteil mit einer Trennschleifmaschine,O O O B I I
+434,Die Aufgabe für Sie   zur Sicherstellung des zweiten in der Bauordnung geforderten Rettungswegs mit der Drehleiter,O O O O O O O O O O O O O O O B I I
+1459,ihr nehmt aber die westliche Richtung,O O O O O O
+451,Trupp zum Brandlöschen über die Wiese vor,O O O O O O O
+1355,Teilen Sie mir bitte auch mal ein Foto in ihrer Fahrtrichtung,O O O O O O O O O O O
+338,schicken Sie mir das Foto,O O O O O
+1428,Das ist verstanden dann folgen Sie den UGV 2,O O O O O O O O O
+422,Angriffstrupp zur Menschenrettung mit Pressluftatmern und 1 Rohr ins Wohnzimmer durch den Hauseingang vor,O O O B I I I I O O O O O O
+386,Schlauchtrupp zur Löschwasserentnahme über ein Saugschacht und ein Saugrohr vor,O O O B I I I I I O
+2427,D2 ist einsatzbereit das ist verstanden Bitte auf Übungsbeginn warten kommen,O O O O O O O O O O O
+482,wenn Sie einsatzbereit sind lautet der Einsatzauftrag bitte geben Sie mir einen Gesamtüberblick aus der Luft suchen Sie nach möglichen Rauchentwicklungen konzentrieren Sie sich besonders auf den Bereich zwischen den beiden Hochöfen beziehungsweise am linken Hochofen,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+356,Den obersten Schlauch am Verteiler ankuppeln und mit dem Schlauchtragekorb in das Gebäude vorgehen,O O O O O O O B I I O O O O
+1422,Wenn Sie sich an der nördlichen Gebäudewand entlang nach Westen bewegen nehmen sie immer so den Victim als Ziel,O O O O O O O O O O O O O O O O O O O
+423,UAV Operator macht den Überblick und sendet die Bilder,O O O O O O O O O
+403,Sie zerbrechen die Deckel mit der Holzaxt,O O O O B I I
+2525,D3 mit Überfass ist am Standort angekommen für sie Beginn des Auftrages Bergung des Behältnisses kommen,O O O O O O O O O O O O O O O O
+510,fliegen Sie mit der Drohne über den linken Hochofen oberste Höhe und dann ein Foto senden,O O B I I O O O O O O O O O O O
+1864,ja beide Bilder in Infrarot ebenfalls,O O O B I O
+396,Angriffstrupp zum Herunterreißen von Decken mit dem Einreißhaken,O O O O O B I I
+474,bitte bringen Sie Ihre Gerätschaften in Stellung in sicherem Bereich innerhalb der großen Halle,O O O O O O O O O O O O O O
+381,Angriffstrupp zur Brandbekämpfung mit dem Strahlrohr vor,O O O B I I O
+1919,UGV 1 UGV 2 könnt ihr abschätzen ob das Gebäude noch Tragfähigkeit hat,O O O O O O O O O O O O O
+379,Angriffstrupp baut den Dekonplatz auf,O O O O O
+1141,flieg mal mit der Drohne genau in die andere Richtung,O O B I I O O O O O
+1190,ich hab im Moment keinen Roboter einsatzbereit kannst du gucken ob du dieses Fass findest und entsprechende Bilder machst,O O O O O O O O O O O O O O O O O O O
+425,D1 macht erkundet weiter und sendet die Fotos der Halle,O O O O O O O O O O
+2500,Das ist so korrekt der befindet sich gerade in der Anfahrt zum Gefahrgutobjekt für sie logistische Unterstützung durch den D3 mit dem Überfass kommen,O O O O O O O O O O O O O O O O O B I I O O O O
+415,Sie transportieren die Person in der Krankentrage,O O O O B I I
+400,Sie öffnen die Türen mit dem Spreizer,O O O O B I I
+2482,Für sie Auftrag es wird eine manipulation vorbereitet mit dem D2 kommen,O O O O O O O O B I I O
+2573,Für sie auch Erkundungsauftrag mit dem D5 an der linken Flanke außerhalb der Lagerhalle Erkundung kommen,O O O O B I I O O O O O O O O O

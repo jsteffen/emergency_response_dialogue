@@ -1,0 +1,9 @@
+id,tokens,tags
+377,Wassertrupp sperrt den Gefahrenbereich ab,O O O O O
+407,Trupp fällt die Bäume mit der Motorkettensäge,O O O O O O O
+448,Zum Transport der Verletzten hinter dem Gabelstepler,O O O O B I I
+410,Sie trennen die Türpfosten am Fahrzeug mit dem Schneidgerät,O O O O O O O O O
+359,Mit dem Schlauchhaspel den Verbindungsschlauch vom Hydrant zur Beregnungsmaschine verlegen,O O O O O O O B I O
+454,D 4 zur Erkundung mit Infrarotkamera ins Gebäude durch das Tor vor,O O O O O O B I O O O O
+88,UGV 1 aber warten,O O O O
+1390,Sie suchen die nördliche Gebäudewand in westlicher Richtung ab,O O B I I O O O O
