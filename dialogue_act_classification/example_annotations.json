@@ -58,7 +58,7 @@
       ],
       "weg_tokens": []
     },
-    "iso_dialogue_act": "Zusage"
+    "iso_dialogue_act": "Inform"
   },
   {
     "turn_tokens": [
@@ -108,7 +108,7 @@
       ],
       "weg_tokens": []
     },
-    "iso_dialogue_act": "Zusage"
+    "iso_dialogue_act": "Inform"
   },
   {
     "turn_tokens": [
@@ -168,6 +168,6 @@
       ],
       "weg_tokens": []
     },
-    "iso_dialogue_act": "Information_geben"
+    "iso_dialogue_act": "TurnAccept"
   }
 ]

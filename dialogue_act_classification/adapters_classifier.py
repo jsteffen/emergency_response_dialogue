@@ -28,8 +28,8 @@ anno_type = "without_context_with_current_speaker"
 # summary
 # low_resource_turn_and_speaker
 
-do_training = False
-batch_size = 32
+do_training = True
+batch_size = 16#32
 model_name = "bert-base-german-cased"
 data_folder = "csv_da_annotations/csv_"+anno_type
 low_resource_annotation_prefix = ""
@@ -43,24 +43,27 @@ low_resource_annotation_prefix = ""
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoAdapterModel.from_pretrained(model_name)
 
-label2id = {"Absage":0, "Einsatzbefehl":1, "Information_geben":2, "Information_nachfragen":3, "Kontakt_Anfrage":4, "Kontakt_Bestaetigung":5, "Sonstiges":6, "Zusage":7}
+if anno_type=="iso":
+    label2id = {"Answer":0, "Disconfirm":1, "Inform":2, "Request":3, "Offer":4, "Confirm":5, "Auto-positive":6, "TurnAccept":7, "Question":8, "TurnAssign":9, "PropositionalQuestion":10, "Agreement":11, "Promise":12, "TurnTake":13, "AddressRequest":14, "AcceptOffer":15, "AcceptRequest":16, "Pausing":17, "CheckQuestion":18, "DeclineOffer":19, "Auto-negative":20, "SetQuestion":21, "ChoiceQuestion":22, "Instruct":23, "Allo-positive":24, "Other":25}
+else:
+    label2id = {"Absage":0, "Einsatzbefehl":1, "Information_geben":2, "Information_nachfragen":3, "Kontakt_Anfrage":4, "Kontakt_Bestaetigung":5, "Sonstiges":6, "Zusage":7}
 id2label = dict()
 for k,v in label2id.items():
     id2label[v] = k
 
 def encode_data(data):
+    encoded = None
     if anno_type=="without_context_and_without_speaker":
         encoded = tokenizer([doc for doc in data["tokens"]], pad_to_max_length=True, padding="max_length", max_length=128, truncation=True, add_special_tokens=True)
     elif anno_type=="without_context_with_current_speaker" or anno_type=="low_resource_turn_and_speaker":
-        tokenizer([data["speakers"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=256, truncation=True, add_special_tokens=True)
+        encoded = tokenizer([data["speakers"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=256, truncation=True, add_special_tokens=True)
     elif anno_type=="with_context_with_current_and_previous_speaker":
-        tokenizer([data["previous_speakers"][doc_i]+" [SEP] "+data["previous"][doc_i]+" [SEP] "+data["speakers"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=256, truncation=True, add_special_tokens=True)
+        encoded = tokenizer([data["previous_speakers"][doc_i]+" [SEP] "+data["previous"][doc_i]+" [SEP] "+data["speakers"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=256, truncation=True, add_special_tokens=True)
     elif anno_type=="iso_simplified" or anno_type=="iso":
         encoded = tokenizer([data["speakers"][doc_i]+" [SEP] "+data["isoda"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=256, truncation=True, add_special_tokens=True)
     elif anno_type=="summary":
         encoded = tokenizer([truncate_summary(data["summary"][doc_i])+" [SEP] "+data["speakers"][doc_i]+" [SEP] "+doc_tokens for doc_i, doc_tokens in enumerate(data["tokens"])], pad_to_max_length=True, padding="max_length", max_length=512, truncation=True, add_special_tokens=True)
-
-    return (encoded)
+    return encoded
 
 
 def compute_accuracy(p: EvalPrediction):
@@ -119,7 +122,7 @@ if do_training:
 
 
     training_args = TrainingArguments(
-        learning_rate=1e-4,
+        learning_rate=1e-3,
         num_train_epochs=20,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
@@ -144,10 +147,9 @@ if do_training:
         model.save_adapter("adapters/low_resource_adapters/"+task+"_"+low_resource_annotation_prefix.replace(".","-")+"adapter/", task)
         model.save_head("heads/low_resource_heads/"+task+"_"+low_resource_annotation_prefix.replace(".","-")+"head/", task+"_head")
     else:
-        model.save_adapter("adapters/"+task+"_adapter/", task)
-        model.save_head("heads/"+task+"_head/", task+"_head")
+        model.save_adapter("adapters/"+task+"_"+anno_type+"/"+task+"_adapter", task)
+        model.save_head("heads/"+task+"_"+anno_type+"/"+task+"_head", task+"_head")
 
-    model = None
 
 # test evaluation
 
@@ -181,8 +183,10 @@ else:
 
 model.active_adapters = adapter
 dact_classifier = TextClassificationPipeline(model=model, tokenizer=tokenizer, task=task, device=0 if device=="cuda" else -1)
-
-all_labels = ["Absage", "Einsatzbefehl", "Information_geben", "Information_nachfragen", "Kontakt_Anfrage", "Kontakt_Bestaetigung", "Sonstiges", "Zusage"]
+if anno_type=="iso":
+    all_labels = ["Answer", "Disconfirm", "Inform", "Request", "Offer", "Confirm", "Auto-positive", "TurnAccept", "Question", "TurnAssign", "PropositionalQuestion", "Agreement", "Promise", "TurnTake", "AddressRequest", "AcceptOffer", "AcceptRequest", "Pausing", "CheckQuestion", "DeclineOffer", "Auto-negative", "SetQuestion", "ChoiceQuestion", "Instruct", "Allo-positive", "Other"]
+else:
+    all_labels = ["Absage", "Einsatzbefehl", "Information_geben", "Information_nachfragen", "Kontakt_Anfrage", "Kontakt_Bestaetigung", "Sonstiges", "Zusage"]
 
 scores = dict()
 for label in all_labels:
