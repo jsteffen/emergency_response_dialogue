@@ -74,8 +74,8 @@ def annotate_turns(intexts, speakers=None, with_previous_turn=True, with_speaker
     if annotate_dact:
         # prepare model input, adapter and head if only the speaker is used (no previous turn)
         if with_speaker and not(with_previous_turn):
-            adapter = model.load_adapter("adapters/dact_without_context_with_current_speaker/dact_adapter")
-            model.load_head("heads/dact_without_context_with_current_speaker/dact_head")
+            adapter = model.load_adapter("adapters/dact_without_context_with_current_speaker_best/dact_adapter")
+            model.load_head("heads/dact_without_context_with_current_speaker_best/dact_head")
             if speakers is None:
                 raise Exception("For this setting speakers must be specified!")
             else:
