@@ -1,6 +1,7 @@
 import datasets
 from datasets import load_dataset
-from transformers import AutoAdapterModel, AutoTokenizer, AutoConfig
+from adapters import AutoAdapterModel
+from transformers import AutoTokenizer, AutoConfig
 from transformers import BertModel
 from transformers import AdamW, get_linear_schedule_with_warmup
 from torch.utils.data import Dataset

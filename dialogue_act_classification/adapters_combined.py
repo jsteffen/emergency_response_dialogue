@@ -1,4 +1,5 @@
-from transformers import AutoAdapterModel, AutoTokenizer, AutoConfig
+from adapters import AutoAdapterModel
+from transformers import AutoTokenizer, AutoConfig
 from transformers import TextClassificationPipeline, TokenClassificationPipeline
 import torch
 import json

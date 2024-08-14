@@ -1,6 +1,7 @@
 import datasets
-from transformers import AutoAdapterModel, AutoTokenizer, AutoConfig, BertConfig, BertModelWithHeads, AdapterConfig
-from transformers import TrainingArguments, AdapterTrainer, EvalPrediction
+from adapters import AutoAdapterModel, AdapterConfig, AdapterTrainer
+from transformers import AutoTokenizer, AutoConfig, BertConfig
+from transformers import TrainingArguments, EvalPrediction
 from torch.utils.data import Dataset
 import torch
 import torch.nn.functional as F
