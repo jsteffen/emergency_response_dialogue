@@ -11,9 +11,7 @@
 
 import argparse
 import csv
-import logging
 import os
-import random
 import sys
 
 import numpy as np
@@ -21,18 +19,11 @@ import torch
 from sklearn.metrics import f1_score
 from torch.nn import CrossEntropyLoss
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler, TensorDataset
-from torch.utils.data.distributed import DistributedSampler
-from tqdm import tqdm, tqdm_notebook, trange
+from tqdm import tqdm
 from transformers import (
-    WEIGHTS_NAME,
     AdamW,
     AutoModelForSequenceClassification,
     AutoTokenizer,
-    BertConfig,
-    BertForSequenceClassification,
-    BertModel,
-    BertTokenizer,
-    PreTrainedModel,
     get_linear_schedule_with_warmup,
 )
 
@@ -391,11 +382,9 @@ def train_model(args):
             device,
             tokenizer,
             model,
-            args.mode,
             evdata,
             out_dir,
             args.iso_labels,
-            args.max_seq_length,
         )
 
         print(f"Saving model checkpoint to {out_dir}")
@@ -451,12 +440,10 @@ def load_and_eval_model(args):
         device,
         tokenizer,
         model,
-        args.mode,
         ev_data,
         args.output_dir,
         args.iso_labels,
         eval_batch_size=args.eval_batch_size,
-        max_seq_length=args.max_seq_length,
         what="test",
     )
 
@@ -465,18 +452,16 @@ def eval_model(
     device,
     tokenizer,
     model,
-    mode,
-    evdat,
+    evdata,
     output_dir,
     iso_labels,
-    max_seq_length=128,
     eval_batch_size=8,
     what="eval",
     verbose=False,
 ):
-    eval_data = evdat[0]
-    num_labels = evdat[1]
-    all_label_ids = evdat[2]
+    eval_data = evdata[0]
+    num_labels = evdata[1]
+    all_label_ids = evdata[2]
 
     label_map = {label: i for i, label in enumerate(TradrProcessor().get_labels(iso_labels))}
     reversed_label_map = {v: k for k, v in label_map.items()}
@@ -490,7 +475,6 @@ def eval_model(
     eval_loss = 0
     nb_eval_steps = 0
     preds = []
-    prev_labels = ["None"] * eval_batch_size
     label_distribution = dict()
     total_turns = 0
 
@@ -504,7 +488,7 @@ def eval_model(
             logits = model(input_ids, segment_ids, input_mask)
         logits = logits[0]
 
-        # create eval loss and other metric required by the task
+        # create eval loss and other metrics required by the task
         loss_fct = CrossEntropyLoss()
         tmp_eval_loss = loss_fct(logits.view(-1, num_labels), label_ids.view(-1))
         eval_loss += tmp_eval_loss.mean().item()
@@ -516,7 +500,6 @@ def eval_model(
             preds[0] = np.append(preds[0], logits.detach().cpu().numpy(), axis=0)
 
         predicted = np.argmax(logits.detach().cpu().numpy(), axis=1)
-        prev_labels = [reversed_label_map[p] for p in predicted]
 
         for i in range(len(input_ids)):
             tokens = tokenizer.convert_ids_to_tokens(input_ids[i][: sum(input_mask[i])])
