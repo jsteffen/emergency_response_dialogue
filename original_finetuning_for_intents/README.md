@@ -1,12 +1,16 @@
 ## Usage examples:
 
-**Fine-grained ISO-based annotations:**
-`$ python3 finetune_tradr.py --data_dir=data_iso --mode=speaker --iso_labels=True`
-`$ python3 finetune_tradr.py --evaluation=True --data_dir=data_iso --mode=speaker --output_dir=outputs/8 --iso_labels=True`
+**Fine-grained ISO-based annotation (+evaluation):**
+```
+$ python3 finetune_tradr.py --data_dir=data_iso --mode=speaker --iso_labels=True
+$ python3 finetune_tradr.py --evaluation=True --data_dir=data_iso --mode=speaker --output_dir=outputs/8 --iso_labels=True
+```
 
-**Coarse-grained Einsatzbefehl-based annotations:**
-`$ python3 finetune_tradr.py --data_dir=data_einsatzbefehl --mode=speaker`
-`$ python3 finetune_tradr.py --evaluation=True --data_dir=data_einsatzbefehl --mode=speaker --output_dir=outputs/8`
+**Coarse-grained Einsatzbefehl-based annotation (+evaluation):**
+```
+$ python3 finetune_tradr.py --data_dir=data_einsatzbefehl --mode=speaker
+$ python3 finetune_tradr.py --evaluation=True --data_dir=data_einsatzbefehl --mode=speaker --output_dir=outputs/8
+```
 
 E.g. if you evaluate the model trained with corase-grained Einsatzbefehl labels, your console output may look like this (accuracy per label and the overall statistics with macro F1 for the test data):
 ```
