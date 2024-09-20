@@ -1,0 +1,283 @@
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	habe im ersten OG gerade in der Brandentwicklung ein Gefahrgut-Fass grün mit der Kennzeichnung umweltgefährdender Stoff entdeckt	Information_geben
+TL	kannst du sehen ob irgendwelches Medium ausläuft?	Information_nachfragen
+UGV-1	es handelt sich um ein 200-Liter-Fass	Information_geben
+UGV-1	ob ein Medium ausläuft kann ich dir aktuell nicht sagen	Information_geben
+TL	Aussetzung von Thermik?	Information_nachfragen
+UGV-1	keine Thermik	Absage
+TL	okay	Information_geben
+TL	vorrängig weiter Personen suchen	Einsatzbefehl
+UGV-1	ja ich setze Personensuche fort	Zusage
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	die Drohne fliegt	Information_geben
+UAV	ich habe ein Objekt von dem Rauch austritt	Information_geben
+UAV	ich schick das Foto	Information_geben
+TL	das ist gut	Zusage
+TL	einmal aus der Ferne und einmal aus der Nähe wenn möglich	Einsatzbefehl
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	eine Person liegend am Boden gefunden erstes OG bei der Brandentwicklung	Information_geben
+UGV-1	rechtsseitig vom Hochofen das Ding mit den Löchern	Information_geben
+UGV-1	ich schicke dir gleich ein Foto	Information_geben
+TL	nochmal wiederholen Andreas	Einsatzbefehl
+UGV-1	eine Person am Boden liegend gefunden	Information_geben
+UGV-1	erstes Geschoss bei der Brandentwicklung	Information_geben
+UGV-1	ich schicke dir gleich Fotos	Information_geben
+TL	verstanden	Information_geben
+TL	wie weit ist das von dem Treppenabsatz denn entfernt?	Information_nachfragen
+UGV-1	gefühlte 10 bis 20 meter	Information_geben
+TL	Treppenabsatz ersten OG nach 10 bis 20 metern linker Seite erste Person korrekt?	Information_nachfragen
+UGV-1	den Flur geradeaus durch links die Treppe rauf danach rechts abbiegen dann am Hochofen den Hochofen folgen	Information_geben
+UGV-1	dann finden sie die Person	Information_geben
+TL	hier Markus verstanden	Information_geben
+UGV-1	Bild kommt gleich	Information_geben
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	Funkübertragung zur Zeit nicht möglich	Information_geben
+UAV	die Drohne ist gelandet wir reparieren	Information_geben
+TL	hier Markus verstanden	Information_geben
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	ich setze Personensuche fort	Information_geben
+TL	ja verstanden	Information_geben
+TL	sollen also zwei bis drei Vermisste sein nach den ersten Aussagen	Information_geben
+UGV-1	ja verstanden zwei bis drei Vermisste	Information_geben
+TL	Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	Hier Andreas kommen	Kontakt_Bestaetigung
+TL	sind wir da gleich dass wir jetzt zwei Personen gefunden haben oder Bilder von zwei unterschiedlichen Personen haben?	Information_nachfragen
+UGV-1	nein	Absage
+UGV-1	ich habe dir einmal ein Thermo-Image der Person geschickt und einmal ein Live-Bild der Person	Information_geben
+TL	ja	Information_geben
+TL	also es handelt sich um eine Person richtig?	Information_nachfragen
+UGV-1	das ist richtig ich habe eine Person gefunden	Zusage
+UGV-1	das Thermo-Image war eher danach hab ich ein Wechsel vorgenommen um dir ein Live-Bild zu schicken	Information_geben
+TL	das ist verstanden	Information_geben
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	die Drohne ist wieder in der Luft	Information_geben
+UAV	ich habe ein Infrarotbild geschickt da sind zwei Personen zu sehen jetzt nähert sich dort eine dritte	Information_geben
+TL	hier Markus verstanden	Information_geben
+TL	also gehfähige Personen im Gefahrenbereich?	Information_nachfragen
+UAV	ja zumindest in der Nähe davon direkt neben dem Hochofen	Zusage
+TL	hier Markus verstanden	Information_geben
+TL	Dirk von Markus kommen	Kontakt_Anfrage
+UAV	Dirk hört	Kontakt_Bestaetigung
+TL	hast du Erkenntnis über zwei gehfähige Personen anhand dieses Bildes was ich auch erhalten habe?	Information_nachfragen
+UAV	das ist korrekt	Zusage
+TL	Andreas mitgehört?	Information_nachfragen
+UGV-1	ja Andreas mitgehört zwei Personen in der Nähe des Hochofens	Zusage
+TL	also haben wir insgesamt vier Personen im Gefahrenbereich?	Information_nachfragen
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	es handelt sich um drei Personen die nebeneinander stehen	Information_geben
+TL	drei gehfähige Personen richtig?	Information_nachfragen
+UAV	ja	Zusage
+UAV	das Bild hab ich dir zugesandt	Information_geben
+TL	hier Markus verstanden	Information_geben
+TL	Andreas mitgehört?	Information_nachfragen
+UGV-1	ja Andreas mitgehört drei gehfähige Personen	Zusage
+TL	wir haben drei gehfähige und eine am Boden liegende Person	Information_geben
+UGV-1	Markus von Andreas	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	Frage sind diese Personen alle bei der liegenden Person?	Information_nachfragen
+TL	die drei gehfähigen sind nah beieinander	Information_geben
+UGV-1	ja verstanden	Information_geben
+UAV	Markus für Dirk	Kontakt_Anfrage
+UAV	Markus für Dirk kommen	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	so wie ich das gerade gesehen hatte war da noch ein Kopf zu sehen	Information_geben
+UAV	also es passt gut dass das drei gehfähige Personen an einer liegenden sind	Information_geben
+TL	hier Markus verstanden	Information_geben
+TL	wir machen jetzt mal einen Schnitt in der Zeit mache ich eine Übergabe	Information_geben
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	hier Markus kommen	Kontakt_Bestaetigung
+UGV-1	Frage die drei gehfähigen Personen wurden aus der Luft erkannt ist das richtig?	Information_nachfragen
+TL	das ist korrekt	Zusage
+UGV-1	ja verstanden	Information_geben
+TL	hier Markus an alle Operator	Kontakt_Anfrage
+TL	zwei Minuten Funkstille zwecks Übergabe	Information_geben
+UGV-1	Andreas verstanden	Information_geben
+UGV-2	Daniel verstanden	Information_geben
+TL	Daniel von Markus kommen	Kontakt_Anfrage
+UGV-2	Daniel hört	Kontakt_Bestaetigung
+TL	warten	Sonstiges
+TL	Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	hier Andreas kommen	Kontakt_Bestaetigung
+TL	warten	Sonstiges
+TL	Dirk von Markus kommen	Kontakt_Anfrage
+UAV	hier ist Dirk	Kontakt_Bestaetigung
+TL	hier Markus an alle Operator	Kontakt_Anfrage
+TL	Wechsel des Leaders	Information_geben
+UAV	Dirk hat verstanden	Information_geben
+UGV-1	Andreas hat verstanden	Information_geben
+UGV-2	Daniel hat verstanden	Information_geben
+UAV	Thorsten für Dirk kommen	Kontakt_Anfrage
+TL	Thorsten hört Dirk kommt	Kontakt_Bestaetigung
+UAV	ich hab zwei Bilder gerade geschickt das eine mit vier Personen die alle gehfähig sind	Information_geben
+UAV	dann ein weiteres Bild einer Person oberhalb von den anderen erkenntlich an der Warnweste	Information_geben
+TL	also ich wiederhole wir haben vier Personen die sind gehfähig und eine weitere Person mit Warnweste auch gehfähig	Information_geben
+TL	wir haben keine am Boden liegend befindliche Person ist das korrekt?	Information_nachfragen
+UAV	das ist korrekt	Zusage
+TL	gut	Information_geben
+TL	wie verhalten sich die vier Personen verlassen sie das Gebäude und wenn ja in welche Richtung?	Information_nachfragen
+UGV-1	Thorsten von Andreas kommen	Kontakt_Anfrage
+TL	Thorsten hört Andreas kommt	Kontakt_Bestaetigung
+UGV-1	ich habe dir ebenfalls Bilder von drei Personen die aufeinander stehen rübergeschickt	Information_geben
+TL	ich hoffe ihr habt auch eine Landmarke gesetzt	Information_nachfragen
+UGV-1	der weitere der steht war die Person die vorhin gelegen hat optischen Augenscheins nach	Information_geben
+TL	ja ich werte gerade die Bilder aus kommen	Information_geben
+UGV-1	ja verstanden	Information_geben
+UAV	Thorsten für Dirk	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	die Situation von gerade kann ich jetzt nicht mehr gut einsehen weil die Rauchwolke genau davor ist	Information_geben
+UAV	ich erkunde das Umfeld weiter	Information_geben
+TL	ja such mal noch weiter	Information_geben
+TL	Hinweis an alle die vermisste Person ist noch nicht gefunden kommen	Information_geben
+UAV	Thorsten für Dirk	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	die Drohne landet wir müssen Akku tauschen	Information_geben
+UAV	und das Bild hängt	Information_geben
+TL	ja verstanden	Information_geben
+TL	Roboter 1 und Roboter 2 ich habe hier zwei Fotos, auf einem Foto ist ein Wärmebild da kann sich eine am Boden liegende Person befinden	Information_geben
+TL	wer hat dieses Foto gemacht kommen	Information_nachfragen
+UGV-1	das war Roboter 1	Information_geben
+TL	Roboter 1 können Sie den Standort nochmal anfahren	Einsatzbefehl
+TL	und von dort geradeaus weiter auf die Person zufahren?	Einsatzbefehl
+UGV-1	ja ich kann den Standort direkt nochmal anfahren	Zusage
+UGV-1	nur die Person steht jetzt	Information_geben
+TL	gehe davon aus das ist trotzdem die liegende Person ist die wir suchen und finden sollten	Information_geben
+UGV-1	das ist auch meine Vermutung	Information_geben
+UGV-1	habe Standort nochmal angefahren	Information_geben
+UGV-1	Foto ist versandt	Information_geben
+TL	verstanden	Information_geben
+UGV-1	soll ich an diesen Standort stehen bleiben?	Information_nachfragen
+TL	ja korrekt da stehen bleiben	Zusage
+TL	schauen Sie mal im Umkreis ob dort Rettungskräfte sich bewegen kommen	Einsatzbefehl
+UGV-1	ja ich fahre den Rettungskräften über meinen Angriffsweg entgegen und versuche sie zu lotsen	Zusage
+UAV	Thorsten für Dirk kommen	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	die Drohne startet wieder	Information_geben
+TL	ja verstanden die Drohne startet wieder	Information_geben
+TL	folgenden Auftrag an Roboter 2 suchen Sie den Standort des Roboters 1	Einsatzbefehl
+TL	und dort finden Sie Rettungskräfte die Orientierungsprobleme haben um an die verunfallte Person zu gelangen kommen	Einsatzbefehl
+UGV-2	Roboter 2 hat gehört	Information_geben
+UGV-2	aber teilweise unfähig das umzusetzen	Absage
+UGV-2	weil mein Roboter sich teilweise gar nicht bewegt	Information_geben
+TL	letzten Teil des Satzes habe ich nicht verstanden	Information_geben
+TL	wiederholen	Einsatzbefehl
+UGV-2	der Roboter ist momentan wieder ausgesetzt kann sich also gar nicht bewegen	Information_geben
+UGV-2	und ich hab Probleme den zu bewegen	Information_geben
+UGV-2	weil die Kameras auch nicht so funktionieren wie sie sollten	Information_geben
+TL	verstanden	Information_geben
+TL	wenn betriebsbereit Auftrag durchführen	Einsatzbefehl
+UGV-2	ja verstanden	Zusage
+TL	Dirk von Thorsten kommen	Kontakt_Anfrage
+UAV	Dirk hört	Kontakt_Bestaetigung
+TL	benötige Luftbild mit möglichst der leblosen Person die auf dem Wärmescan den ich hier habe zu sehen ist	Einsatzbefehl
+TL	als Anhaltspunkt in dem Bereich muss sich der Roboter 1 befinden kommen	Information_geben
+UAV	ist das ein Foto von mir?	Information_nachfragen
+TL	nein das ist ein Foto von dem Roboter 1	Absage
+TL	Auftrag lautet aus der Luft versuchen den Roboter 1 zu finden und dann abzufotografieren	Einsatzbefehl
+UAV	das ist verstanden wir schalten um auf Wärmebild und gucken	Zusage
+UGV-1	Teamleader von Roboter 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ich bin jetzt an dem Treppenabsatz sehe eine Person in orangefarbener Warnweste	Information_geben
+TL	verstanden Standort Treppenabsatz	Information_geben
+UGV-1	ja richtig	Information_geben
+TL	Dirk von Thorsten kommen	Kontakt_Anfrage
+UAV	Dirk hört	Kontakt_Bestaetigung
+TL	wir haben jetzt ein Trupp auf dem Weg zur verunfallten Person	Information_geben
+TL	neuer Auftrag Personsuche aus der Luft mittels Wärmebildkamera kommen	Einsatzbefehl
+UAV	Personensuche aus der Luft mittels Wärmebildkamera verstanden	Zusage
+TL	Roboter 2 von Thorsten kommen	Kontakt_Anfrage
+UGV-2	Roboter 2 hört	Kontakt_Bestaetigung
+TL	wie ist der Stand der Dinge?	Information_nachfragen
+UGV-2	bin auf dem Treppenabsatz aber weiter links gelegen	Information_geben
+UGV-2	und hab große Aussetzer	Information_geben
+UGV-2	alle paar Sekunden setzt mir der Roboter aus	Information_geben
+TL	verstanden Roboteraussetzer	Information_geben
+TL	in der Zwischenzeit schon irgend etwas an Personen festgestellt oder Lageveränderungen?	Information_nachfragen
+UGV-2	negativ	Absage
+TL	okay	Information_geben
+UGV-1	Teamleader von Roboter 1 kommen	Kontakt_Anfrage
+TL	Teamleader hört Roboter 1	Kontakt_Bestaetigung
+UGV-1	ja habe die Rettungstrupps zum Standort der vermissten Person gebracht	Information_geben
+TL	nächster Auftrag weitere Personensuche	Einsatzbefehl
+TL	absuchen der Fläche vielleicht finden wir die Person dort mit dem Wärmebild	Einsatzbefehl
+UGV-1	ja verstanden ich suche weiter	Zusage
+TL	Dirk von Thorsten kommen	Kontakt_Anfrage
+UAV	Dirk hört	Kontakt_Bestaetigung
+TL	Frage ist die Drohne noch in der Luft?	Information_nachfragen
+UAV	ja die ist immer noch in der Luft	Zusage
+TL	verstanden	Information_geben
+TL	Frage wie sieht's da mit der Brandausbreitung aus?	Information_nachfragen
+UAV	also keine Suche nach Vermissten mehr?	Information_nachfragen
+TL	guck mal auch nebenbei so ein bisschen nach dem Feuer	Einsatzbefehl
+UAV	negativ	Absage
+UAV	ich hab gerade Infrarot und diesen Kunstrauch sieht man dann nicht	Information_geben
+TL	ja verstanden	Information_geben
+TL	hab gerade gehört Feuer soll aus sein	Information_geben
+TL	noch suchen nach weiteren Personen	Einsatzbefehl
+UAV	Drohne landet wegen leerem Akku	Absage
+TL	ja hab ich mir fast gedacht	Information_geben
+UAV	Thorsten für Dirk	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	möchtest du normale oder Infrarot-Bilder haben?	Information_nachfragen
+TL	ich möchte Infrarot-Bilder haben mit dem Ziel Leckagen festzustellen beziehungsweise Wärmestrahlung	Information_geben
+TL	Roboter 1 von Thorsten kommen	Kontakt_Anfrage
+UAV	hier Roboter 1 kommen	Kontakt_Bestaetigung
+TL	zur Lage Menschenrettung durchgeführt und abgeschlossen	Information_geben
+TL	jetzt gilt der Auftrag auslaufende Chemikalien und Gefahrstoffe zu finden und zu orten	Einsatzbefehl
+UAV	ja verstanden	Zusage
+UAV	auf der Etage wo die Personen gefunden wurden befindet sich ein 200-Liter-Gefahrstoffbehälter Kennzeichnung umweltgefährdend	Information_geben
+UAV	Behältnis scheint dicht zu sein	Information_geben
+TL	stelle fest ein dichtes 200-Liter-Fass umweltgefährdend gekennzeichnet	Information_geben
+UAV	das ist korrekt	Information_geben
+TL	Robot 2 von Thorsten kommen	Kontakt_Anfrage
+UGV-2	Roboter 2 hört	Kontakt_Bestaetigung
+TL	Frage wie ist die Situation am Roboter?	Information_nachfragen
+UGV-2	ich hab einen großen Zeitunterschied zwischen Bewegung und Eingabe	Information_geben
+UGV-2	und ich bin auf dem Weg zum Roboter 1	Information_geben
+TL	ja verstanden	Information_geben
+TL	zur Lage die Personen sind alle gerettet und der medizinischen Versorgung zugeführt	Information_geben
+TL	neuer Auftrag lautet Suchen von Leckagen von Undichtigkeiten und Chemikalien	Einsatzbefehl
+UGV-2	Roboter 2 hat verstanden	Zusage
+UGV-1	Teamleader von Roboter 1 kommen	Kontakt_Anfrage
+TL	Teamleader hört kommen	Kontakt_Bestaetigung
+UGV-1	Treppenaufgang und dann direkt links blauer Kanister unbekannter Inhalt sieht auch ebenfalls dicht aus	Information_geben
+TL	wiederhole am Treppenausgang blauer Kanister	Information_geben
+UGV-1	ja richtig	Information_geben
+TL	verstanden	Information_geben
+TL	benötige Foto	Einsatzbefehl
+UGV-1	Foto ist versandt	Information_geben
+UAV	Thorsten für Dirk kommen	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	ich hab ein Bild jetzt geschickt auf einem Behältnis oben eine helle Person	Information_geben
+UAV	es könnten Personen sein das was hell leuchtet	Information_geben
+TL	ich werte das Bild aus	Information_geben
+UGV-1	Teamleader von Operator 1	Kontakt_Anfrage
+TL	Teamleader hört kommen	Kontakt_Bestaetigung
+UGV-1	ich habe dir gerade noch ein Foto von dem grünen Gefahrgutbehälter 200 liter rübergeschickt	Information_geben
+TL	von dem Fass?	Information_nachfragen
+UGV-1	ja von dem Fass	Zusage
+UGV-1	der ist in Sichtweite zu dem blauen Kanister	Information_geben
+TL	ja kann die Daten auswerten	Information_geben
+TL	hat zwar alles hier eine andere Farbe aber das Fass selber ist grün	Information_geben
+UGV-1	korrekt das Fass selber ist grün	Information_geben
+UAV	Thorsten für Dirk kommen	Kontakt_Anfrage
+TL	Thorsten hört kommen	Kontakt_Bestaetigung
+UAV	das Bild gerade würde ich ganz klar als Person einstufen	Information_geben
+UAV	ich kann dir gerne weitere Bilder zukommen lassen	Information_geben
+TL	ja würde ich mich darüber freuen	Zusage
+TL	bräuchte nur noch ein klareres Foto von der Person	Einsatzbefehl
+UAV	gut	Zusage
+UAV	links mittig ist die Person liegend	Information_geben
+TL	auf welchem Bild jetzt auf einem Wärmebild oder auf einem richtigen Foto?	Information_nachfragen
+UAV	auf einem Wärmebild ist links liegend die Person auf einem zylindrigen Gegenstand	Information_geben
+TL	ja verstanden	Information_geben
+TL	Hinweis an alle eingeteilten Kräfte Übungsende	Information_geben
+UGV-1	Roboter 1 hat verstanden Übungsende	Information_geben
+UGV-2	Roboter 2 hat verstanden Übungsende	Information_geben
+UAV	Drohne hat verstanden Übungsende	Information_geben

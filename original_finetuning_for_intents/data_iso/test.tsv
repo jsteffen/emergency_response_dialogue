@@ -1,0 +1,176 @@
+UAV	UAV hört	TurnAccept
+UGV-1	ja, ist verstanden	Auto-positive
+TL	Höre	TurnAccept
+UGV-1	Auf der linken Seite sehe ich eine Palette mit Wellen	Inform
+UAV	ja zumindest in der Nähe davon direkt neben dem Hochofen	Confirm
+UGV-1	Teamleader von UGV-1 kommen	TurnAssign
+UAV	das habe ich verstanden	AcceptRequest
+TL	Okay Einsatzauftrag für dich du fährst weiter in die Halle rein und suchst nach dem Zugang mit dem du dich weiter nach Osten entwickeln kannst Kommen	Opening
+UAV	Benno für Lena	TurnAssign
+TL	wir haben jetzt ein Trupp auf dem Weg zur verunfallten Person	Inform
+TL	Bodenroboter zwei von Markus kommen	TurnAssign
+UGV-2	Daniel verstanden	Auto-positive
+UGV-1	Teamleader von UGV-1 kommen	TurnAssign
+TL	ja, verstanden	Auto-positive
+TL	Für Sie konkreter Auftrag Sie begeben sich zur nördlichen Gebäudekante und bewegen sich dann westwärts	Request
+TL	UAV für Einsatzleiter	TurnTake
+UGV-1	Markus von Andreas kommen	TurnAssign
+UGV-2	im ersten Obergeschoss vor einem Hochofen rechtsseitig ein grünes Fass und Rauchentwicklung	Answer
+TL	ja, verstanden	Auto-positive
+UAV	negativ ich hab gerade Infrarot und diesen Kunstrauch sieht man dann nicht	DeclineRequest
+UGV-1	können wir weitermachen?	PropositionalQuestion
+UGV-1	also, ich hab den UAV 2 getroffen kann da aber mich nicht weiter	Answer
+UAV	wir müssen gleich nochmal den Akku tauschen, hast du danach noch einen Auftrag für uns?	Inform
+UGV-1	ja, hier ist der UGV 1 von Teamleader	TurnAccept
+UAV	die Drohne hört	TurnAccept
+UGV-1	Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein	Inform
+UGV-2	Direction is correct	Inform
+UAV	Ungefähr an der Position von ASA 310	Answer
+TL	Na ja das ist verstanden	Auto-positive
+TL	ja korrekt da stehen bleiben	Confirm
+UAV	ich hab dir gerade ein Übersichtsbild geschickt, da erkennt man den gefüllten - also den großen Hochofen sag mir, wo du hinmöchtest	Inform
+TL	ja verstanden	AcceptOffer
+TL	Übungsende	Inform
+UGV-2	ja, ich weiß, ich seh den Rauch ab und zu	Confirm
+TL	Ja verstanden	Auto-positive
+TL	ich höre	TurnAccept
+TL	ich möchte Infrarot-Bilder haben mit dem Ziel Leckagen festzustellen beziehungsweise Wärmestrahlung	Answer
+TL	Foto 235?	CheckQuestion
+UAV	ja, das ist schon mal gut, ja	Auto-positive
+UAV	das Bild hab ich dir zugesandt	Inform
+UGV-1	erstes Geschoss bei der Brandentwicklung	Inform
+TL	UGV Drohne von Teamleader, kommen	TurnAssign
+UGV-1	Teamleader von UGV 1	TurnAccept
+TL	hier Markus verstanden	Auto-positive
+UGV-1	ja, hab ich, da müsstest ein Foto von hab'n	Confirm
+TL	ihr bewegt euch weiter in westlicher Richtung?	CheckQuestion
+UGV-1	ja, zur Info - ich müsste mich jetzt genau zwischen beiden Hochöfen befinden	Inform
+TL	Höre	TurnAccept
+TL	Wenn ihr Fotos macht bitte gebt mir die Fotonummer ich verlier gerade jetzt ein bisschen den Überblick über die Fotos	Request
+TL	noch ein Bild schicken, und das aber mit einem Schwarz-Weiß-Hintergrund	Request
+TL	verstanden	Auto-positive
+TL	Ja okay dann machen wir mal gerade einen Neustart	Auto-positive
+UGV-2	ich schick dir nochmal einen Schnappschuss von ein bisschen weiter weg	Offer
+UGV-2	UGV 2 von Einsatzleiter	TurnAssign
+TL	dein Auftrag ist, an diesem Raum vorbei, wo der Operator 1 drin ist, und da ab da weiter zu suchen nach Menschen	Instruct
+UGV-1	Foto ist erstellt und geteilt	Inform
+TL	ja, reicht mir erst mal aus, setz die Erkundung fort	Answer
+TL	ich höre	TurnAccept
+TL	Operator 2 für Teamleader, kommen	TurnAssign
+TL	UGV, warten	Pausing
+UAV	UAV Operator hört	TurnAccept
+UGV-2	UGV 2, verstanden	Auto-positive
+TL	das heißt, du bist da rechts abgebogen, in den Raum rein, richtig?	CheckQuestion
+TL	Lena für Benno	TurnAssign
+TL	höre	TurnAccept
+UGV-2	Die müssten auch ungefähr von meiner Position gekommen sein	Inform
+TL	hier der Teamleader	TurnTake
+UAV	bisher ist das einzige	Answer
+UGV-1	ja verstanden	Auto-positive
+TL	Also ich kann das eine nicht gut erkennen	Inform
+TL	Nähere dich mal UGV-2 da sind zwei Proben die er eventuell aufnehmen muss	Request
+UAV	wir haben ein Foto geschickt, wir schalten jetzt mal auf Infrarot, um zu gucken, ob wir irgendwo eine thermische Entwicklung erkennen können	AddressRequest
+UGV-1	ja, der Operator 1 hört	TurnAccept
+TL	Teamleader	TurnAccept
+UGV-2	UGV-2	TurnAccept
+UGV-2	hier UGV 2, verstanden	Auto-positive
+TL	ich höre	TurnAccept
+TL	verstanden	Auto-positive
+TL	Teamleader hört	TurnAccept
+TL	Daniel ich hab dich verstanden	Auto-positive
+UGV-2	wir befinden uns auf einer Rampe	Answer
+UGV-1	ich korrigiere - UGV 1	SelfError
+TL	Wo laufen denn deine Fotos gerade rein in welchen dieser Container?	Question
+UGV-2	ja, da haben wir es gerade ein bisschen schwierig	Inform
+UGV-1	ja, hab ich verstanden, ich guck nochmal	Auto-positive
+UGV-1	Hab dir ein Foto gemacht geteilt kommen	Inform
+UAV	ja, ich sehe dich	Agreement
+UAV	Markus für Dirk	TurnAssign
+UGV-1	Drohne von UGV 1	TurnAssign
+UGV-2	ich schick noch mal ein aktuelles Foto von dem Eingang, vor dem ich jetzt stehe	Promise
+TL	Und dann weiter vorgehen	Request
+UGV-1	ja, ist verstanden	AcceptRequest
+UAV	ja	Confirm
+TL	ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?	PropositionalQuestion
+UAV	Verstanden	Auto-positive
+UGV-2	Bisschen rissige Säulen aber es wird halten Überdimensionierung	Answer
+UGV-1	ja, positiv, wird gemacht	AcceptRequest
+TL	UAV für Teamleader	TurnAssign
+TL	wie weit seid ihr?	SetQuestion
+TL	ich seh dich auf dem Bildschirm	Inform
+UGV-1	Kannst du denn mein Foto empfangen das ich gerade geteilt habe?	PropositionalQuestion
+UGV-1	Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen	DeclineRequest
+TL	UGV-2 von Einsatzleiter	TurnAssign
+UGV-1	ich breche dann die Erkundung in östlicher Richtung ab	Inform
+TL	Andreas kommen	TurnAccept
+UAV	negativ	Disconfirm
+UGV-2	UGV 2 hört	TurnAccept
+UGV-1	dann finden sie die Person	Answer
+TL	was ist mit der Drohne? Teamleader, kommen	TurnAssign
+TL	prima	Auto-positive
+TL	verstanden	Auto-positive
+UAV	Ja zur Erkundung von Rauchquellen Personen	AcceptRequest
+TL	das ist verstanden	Auto-positive
+TL	könnt ihr mir Näheres zu dem Behälter geben?	Request
+TL	Dirk kommen	TurnAccept
+UGV-1	meine Kamera die Realbild-Kamera ist ausgefallen	DeclineRequest
+UGV-2	ja verstanden	AcceptRequest
+UGV-1	ob ein Medium ausläuft kann ich dir aktuell nicht sagen	Answer
+UAV	ich hab dir jetzt zwei Bilder geschickt, eine Detailaufnahme	Inform
+TL	Ja der Einsatzleiter an alle	Auto-positive
+UGV-2	korrekt	Confirm
+UAV	Bild ist draußen, ich hab's geteilt	Confirm
+UGV-1	ja, ist verstanden	AcceptOffer
+TL	verstanden	Auto-positive
+TL	Teamleader, verstanden	Auto-positive
+TL	In erster Linie suchen wir nach Verletzten	Request
+UAV	Teamleader von UAV operator kommen	TurnAssign
+UAV	Hier UAV operator	TurnAccept
+UAV	ich kann dir gerne weitere Bilder zukommen lassen	Offer
+UGV-2	Roboter hat zwei komplette Aussetzer funktionert dann gar nicht	Inform
+UAV	das Bild gerade würde ich ganz klar als Person einstufen	Inform
+UGV-1	ich versuche jetzt noch von dem liegenden Fass die UN-Nummer rauszu'kommen, was ich bereits schon gedreht hab was ich 	Promise
+UGV-1	ja okay, dann müsste ich dich ja sehen, der steht ja vor die Nebelmaschine?	Inform
+TL	hast du eine Möglichkeit, dass Fass näher zu identifizieren, was da drin ist?	Request
+TL	Aber auch Hitzequellen Rauchquellen oder chemische Substanzen melden und auf der Karte markieren	Request
+UAV	Einsatzleiter von UAV	TurnAssign
+TL	ja, mache ich	AcceptSuggestion
+TL	wir machen jetzt mal einen Schnitt in der Zeit mache ich eine Übergabe	Inform
+TL	Roboter 1 von Thorsten kommen	TurnAssign
+UGV-1	Andreas verstanden	Auto-positive
+UAV	die Drohne landet wir müssen Akku tauschen	Inform
+TL	ich höre	TurnAccept
+UAV	ja, das ist korrekt	Confirm
+UAV	Markus für Dirk	TurnAssign
+UAV	ja, das habe ich verstanden	AcceptRequest
+UGV-1	UGV-1 hört	TurnAccept
+TL	einmal eine Rundumsicht	Request
+UAV	Markus für Dirk	TurnAssign
+UAV	dann ein weiteres Bild einer Person oberhalb von den anderen erkenntlich an der Warnweste 	Inform
+UGV-1	ich schick' dir aber erst nochmal 'n Foto	Promise
+UAV	die Drohne startet jetzt	Inform
+UGV-1	der ist in Sichtweite zu dem blauen Kanister	Inform
+UGV-2	und ich bin auf dem Weg zum Roboter 1	Inform
+TL	dort mit dem Roboter hinfahren und mit der Menschensuche beginnen	Request
+UGV-1	negativ	Disconfirm
+TL	ich möchte mal, dass du mit der - mit der Drohne jetzt weiter fliegst zum anderen Hochofen, quasi von der anderen Seite der Einsatzstelle aus Fotos machst	Request
+UGV-1	hier der Operator 1	TurnAccept
+UAV	hier Roboter 1 kommen	TurnAccept
+TL	Auftrag für dich geradeaus die Treppe hochfahren, 50 meter rein, linksseitig dichte Rauchentwicklung	Instruct
+TL	UGV 2 von Einsatzleiter	TurnAssign
+TL	von dem Fass?	CheckQuestion
+UGV-2	na ja gut, dann mach du ein Foto von dem Fass und ich drehe um und erkunde die andere Seite	Suggestion
+TL	UGV 1	TurnAssign
+TL	ich höre	TurnAccept
+UGV-1	Ja ich versuch die Probeentnahmen zu fotografieren	AddressRequest
+UGV-1	Teamleader von UGV 1	TurnAssign
+UGV-1	ja, das kann ich machen	AcceptRequest
+UGV-1	beide Verschluss-Stopfen sind fest verschlossen	Inform
+TL	Operator 2, wie ist dein Standort?	SetQuestion
+TL	Wer fährt denn da schon?	SetQuestion
+UGV-1	ich kann höchstens so fotografieren, dass ich halt den Hochofen drauf hab'	AddressRequest
+UAV	das ist verstanden	Auto-positive
+TL	Höre	TurnAccept
+UGV-2	ja, verstanden, erkunden in südlicher Richtung	AcceptRequest
+UGV-2	Roboter 2 hört	TurnAccept
+UAV	Einsatzführer von UAV	TurnAssign

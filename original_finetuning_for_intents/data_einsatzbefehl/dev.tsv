@@ -1,0 +1,283 @@
+UAV	UAV hat Softwareprobleme wir versuchen es zu beheben	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Bitte melden wenn wieder einsatzbereit	Einsatzbefehl
+UAV	Verstanden	Zusage
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+UGV-1	Hier UGV-1	Kontakt_Bestaetigung
+TL	Wie ist der Status?	Information_nachfragen
+UGV-1	Ja ich hab mich hier erst weiter nach vorne bewegt	Information_geben
+UGV-1	Weiter keine Feststellung rechts ist der Feuerlöscher	Information_geben
+UGV-1	Auf der linken Seite sehe ich eine Palette mit Wellen	Information_geben
+UGV-1	Werde weiter geradeaus erkunden kommen	Information_geben
+UGV-1	Ja war schon weiter	Information_geben
+UAV	UAV ist wieder einsatzbereit	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Dann bitte erneut starten und dann in östlicher Richtung erst mal fliegen	Einsatzbefehl
+TL	Dass du dass du mal ein Foto machst du auf Höhe von ASA 310	Einsatzbefehl
+TL	Ich orientiere mich nur an der Karte das heißt nach rechts wäre Osten du folgst einfach der langen Straße praktisch	Information_geben
+UAV	Alles klar	Zusage
+UAV	danke	Sonstiges
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-2	Ich hab dir gerade ein Bild geschickt	Information_geben
+UGV-2	Da steht ein Stuhl auf dem Stuhl liegt ein Paket und vor dem Stuhl steht ein Paket	Information_geben
+UGV-2	Sicht ist relativ schlecht	Information_geben
+UGV-2	das blendet stark	Information_geben
+TL	Ist das schlimm?	Information_nachfragen
+TL	Ja ist verstanden	Information_geben
+TL	Ich habe gerade keine Connection	Information_geben
+TL	kann dein Foto nicht sehen	Information_geben
+TL	Bleib mal gerade an der Position	Einsatzbefehl
+TL	wir starten dich noch gerade neu	Information_geben
+TL	UGV-2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV-2	Kontakt_Bestaetigung
+TL	Also ich kann das eine nicht gut erkennen	Information_geben
+TL	Dein Einsatzauftrag trotzdem setz den Arm ein und nimm die Probe auf	Einsatzbefehl
+UAV	UAV hat Bilder in westlicher Blickrichtung verfügbar	Information_geben
+TL	Ja ist verstanden	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Kommen	Kontakt_Bestaetigung
+UGV-1	Ja ich hab dir jetzt mal ein Foto von meinem Standort geschickt	Information_geben
+UGV-1	Sehe den Tango rechtseitig vor mir	Information_geben
+UGV-1	Würd jetzt weiter geradeaus fahren und da weiter erkunden	Information_geben
+TL	Moment warten	Sonstiges
+TL	UGV-1	Kontakt_Anfrage
+UGV-1	Hier UGV-1	Kontakt_Bestaetigung
+TL	Wo laufen denn deine Fotos gerade rein in welchen dieser Container?	Information_nachfragen
+TL	Ja ich hab sie gefunden sie sind in Sankt Augustin	Information_geben
+UGV-1	Ja ich erkunde dann weiter geradeaus kommen	Information_geben
+TL	Negativ	Absage
+TL	Nähere dich mal UGV-2	Einsatzbefehl
+TL	da sind zwei Proben die er eventuell aufnehmen muss	Information_geben
+TL	Fahr mal bitte näher daran	Einsatzbefehl
+TL	und mach mal Foto wie er das macht	Einsatzbefehl
+TL	Und guck mal ob du ein genaues Bild von diesen Samples kriegen kannst	Einsatzbefehl
+UGV-1	Ja ich gehe jetzt vor zu UGV-2	Zusage
+UGV-1	und versuch die Probenentnahme zu fotografieren kommen	Zusage
+TL	UAV für Einsatzleiter	Kontakt_Anfrage
+TL	Wo ist gerade dein Standort?	Information_nachfragen
+UAV	Ungefähr an der Position von ASA 310	Information_geben
+TL	Okay	Information_geben
+TL	Hast du das letzte Foto gepublished?	Information_nachfragen
+TL	Ich konnte es noch nicht sehen	Information_geben
+UAV	Der UAV Pilot berichtet von Rauch der aus der Halle kommt	Information_geben
+UAV	Wir versuchen davon ein Foto zu machen	Information_geben
+TL	Ja verstanden	Zusage
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ich seh ein extrem helles hell beleuchtetes Gerät	Information_geben
+UGV-1	Ich kann's nicht erkennen was es ist	Information_geben
+TL	Ja was willst du mir damit sagen?	Information_nachfragen
+UGV-1	Ja schau mal auf das Foto	Information_geben
+	bin ich in der Nähe des UGV-2? Frage	Information_nachfragen
+TL	Foto 235?	Information_nachfragen
+UGV-1	Kann ich dir nicht genau sagen	Information_geben
+UGV-1	Kann ich nicht bestätigen	Information_geben
+TL	UAV für Einsatzleitung	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	Also ich kann keine Rauchentwicklung auf deinem Foto erkennen	Information_geben
+TL	Kreise mal bitte jetzt dann um ASA 352 herum	Einsatzbefehl
+TL	Und mach sozusagen mal ein Rundumfoto das heißt aus den anderen beiden Himmelsrichtungen auch noch	Einsatzbefehl
+UAV	Das kann ich hier leider nicht erkennen	Absage
+UAV	Das letzte Foto das ich geshared habe?	Information_nachfragen
+TL	Okay das scheint 297 zu sein	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja im letzten Foto das ich geteilt habe ich versucht die Probenentnahme zu fotografieren kommen	Information_geben
+TL	Ja	Information_geben
+TL	Ja ich guck's mir an	Information_geben
+TL	UAV für Einsatzleitung kommen	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	Wo ist dieser eine Eingang jetzt genau ist der praktisch südlich von ASA 310?	Information_nachfragen
+UAV	Das ist südlich das ist es an der an der Position wo Echo-Start wo der Echo-Punkt ist also der der Halleneingang hier	Information_geben
+TL	O. k.	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	UGV-1 kommen Sie	Kontakt_Bestaetigung
+UGV-1	Ja ich versuch die Probeentnahmen zu fotografieren	Information_geben
+UGV-1	Habe aber hier extrem schlechte Sicht	Information_geben
+UGV-1	aufgrund von reflektierendem Licht	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	Ja verstanden	Information_geben
+TL	UGV-1 von Einsatzleitung	Kontakt_Anfrage
+UGV-1	UGV-1 hört	Kontakt_Bestaetigung
+TL	Ja die UAV hat berichtet dass es eine Rauchentwicklung gibt aus dem Hallentorbogen wo unser Startpunkt ist	Information_geben
+TL	Kannst du dich in die Richtung zurückbegeben und da mal nachgucken	Einsatzbefehl
+UGV-1	Ja ich versuch zum Startpunkt zurückzukehren und prüfe ob Rauchentwicklung	Zusage
+TL	Wenn's geht fährst du nicht den Weg zurück den du gekommen bist sondern eben erst mal Richtung Süden von Darmstadt aus und dann wieder Richtung Richtung Startpunkt sozusagen	Einsatzbefehl
+UGV-1	Ja ich prüf das ob ich da weiterkomme kommen	Zusage
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-2	Die erste Probe genommen und in den Korb abgelegt	Information_geben
+UGV-2	versuche jetzt die zweite auf dem Stuhl zu nehmen	Information_geben
+TL	Ja verstanden	Zusage
+TL	Konntest du schon mal was erkennen sind die Behälter dicht oder undicht?	Information_nachfragen
+UGV-2	Das ist nicht erkennbar	Information_geben
+UGV-2	es handelt sich scheinbar um Papp-Pakete kleine	Information_geben
+TL	Und konntest du irgendwelche Markierungen darauf erkennen oder Schilder?	Information_nachfragen
+UGV-2	Ich versuch gleich nach dem Ablegen vom zweiten nochmal nen Blick auf den anderen zu werfen	Information_geben
+UGV-1	Ja hab mich jetzt nach Süden gewandt sehe jetzt in erster Linie keine Möglichkeit auf dem anderem Wege zurückzukommen	Information_geben
+UGV-1	Könnte linksseitig schauen ob ich nen Blick auf die auf die andere Seite bekommen kann	Information_geben
+UGV-1	aber der Weg wird wahrscheinlich nicht zur Verfügung stehen	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	Fahr trotzdem erst mal in die Richtung	Einsatzbefehl
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-2	Auf dem Stuhl befinden sich zwei Pakete	Information_geben
+UGV-2	Eins davon ist mit dem Gefahrgutssymbol reizend das X gekennzeichnet Trader Oxyn Nummer eins	Information_geben
+TL	Kannst du ein Foto machen?	Einsatzbefehl
+UGV-2	Kann ich ein Snapshot von der linken Seite machen weißt du das?	Information_nachfragen
+UAV	Teamleiter von UAV	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UAV	Ich habe ein Übersicht ein Übersichtsfoto geshared von ungefähr der Position Tango ASA 352	Information_geben
+UAV	Und jetzt sind wir gelandet um den Akku zu tauschen	Information_geben
+UAV	Erbitte weitere Anweisungen	Information_nachfragen
+TL	Ja	Information_geben
+TL	der Einsatzleiter an alle	Kontakt_Anfrage
+TL	Wenn ihr Fotos macht bitte gebt mir die Fotonummer	Einsatzbefehl
+TL	ich verlier gerade jetzt ein bisschen den Überblick über die Fotos	Information_geben
+UGV-1	Teamleiter von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja ich könnte jene Rauchentwicklung feststellen beziehungsweise es könnte eine Rauchentwicklung sein	Information_geben
+UGV-1	Aber kann da nicht näher erkunden da da ein Geländer im Weg ist	Information_geben
+	kommen	Kontakt_Anfrage
+UGV-1	Ich hab dir ein Foto gemacht	Information_geben
+UGV-1	Ich meine müsste Foto 300 sein	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	Ja verstanden	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+UGV-1	Ich hab die Connection zur Database verloren	Information_geben
+TL	Ja okay	Information_geben
+TL	dann machen wir mal gerade einen Neustart	Information_geben
+UAV	Teamleiter von UAV	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UAV	UAV ist wieder startbereit	Information_geben
+UGV-1	Teamleader von UGV-1	Kontakt_Anfrage
+TL	UAV dann bitte starten Live-Monitoring	Einsatzbefehl
+TL	guck mal ob du da weitere Rauchentwicklungen finden kannst	Einsatzbefehl
+TL	UGV-1	Kontakt_Bestaetigung
+UGV-1	Ja ich hab hier keine Reaktion bei dem Roboter und keine Verbindung mehr zur Datenbank	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	UGV-2 für Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV-2	Kontakt_Bestaetigung
+TL	Gibt's ein technisches Problem bei dir?	Information_nachfragen
+UGV-2	Ja ich versuchte ihn gerade in den Behälter zu setzen aber irgendwie hat er sich aufgehangen	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Das heißt du kannst im Moment gar nichts machen?	Information_nachfragen
+UGV-2	Also ich hab gerade die Rückmeldung gekriegt dass bei UGV-2 das Kamerakabel zu oft oben drumgewickelt ist	Information_geben
+UGV-2	und dass deshalb der Arm nicht mehr geht	Information_geben
+TL	Okay	Information_geben
+TL	konntest du denn eine Probenahme beenden?	Information_nachfragen
+UGV-2	Die erste Probenahme ist beendet das zweite Paket hängt in der Place pose über der Box	Information_geben
+TL	Gut	Information_geben
+TL	das heißt du kannst dich jetzt ja gar nicht bewegen?	Information_nachfragen
+UGV-2	Das könnte man ausprobieren ob man sich bewegen kann aber ich denke eher nicht	Information_geben
+TL	Halt deine Position	Einsatzbefehl
+UAV	Teamleader von UAV	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UAV	Wir haben weitere Fotos von der Rauchentwickung direkt an der Startposition am Eingang	Information_geben
+UAV	Leider kann ich nicht sehen welches die Fotonummern sind	Information_geben
+UAV	Kann ich versuchen	Information_geben
+UAV	Wir haben da wahrscheinlich dann Probleme mit der Datenverbindung	Information_geben
+UAV	Aber wir werden's mal versuchen	Information_geben
+TL	Ja verstanden	Zusage
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+TL	UGV UGV-1	Kontakt_Anfrage
+UGV-1	UGV-1	Kontakt_Bestaetigung
+TL	Wie ist jetzt dein Status	Information_nachfragen
+UGV-1	Eher Status 6	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	Okay	Information_geben
+TL	d.h. wir haben beide UGV im Moment nicht einsatzbereit?	Information_nachfragen
+UGV-1	Richtig verstanden	Zusage
+UAV	UAV landet	Information_geben
+TL	Ja verstanden	Information_geben
+TL	dann für euch Ende der Mission	Einsatzbefehl
+TL	UGV-2 für Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV-2 hört	Kontakt_Bestaetigung
+TL	Ja dann versuch vorsichtig zurückzukommen	Einsatzbefehl
+UGV-2	Ja dann versuche ich mal vorsichtig zurückzukommen	Zusage
+UGV-1	Teamleader von UGV-1	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja my robot is lost	Information_geben
+TL	Ja	Information_geben
+TL	dann Missionsende für Sie	Einsatzbefehl
+TL	Andreas Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	ja Andreas kommen	Kontakt_Bestaetigung
+TL	Bodenroboter zwei von Markus kommen	Kontakt_Anfrage
+TL	Feuerwehr Bochum von Markus kommen	Kontakt_Anfrage
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	ich wäre soweit einsatzbereit	Information_geben
+UGV-1	soll ich meinen Erkundungsbefehl fortsetzen oder beginnen?	Information_nachfragen
+TL	ja umgehend beginnen ohne möglichst wenig Zeitverzögerung um eine höhere Erfolgschance zur Menschenrettung zu haben	Information_geben
+UGV-1	ja verstanden ich beginne mit der Erkundung	Information_geben
+TL	Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	ja Andreas kommen	Kontakt_Bestaetigung
+TL	gibt es schon irgendwelche nennenswerten Erkenntnisse?	Information_nachfragen
+UGV-1	negativ keine nennenswerten Erkenntnisse	Absage
+TL	ja verstanden	Information_geben
+TL	Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	ja Andreas kommen	Kontakt_Bestaetigung
+TL	hat er schon irgendwelche nenneswerten Erkenntnisse mit Hinblick auf besondere Gefahren oder thermische Ausbreitung?	Information_nachfragen
+UGV-1	nein negativ	Absage
+TL	ja das ist gut zu wissen verstanden	Information_geben
+TL	Andreas und Daniel könnt ihr mir beide jeweils schon mal ein Foto von eurem aktuellen Standort senden?	Einsatzbefehl
+UGV-1	meine Kamera die Realbild-Kamera ist ausgefallen	Absage
+UGV-1	ich kann dir lediglich ein Wärmebild schicken	Information_geben
+TL	das ist eigentlich nicht notwendig	Absage
+UGV-1	okay	Information_geben
+UGV-1	sobald ich eine Veränderung habe schicke ich dir ein Bild	Information_geben
+TL	verstanden	Zusage
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	die Drohne wird startbereit gemacht	Information_geben
+UAV	wir werden gleich mit der Personensuche starten	Information_geben
+TL	ja	Information_geben
+TL	den Suchbeginn bitte mitteilen	Einsatzbefehl
+TL	der Einsatz-Auftrag ist unverändert Erkundung nach Personen	Information_geben
+UGV-1	verstanden	Information_geben
+UAV	Markus für Dirk	Kontakt_Anfrage
+TL	Dirk kommen	Kontakt_Bestaetigung
+UAV	die Drohne startet jetzt	Information_geben
+TL	hier Markus verstanden	Information_geben
+TL	Andreas von Markus kommen	Kontakt_Anfrage
+UGV-1	hier Andreas kommen	Kontakt_Bestaetigung
+TL	gibt es irgendwelche Erkenntnisse zur Personensuche?	Information_nachfragen
+UGV-1	bis dato noch nicht	Absage
+UGV-1	ich bin jetzt einen Weg bis zum Ende weitergefahren und dann gehe ich linker Handregel weiter	Information_geben
+TL	ja verstanden	Information_geben
+TL	Daniel von Markus kommen	Kontakt_Anfrage
+UGV-2	Daniel hört	Kontakt_Bestaetigung
+TL	gibt es schon irgendwelche Erkenntnisse über das Ausmaß das Schadenausmaß und Gefahren?	Information_nachfragen
+UGV-2	nein negativ	Absage
+UGV-2	befinde mich noch in der Startposition	Information_geben
+TL	das ist verstanden	Information_geben
+TL	Dirk von Markus kommen	Kontakt_Anfrage
+UAV	hier ist Dirk	Kontakt_Bestaetigung
+UAV	nein ich habe zur Zeit überhaupt kein Bild von der Drohne	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	Andreas kommen	Kontakt_Bestaetigung
+UGV-1	ich bin eine Etage hochgefahren als den Startgang ganz durch dann links ein Stockwerk gewechselt	Information_geben
+UGV-1	ich habe hier extreme Rauchentwicklung	Information_geben
+TL	ja das ist verstanden	Information_geben
+UGV-1	aber aktuell noch keine Hitze-Direktion	Information_geben
+TL	ist bis dahin gefahrlosen Einsatz von Einsatzkräften möglich?	Information_nachfragen
+UGV-1	meine Einschätzung unter PA jederzeit möglich ja	Zusage
+TL	das ist verstanden	Information_geben
+UGV-1	Markus von Andreas kommen	Kontakt_Anfrage
+TL	hier Markus kommen	Kontakt_Bestaetigung
+UGV-1	im ersten Obergeschoss wo ich mich gerade aufhalte müsste auch der Brandherd sein	Information_geben
+UGV-1	ich habe hier jetzt gerade eine Hitzequelle ausgemacht definitiv keine Person	Information_geben
+TL	hier Markus verstanden	Information_geben
+UGV-2	Andreas von Daniel	Kontakt_Anfrage
+UGV-1	hier Andreas kommen	Kontakt_Bestaetigung
+UGV-2	Markus von Daniel	Kontakt_Anfrage
+TL	hier Markus	Kontakt_Bestaetigung
+UGV-2	Roboter hat zwei komplette Aussetzer funktionert dann gar nicht	Information_geben
+TL	Daniel ich hab dich verstanden	Information_geben
+TL	hier Markus an alle Roboter	Kontakt_Anfrage
+TL	baldmöglich erstes Bildmaterial senden	Einsatzbefehl
+TL	einmal eine Rundumsicht	Einsatzbefehl
+TL	vier Bilder 360-Grad-Abdeckung	Einsatzbefehl
+UGV-1	Andreas verstanden	Zusage

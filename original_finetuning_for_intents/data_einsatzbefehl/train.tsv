@@ -1,0 +1,2264 @@
+TL	hier der Teamleader	Kontakt_Anfrage
+TL	die Drohne ist auch einsatzbereit?	Information_nachfragen
+UAV	ja, das ist korrekt	Zusage
+TL	UGV 2 von Einsatzleiter, kommen	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	wie ist bei dir, auch einsatzbereit?	Information_nachfragen
+TL	Standort, Frage?	Information_nachfragen
+UGV-2	ja, wir sind auch einsatzbereit	Zusage
+UGV-2	versuchen noch den Standort rauszufinden	Information_geben
+UGV-2	ich hab gerade ein Bild hochgeladen das müsstest du sehen	Information_geben
+TL	ja, Bild ist angekommen	Information_geben
+UAV	Einsatzleiter von UAV-Drohne	Kontakt_Anfrage
+TL	ja, ich höre	Kontakt_Bestaetigung
+UAV	sollen wir loslegen, und erkunden? oder hast du noch was?	Information_nachfragen
+TL	ja, startet mal und fliegt ja, startet erst mal	Zusage
+TL	UAV von Einsatzleiter, kommen	Kontakt_Anfrage
+UAV	hier ist die UAV	Kontakt_Bestaetigung
+TL	fliegt ihr in westlicher Richtung über dem eigentlichen Gelände und schickt mir dann mal ein Bild?	Einsatzbefehl
+UAV	ja, ist verstanden, westlich über das Gelände und ein Bild schicken	Zusage
+TL	UGV 2 von Einsatzleiter, kommen	Kontakt_Anfrage
+UGV-2	Teamleader, UGV 2 gerufen?	Information_nachfragen
+TL	ja richtig	Zusage
+TL	bewegt ihr euch mal in südlicher Richtung und sucht das Gelände mal nach gefährlichen Stoffen ab? kommen	Einsatzbefehl
+UGV-2	ja, verstanden, erkunden in südlicher Richtung	Zusage
+UGV-1	Frage: der Einsatzbefehl gilt auch für UGV 1?	Information_nachfragen
+TL	ja, richtig	Zusage
+TL	ihr nehmt aber die westliche Richtung	Information_geben
+UGV-1	westliche Richtung, verstanden	Information_geben
+UGV-1	Einsatzleiter von UGV 1, kommen	Kontakt_Anfrage
+TL	ja, höre	Kontakt_Bestaetigung
+UGV-1	die westliche Richtungserkundung auf dieser Ebene?	Information_nachfragen
+TL	habt ihr die Möglichkeit, die Ebene zu wechseln?	Information_nachfragen
+UGV-1	ja, es gibt Treppen	Zusage
+UGV-1	ich schick dir mal ein Bild, dass du einen Eindruck kriegst, wo ich gerade stehe	Information_geben
+TL	ja, richtig	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir ein Bild geschickt von der Drohne aus der Luft mit Blickrichtung Westen	Information_geben
+TL	das ist verstanden	Information_geben
+TL	UAV von Einsatzleiter, kommen	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	könnt ihr den Bereich mal abschwenken mit der Kamera, und nach eventuellen Brandnestern suchen?	Einsatzbefehl
+UAV	ja, wir suchen nach Brandnestern mittels Wärmebild-Kamera oder Infrarot-Kamera	Zusage
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ich hab dir ein'n Schnappschuss erstellt	Information_geben
+UGV-1	kannst du mal gucken, ob dir das recht ist, auf dieser Ebene zu suchen?	Information_nachfragen
+UGV-1	das wäre jetzt der Blick in den westlichen Teil der Halle	Information_geben
+TL	UGV 1 von Einsatzleiter, kommen	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+TL	bleibt mal auf der Ebene und fahrt weiter in westlicher Richtung, und erkundet dort	Einsatzbefehl
+UGV-1	weitererkunden in westlicher Richtung, verstanden	Zusage
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	wo ist dein Standort im Moment?	Information_nachfragen
+UGV-2	wir befinden uns auf einer Rampe	Information_geben
+UGV-2	ich schick dir nochmal einen Schnappschuss von ein bisschen weiter weg	Information_geben
+TL	ja	Zusage
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	hier ist die UAV	Kontakt_Bestaetigung
+UAV	wir haben zur Zeit technische Probleme	Information_geben
+UAV	und können noch keine neuen Bilder senden	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+TL	habt ihr schon neue Erkenntnisse?	Information_nachfragen
+UGV-1	bisher negativ	Absage
+TL	ihr bewegt euch weiter in westlicher Richtung?	Information_nachfragen
+UGV-1	das ist korrekt	Zusage
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	ja, ich UGV 2	Kontakt_Bestaetigung
+UGV-2	ich komme gleich mit 'nem neuen Bild	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	also, wir haben diese Ausrichtung Westen und dieses Gebäude angeguckt und konnten bisher keine Glutnester feststellen	Information_geben
+UAV	wir tauschen jetzt den Akku und fliegen dann nochmal aus einer anderen Richtung an	Information_geben
+UAV	au- aus	Sonstiges
+TL	ja, verstanden	Information_geben
+UGV-1	ja, Einsatzleiter von UGV 1, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ja, wir stehen hier wohl auf einer Rampe, ich kann nämlich genau sagen wo die ist	Information_geben
+UGV-1	wir hätten die Möglichkeit, von hier aus in den Komplex reinzufahren und dort innen zu erkunden	Information_geben
+TL	ja, fahr mal rein	Zusage
+UGV-1	ja, verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	fahrt ihr runter oder fahrt ihr auch über diese Rampe?	Information_nachfragen
+UGV-2	also, aktuell stehe ich noch an dem flachen Bereich der Rampe	Information_geben
+TL	kannst du mir ein Bild schicken?	Einsatzbefehl
+UGV-2	ja, kommt sofort	Zusage
+UGV-1	Einsatzleiter von UGV 1, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	habe den westlichen Hallenteil bis zum Ende jetzt erkundet, keine weiteren Erkenntnisse	Information_geben
+UGV-1	ich hätte jetzt die Möglichkeit, auch in die erste Ebene hochzufahren	Information_geben
+TL	ja, dann fahrt mal hoch und erkundet da weiter	Zusage
+UGV-1	ja, ist verstanden	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+UAV	U- UAV	Sonstiges
+TL	ich höre	Kontakt_Bestaetigung
+UAV	also, ich kann auch hier keine Glutnester erkennen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	ihr seid also jetzt den eigentlichen Hochofenbereich abgeflogen, komplett, ja?	Information_nachfragen
+UAV	ja, wir gucken jetzt gerade aus nördlicher Richtung, oder auf den Hochofen, ja	Zusage
+TL	Rauchentwicklung ist von dort aus auch nicht zu sehen?	Information_nachfragen
+UAV	ja	Zusage
+UAV	ich guck mal gleich wieder	Information_geben
+UGV-2	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	du hattest mir gerade das Bild geschickt, ja?	Information_nachfragen
+UGV-2	ja	Zusage
+UGV-2	ist schon etwas länger her	Information_geben
+UGV-2	wir haben massive Probleme mit der Steuerung	Information_geben
+UGV-2	ja, da haben wir es gerade ein bisschen schwierig	Information_geben
+UGV-2	ich schick noch mal ein aktuelles Foto von dem Eingang, vor dem ich jetzt stehe	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-2	Einsatzleiter von UGV 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	das Bild ist geteilt	Information_geben
+TL	ja, ist bei mir angekommen	Information_geben
+UGV-2	Frage: sollen wir da jetzt reinfahren?	Information_nachfragen
+TL	warte, ich muss eben erst gucken	Sonstiges
+TL	ja, fahrt da mal rein	Zusage
+UGV-2	ja, verstanden	Information_geben
+UGV-2	das müsste irgendwo im westlichen Bereich sein	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir ein Bild geschickt, was den Hochofen aus nördlicher Richtung zeigt	Information_geben
+UAV	ich kann keine Rauchentwicklung erkennen	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	also, wir haben jetzt doch eine leichte Rauchentwicklung auf der nördlichen Seite des Gebäudes	Information_geben
+UAV	ich schicke dir ein Bild	Information_geben
+UGV-1	Einsatzleiter von UAV 1	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UGV-1	ich korrigiere - UGV 1	Sonstiges
+TL	ja, kommen Sie	Kontakt_Bestaetigung
+UGV-1	ja, ich stehe jetzt am Fuß der Rampe	Information_geben
+UGV-1	hab dir ein Bild geschickt	Information_geben
+UGV-1	kannst du mal was gucken, ob da was Interessantes ist	Information_geben
+TL	ja danke	Zusage
+UGV-1	zur Info, das ist der Blick in östlicher Richtung	Information_geben
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	ich hör' dich	Kontakt_Bestaetigung
+TL	wenn ich das richtig sehe, kommt der Rauch am rechten Behälter Blickrichtung Süd raus	Information_geben
+TL	könnt ihr da auch was ausmachen in Form von Wärmestrahlung?	Einsatzbefehl
+UAV	ja wir schalten gerade um, ich komme gleich wieder mit neuen Infos	Zusage
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	schickst du mir noch mal ein aktuelles Foto euren Standortes?	Einsatzbefehl
+UGV-2	ja, ich schick dir gleich ein Bild von UGV 1, wenn er an mir vorbei fährt	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir ein Bild von der Wärmebild-Kamera geschickt	Information_geben
+UAV	unterhalb des Tankes ist Fleck, der auffällig ist, und recht oben am Tank	Information_geben
+UAV	guckst du mal?	Information_geben
+TL	ja, mache ich	Zusage
+UGV-2	Einsatzleiter von UGV 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, ich habe nochmal ein Foto gezeigt	Information_geben
+UGV-2	UGV 1 ist gerade an uns vorbei gefahren	Information_geben
+UGV-2	sollen wir versuchen, uns anzuschließen?	Information_nachfragen
+UGV-2	abz- anzuschließen	Sonstiges
+TL	ja, macht ihr mal	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UAV	wir müssen gleich nochmal den Akku tauschen	Information_geben
+UAV	hast du danach noch einen Auftrag für uns?	Information_nachfragen
+TL	ja, landet erst mal, ihr kriegt einen neuen Auftrag	Zusage
+UAV	ja, ist verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	du sprachst eben von einer anderen Ebene habt ihr die schon erreicht?	Information_nachfragen
+UGV-2	wir haben aktuell immer noch Probleme mit der Steuerung	Absage
+UGV-1	UGV 1 erreicht gerade die erste Ebene	Zusage
+TL	das ist verstanden	Information_geben
+TL	schickst du mir dann auch von da mal ein Foto?	Einsatzbefehl
+UGV-1	ja, das ist verstanden	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	wir wären wieder startklar, wenn du was neues für uns hast?	Information_geben
+TL	ja, ich melde mich gleich bei euch	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	Foto ist erstellt und geteilt	Information_geben
+UGV-1	man sieht die Rauchentwicklung und einen Behälter, das ist Blickrichtung Ost	Information_geben
+TL	könnt ihr mir Näheres zu dem Behälter geben?	Information_nachfragen
+UGV-1	ich fahr mal näher ran und erkunde	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+TL	das Bild mit dem Behälter war in östlicher Richtung, war's korrekt?	Information_nachfragen
+UGV-1	das ist korrekt	Zusage
+UGV-1	ich schicke dir auch gleich nochmal ein Bild mit der Thermal-Kamera	Information_geben
+TL	ja, verstanden	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ja, wir haben uns gerade die Bilder noch einmal angeguckt	Information_geben
+UAV	da könnte nochmal was sein	Information_geben
+UAV	wir steigen nochmal auf und gucken uns das nochmal an	Information_geben
+TL	ja, insbesondere was die Wärmeentwicklung geht anbetrifft	Einsatzbefehl
+TL	da konnte man nicht viel erkennen	Information_geben
+UAV	ja, ich versuch, dir nochmal ein besseres Bild zu liefern	Zusage
+TL	ja, verstanden	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UGV-1	schicke dir nochmal ein Bild	Information_geben
+UGV-1	wir haben hier einen Gefahrenzettel auf dem Behälter	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-2	Einsatzleiter von UGV 2	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, wir haben mittlerweile die Kontrolle gewonnen und sind jetzt auch bei UGV 1	Information_geben
+UGV-2	ich hab auch nochmal ein Bild geschickt	Information_geben
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+TL	Frage: könnt ihr den Behälter mal von einer anderen Seite anfahren und erkunden, ob er noch verschlossen ist, oder ob da irgendwas austritt?	Einsatzbefehl
+UGV-1	ja, positiv, wird gemacht	Zusage
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	wir haben auf der Rückseite - also aus nördlicher Sicht an der Rauchentwicklung ein Objekt festgestellt, wir können keine Gefahrstoff-Kennzeichnung erkennen	Information_geben
+UAV	ich hab dir jetzt zwei Bilder geschickt, eine Detailaufnahme	Information_geben
+TL	ja	Information_geben
+TL	ich schau mal rein	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	der Behälter scheint leer zu sein, ich hab dir ein Bild geschickt	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ja, ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir - oder ich schick dir gleich nochmal ein Bild rüber, du siehst auf der Rückseite definitiv zwei Orte, wo sich noch Glutnester befinden	Information_geben
+TL	ja, verstanden	Zusage
+UAV	der eine Ort, das sind zwei kleine Stellen, das ist unter dem Fass, was ich gerade schon mal geschickt habe, und rechts davon siehst du auch da im Bild sehr deutlich, 'ne Wärmesignatur, die etwas größer ist	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	reichen dir die Bilder?	Information_nachfragen
+UGV-1	dann würde ich die Erkundung auf dieser Ebene weiter fortsetzen	Information_geben
+TL	ja, reicht mir erst mal aus	Zusage
+TL	setz die Erkundung fort	Zusage
+UGV-2	Einsatzleiter von UGV 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, kriegen wir auch noch einen Auftrag?	Information_nachfragen
+TL	ja	Zusage
+TL	ich komme sofort wieder	Sonstiges
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	seht ihr die drei Hochbehälter?	Information_nachfragen
+UGV-2	negativ	Absage
+UGV-2	aber ich sehe gerade Rauchentwicklung von hier aus	Information_geben
+UGV-2	soll ich mal ein Foto machen?	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ich habe jetzt hinter dem ersten Hochofen in östlicher Richtung einen weiteren Behälter gefunden	Information_geben
+TL	ja, schickst du mir nochmal ein Bild?	Einsatzbefehl
+UGV-1	ja, ist verstanden	Zusage
+UGV-1	wir haben auch jetzt hier erhöhte Rauchentwicklung	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir doch noch ein Bild geschickt in Infrarot	Information_geben
+UAV	und zwar sind an dem Objekt - an dem Tank selber unten links ist 'ne Wärmesignatur, möglicherweise oben am Tank rechte Seite und rechts des Tankes	Information_geben
+UAV	- an der - an dem Tank	Sonstiges
+TL	ja, verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	Frage: wo ist jetzt euer Standort?	Information_nachfragen
+UGV-2	wir sind noch in der Nähe von dem ersten Behälter, der von UGV 1 untersucht wurde	Information_geben
+TL	dann bewegt ihr euch einmal in östlicher Richtung?	Information_nachfragen
+UGV-2	dafür müsstest du mal sagen, wo wir ungefähr sind	Information_nachfragen
+UGV-2	weil das können wir selber klar nicht feststellen	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ja, ich bin ein bisschen näher an den gefundenen - an den zweiten gefundenen Behälter rangefahren	Information_geben
+UGV-1	scheint keine Flüssigkeit auszutreten, und Gefahrenzettel oder andere Signaturen sind auch nicht zu sehen	Information_geben
+UGV-1	Si- andere Signaturen	Sonstiges
+TL	ja, verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	schick mir mal ein Foto, wo ihr steht, damit ich ein bisschen zuordnen kann	Einsatzbefehl
+UGV-2	ja	Zusage
+UGV-2	Einsatzleiter von UGV 2	Kontakt_Anfrage
+TL	ja	Kontakt_Bestaetigung
+UGV-2	ja, Foto ist geteilt	Information_geben
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ja, ich höre	Kontakt_Bestaetigung
+UGV-1	ja, ich hab nochmal 'ne Nahaufnahme von dem Fass und 'ne Wärmesignatur von dem Fass geschickt	Information_geben
+UGV-1	scheint so, als läge das Fass auf dem Gefahrzettel oder ähnlich	Information_geben
+UGV-1	ich bin drauf, ich versuch das mal zu rollen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	Frage: das Bild, das ich gerade bekommen hab' ist mit Blick auf zwei runden Öffnungen, ist das richtig?	Information_nachfragen
+UGV-2	ja, das ist korrekt	Zusage
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	dann müsst ihr euch von da aus in östlicher Richtung bewegen	Einsatzbefehl
+UGV-2	ja	Zusage
+UGV-2	wie ist da meine Blickrichtung auf dem Bild?	Information_nachfragen
+TL	schwenk mal nach rechts dann müsstet ihr eigentlich in die Halle reinblicken	Information_geben
+UGV-2	ja, verstanden	Information_geben
+UAV	Einsatzführer von UAV	Kontakt_Anfrage
+TL	ja, ich höre	Kontakt_Bestaetigung
+UAV	ich müsste erneut zurück wegen Akku Tausch	Information_geben
+UAV	möglicherweise an dem Objekt sind noch mehrere Wärmequellen, ich kann's zur Zeit nicht genau sagen	Information_geben
+TL	ja, dann tausch das Akku nochmal aus und flieg die Strecke nochmal ab	Einsatzbefehl
+UAV	so machen wir das	Zusage
+UGV-1	Einsatzleiter von UGV 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ja, ich hab das Fass jetzt gedreht, man kann jetzt die Signatur des Fasses erkennen Gefahrzettel	Information_geben
+UGV-1	schau dir das bitte mal an, beide Bilder sind geteilt	Information_geben
+TL	ja, verstanden	Zusage
+UGV-1	ich würde dann die Erkundung in östlicher Richtung auf dieser Ebene weiter fortsetzen	Information_geben
+TL	ja, verstanden	Zusage
+TL	ihr setzt die Erkundung in östlicher Richtung weiter fort	Zusage
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	Frage: wo ist euer Standort inzwischen?	Information_nachfragen
+UGV-2	immer noch nicht klar	Information_geben
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	hier ist die UAV	Kontakt_Bestaetigung
+TL	Frage: könnt ihr aus eurer Position den UGV 1 sehen?	Information_nachfragen
+UAV	wir sind unterwegs und melden uns gleich nochmal	Sonstiges
+TL	ja, dann könnt ihr direkt mal erkunden wie aus der Position, wo UGV eins sich momentan befindet, das andere Fass zu sehen war	Einsatzbefehl
+	UGV zw- eins	Sonstiges
+UAV	ja, ist verstanden	Zusage
+UGV-1	UAV von UGV 1, kommen	Kontakt_Anfrage
+UAV	hier ist UAV	Kontakt_Bestaetigung
+UGV-1	ja, zur Info - ich müsste mich jetzt genau zwischen beiden Hochöfen befinden	Information_geben
+UAV	hast du eine Ebene? auf welcher Ebene?	Information_nachfragen
+UGV-1	ja, auf der ersten Ebene, zu den Rampen hin	Information_geben
+UAV	ja, ich sehe dich	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ja, ich höre	Kontakt_Bestaetigung
+UAV	ja, du hattest gerade noch mal einen Auftrag, kann du den mir wiederholen?	Information_nachfragen
+TL	ja, ihr hattet doch eben zwei Fässer ausgemacht, von oben, könnt ihr den UGV 2 dorthin lotsen?	Information_nachfragen
+UAV	ja, ist negativ	Absage
+UAV	das zweite war eine Wärmesignatur, die ist genau in ähnlicher Position, wo sich das UAV gerade befindet – das erdgebundene Fahrzeug	Information_geben
+UAV	das U- das erdgebundene	Sonstiges
+TL	ja, das ist verstanden	Information_geben
+TL	UGV 2 von Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	wie weit seid ihr?	Information_nachfragen
+UGV-2	ja, ich bin jetzt wieder im Außenbereich	Information_geben
+UGV-2	hier liegt ein grünes Fass, und es ist starke Rauchentwicklung zu erkennen	Information_geben
+TL	ja, schickst du mir mal ein Foto?	Einsatzbefehl
+UGV-2	ja, Foto kommt	Zusage
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+TL	die Rauchentwicklung, die das UAV gemeldet hat, könnt ihr da näher erkunden, inwiefern wir da noch mit Kräften vorgehen können?	Einsatzbefehl
+UGV-1	ja, das kann ich machen	Zusage
+UGV-1	ich breche dann die Erkundung in östlicher Richtung ab	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	nähere mich der Rauchquelle	Information_geben
+UAV	ich hab dir gerade noch mal ein Bild geteilt, und zwar ist genau in dem Fadenkreuz sichtbar, das sind zwei Punkte, die Wärme abstrahlen, da müsstest du nochmal nachgucken	Information_geben
+TL	ja, das ist verstanden	Information_geben
+UAV	da bewegt sich das erdgebundene Fahrzeug gerade darauf zu	Information_geben
+UGV-2	Einsatzleiter von UGV 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, ich hab jetzt nochmal zwei Bilder gemacht, einmal von der Rauchentwicklung und einmal von dem grünen Fass, was hier liegt	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-2	und ich glaube, da kommt UGV 1 auch wieder angerollt	Information_geben
+UGV-1	ja, das ist korrekt	Information_geben
+UAV	UGV 1 von UAV 1	Kontakt_Anfrage
+UGV-1	ich höre dich	Kontakt_Bestaetigung
+UAV	ich teile dir jetzt noch ein Bild, wo du zwei Punkte siehst, die Wärmesignaturen plus dich, deine Position und deinen Begleiter	Information_geben
+UGV-1	ja, ist verstanden	Information_geben
+UAV	die Wärmesignaturen sind schwarze Punkte	Information_geben
+UGV-1	Frage: ist das schon erfolgt?	Information_nachfragen
+UAV	Bild ist draußen, ich hab's geteilt	Zusage
+UAV	kannst du die Bilder sehen? UGV?	Information_nachfragen
+UGV-1	nein, negativ	Absage
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	hier ist die UAV	Kontakt_Bestaetigung
+TL	konntet ihr im Außenbereich noch weitere Fässer feststellen, oder war's das einzigste?	Information_nachfragen
+UAV	bisher ist das einzige	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	UGV 1 von UAV	Kontakt_Anfrage
+UGV-1	ja	Kontakt_Bestaetigung
+UGV-1	ich hab die brennenden Punkte gefunden	Information_geben
+UAV	ja, das ist schon mal gut, ja	Information_geben
+TL	UGV 1 von Einsatzleiter	Kontakt_Anfrage
+UGV-1	ich höre dich	Kontakt_Bestaetigung
+TL	ja, wie groß sind die brennenden Punkte, oder die Brandherde, was ist an Kräften erforderlich?	Information_nachfragen
+UGV-1	ja, die Punkte sind hier minimal, ich würde sagen zirka fünf bis zehn zentimeter im Durchmesser	Information_geben
+TL	ja, das ist verstanden	Information_geben
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	hier ist die UAV	Kontakt_Bestaetigung
+UAV	wir gehen runter zur Landung, Akkutausch	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-1	Einsatzleiter von UGV 1, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ja, ich hab dir ein Bild und 'ne Wärmebild von den brennenden Punkten geschickt	Information_geben
+TL	ist verstanden	Information_geben
+TL	ich kann momentan aus technischen Gründen nur leider nichts sehen	Information_geben
+UGV-1	ja, ist verstanden	Information_geben
+UAV	Einsatzleiter von UAV	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UAV	ja, wir brauchen noch einen Augenblick	Information_geben
+UAV	tauschen eben die Kameras	Information_geben
+UAV	dann sind wir wieder dabei und suchen dann nach weiteren Fässern	Information_geben
+TL	ja, verstanden	Information_geben
+TL	in östlicher Richtung sollte das Gelände soweit abgesucht sein, denke ich?	Information_nachfragen
+UAV	ja, ist verstanden	Information_geben
+UAV	wobei wir jetzt nur westlich gesucht haben, von meinem Standpunkt aus	Absage
+TL	okay	Information_geben
+TL	an allen - an alle Einsatz- eingesetzten Kräfte, UGV 1, UGV 2 und UAV	Kontakt_Anfrage
+TL	Übungsende	Information_geben
+UGV-1	UGV 1, verstanden	Information_geben
+UGV-2	UGV 2, verstanden	Information_geben
+UAV	UAV auch verstanden	Information_geben
+WHS	Zugführer von WHS kommen	Kontakt_Anfrage
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Frage Lautstärke Verständigung kommen	Information_nachfragen
+GF	Ja Lautstärke und Verständigung gut kommen	Zusage
+ZF	Ja das ist so verstanden ende	Information_geben
+GF	Ja ende	Information_geben
+ZF	Das WHS von Zugführer kommen	Kontakt_Anfrage
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hier kommen	Kontakt_Bestaetigung
+ZF	Frage Lautstärke und Verständigung kommen	Information_nachfragen
+D2	Nochmal bitte kommen	Einsatzbefehl
+ZF	Frage Lautstärke und Verständigung kommen	Information_nachfragen
+D2	Lautstärke und Verständigung sind super kommen	Zusage
+ZF	Das ist verstanden ende	Information_geben
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	Ja ich höre kommen	Kontakt_Bestaetigung
+ZF	Bei dir auch Frage Lautstärke und Verständigung kommen	Information_nachfragen
+WHS	Lautstärke und Verständigung ende	Zusage
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	D1 hier	Kontakt_Bestaetigung
+ZF	Ja auch für euch Frage Lautstärke und Verständigung kommen	Information_nachfragen
+D1	Lautstärke OK	Zusage
+ZF	Das ist so verstanden	Information_geben
+ZF	Frage seid ihr einsatzbereit kommen	Information_nachfragen
+D1	Sind einsatzbereit kommen	Zusage
+ZF	Ja das ist verstanden ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Ja für sie Aufträge einmal Kommunikation zu den Robotertrupps checken und fragen ob Einsatzbereitschaft kommen	Einsatzbefehl
+GF	Einmal die Kommunikation der Robotertrupps checken und die Einsatzbereitschaft herstellen	Zusage
+ZF	Das ist so korrekt Ende	Information_geben
+GF	Ja verstanden ende	Information_geben
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hier kommen	Kontakt_Bestaetigung
+ZF	Frage seit ihr einsatzbereit kommen	Information_nachfragen
+D2	Wir haben gerade kein <unverständlich> und wir müssen noch ins Auto fahren.	Absage
+D2	Also circa 5 Minuten kommen	Information_geben
+ZF	Das ist soweit verstanden	Information_geben
+ZF	dann bitte selbständig anfunken kommen	Einsatzbefehl
+D2	Verstanden ende	Zusage
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	WHS hier kommen	Kontakt_Bestaetigung
+ZF	Frage sind sie einsatzbereit kommen	Information_nachfragen
+WHS	Nur eine Sekunde ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Ja für sie zur Information der D1 ist startklar der D2 brauch noch circa 5 Minuten bis zur Einsatzbereitschaft kommen	Information_geben
+GF	Ja verstanden ende	Information_geben
+WHS	Zugführer von WHS	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+WHS	Wir wären bereit ende	Information_geben
+ZF	Das ist verstanden ende	Information_geben
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Ja hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Der D3 und D5 einsatzbereit kommen	Information_geben
+ZF	D3 und D5 ist einsatzbereit das ist verstanden	Information_geben
+D2	Zugführer von D2 kommen	Kontakt_Anfrage
+ZF	Ja hier Zugführer kommen	Zusage
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hier kommen	Kontakt_Bestaetigung
+ZF	Ja sie wollten etwas sagen kommen	Information_nachfragen
+D2	D2 ist einsatzbereit kommen	Information_geben
+ZF	D2 ist einsatzbereit das ist verstanden	Information_geben
+ZF	Bitte auf Übungsbeginn warten kommen	Einsatzbefehl
+D2	Verstanden ende	Zusage
+ZF	An alle einsatzkräfte Übungsbeginn kommen	Information_geben
+WHS	WHS hier verstanden	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Einsatzszenario ist jetzt beginnend	Information_geben
+GF	Einsatzszenario beginnt Verstanden	Information_geben
+ZF	Verstanden ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Einmal bitte zum Gefahrenbereich vor den Eingang der Halle kommen	Einsatzbefehl
+GF	Ja verstanden	Zusage
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	D1 hört kommen	Kontakt_Bestaetigung
+ZF	Die Einsatzstelle wurde begangen. Wir haben einen Gefahrstoffunfall in einem Lager.	Information_geben
+ZF	Für sie Erkundungsauftrag außerhalb der Halle danach bei mir melden kommen	Einsatzbefehl
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	der erste erkundungsflug ist jetzt mit der ersten Drohne gestartet worden kommen	Information_geben
+GF	Ja erster erkundungsflug mit der Drohne gestartet verstanden kommen	Information_geben
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	Hier WHS kommen	Kontakt_Bestaetigung
+WHS	WHS hört kommen	Kontakt_Bestaetigung
+ZF	WHS für sie zur Information die Drohne D1 ist zur Außenerkundung vor	Information_geben
+ZF	Für sie Auftrag Erkundung innen der Halle kommen	Einsatzbefehl
+WHS	WHS hat verstanden kommen Erkundung innen verstanden <eh> kommen	Zusage
+ZF	Ja das ist verstanden ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Für sie zur Information der D1 ist zur Erkundung des Außenbereiches vor die WHS Drohne ist zur Innenerkundung vor kommen	Information_geben
+GF	Ja das ist verstanden ende	Information_geben
+ZF	Für sie bitte die Inbetriebnahme der Roboter D3 und D5 kommen	Einsatzbefehl
+GF	Inbetriebnahme D3 und D5 verstanden	Zusage
+ZF	Das ist so korrekt sie warten bitte noch auf weitere Einsatzbefehle kommen	Einsatzbefehl
+GF	Wir warten in Bereitschaft verstanden	Zusage
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	D1 hört	Kontakt_Bestaetigung
+ZF	Frage hat der Erkundungsauftrag Lagerhalle außen schon Erkenntnisse hervorgebracht kommen	Information_nachfragen
+D1	Bisher nichts zu sehen	Absage
+ZF	Von außen keine Erkenntnise ist das korrekt kommen	Information_nachfragen
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	WHS hört	Kontakt_Bestaetigung
+ZF	Frage ich kann das bild ihrer Drohne auf dem Bildschirm sehen	Information_geben
+ZF	können sie die Kamera so positionieren dass man das gefahrgut kennzeichen sieht kommen	Einsatzbefehl
+WHS	WHS hat verstanden kommen	Zusage
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	WHS hört	Kontakt_Bestaetigung
+ZF	ein stückchen näher ran	Einsatzbefehl
+WHS	Ja habe verstanden ende	Zusage
+ZF	Ja perfekt so ist es zu erkennen	Information_geben
+ZF	die nummer wird jetzt in die Datenbank eingegeben	Information_geben
+ZF	Für sie WHS Rückzug aus der Lagerhalle erkundungsauftrag beendet kommen	Einsatzbefehl
+WHS	WHS hat verstanden ende	Zusage
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Ja Erkundungsergebnisse von dem Innenflug haben ergeben es handelt sich nach HON nummer um Schwefelsäure	Information_geben
+ZF	keine Einsatzkraft betritt den Gefahrenbereich kommen	Information_geben
+GF	Erkundung ergeben Stoffidentifikation Schwefelsäure keine Einsatzkraft betritt den Gefahrenbereich verstanden	Information_geben
+ZF	Es handelt sich um einen umgekippten 20Liter Kanister der vom Regal runtegefallen ist und sich geöffnet handelt	Information_geben
+ZF	Für sie Auftrag es wird eine manipulation vorbereitet mit dem D2 kommen	Einsatzbefehl
+ZF	Falsch den hast du ja gar nicht	Sonstiges
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+GF	Die manipulation wird vom Trupp D2 vorgenommen wir warten weiter ab	Information_geben
+ZF	Für sie zur Information es handelt sich um folgenden stoff Schwefelsäure	Information_geben
+ZF	für sie als Auftrag mit dem D2 einen umgefallenen Kanister der sich geöffnet hat der die Flüssigkeit enthält aufnehmen und in ein Überfass befördern kommen	Einsatzbefehl
+D2	Verstanden Auftrag wird ausgeführt ende	Zusage
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	Frage an sie sie hatten auch das aufnahmebild vom inneren der Lagerhalle gesehen kommen	Information_nachfragen
+D2	Ja	Zusage
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	D1 hier kommen	Kontakt_Bestaetigung
+ZF	Für sie Paralleleinsatz der D2 geht zur Manipulation in die Lagerhalle vor	Information_geben
+ZF	für sie Bereitstellung eines Luftbildes aus der Halle kommen	Einsatzbefehl
+D1	Verstanden ende	Zusage
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Sie haben sprechwunsch	Kontakt_Bestaetigung
+ZF	Das ist so korrekt	Information_geben
+ZF	der befindet sich gerade in der Anfahrt zum Gefahrgutobjekt	Information_geben
+ZF	für sie logistische Unterstützung durch den D3 mit dem Überfass kommen	Einsatzbefehl
+GF	D2 auf der Anfahrt zur Manipulation D3 zur Unterstützung vor das ist verstanden kommen	Zusage
+ZF	Ja das ist so korrekt ende	Information_geben
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	Was soll mit dem Kanister geschehen kommen	Information_nachfragen
+ZF	Ja das ist so korrekt warten sie noch auf den D3 der wird ihnen als Logistikaufgabe das Überfass bereitstellen kommen	Information_geben
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	Ja für sie zur Information bitte warten bis der D3 als Logistikunterstützung kommt	Einsatzbefehl
+ZF	er wird ihnen das Überfass zum sichern des Behältnisses bereitstellen kommen	Information_geben
+D2	Verstanden wir warten kommen	Zusage
+ZF	Ja das ist soweit verstanden	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Frage status D3 kommen	Information_nachfragen
+GF	Der D3 ist einsatzbereit und wartet auf einen Befehl	Information_geben
+ZF	Der D3 fährt zum Objekt vor der D2 ist schon dort stellt das Überfass bereit kommen	Einsatzbefehl
+GF	D3 fährt zum D2 vor und Vorbereitung des Überfasses kommen	Zusage
+ZF	Ja so korrekt ende	Information_geben
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Die Standorte der Roboter sind im Lagebild nicht zu erkennen kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+ZF	gebe das an den Techniker hier weiter kommen	Information_geben
+GF	Ja verstanden ende	Information_geben
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	D3 mit Überfass ist am Standort angekommen	Information_geben
+ZF	für sie Beginn des Auftrages Bergung des Behältnisses kommen	Einsatzbefehl
+D2	Auftrag wird ausgeführt kommen	Zusage
+ZF	Ja das ist so korrekt ende	Information_geben
+D1	Zugführer D1 bitte kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+D1	D1 müsste nachladen bitte kommen	Information_geben
+ZF	Bitte die Aussage wiederholen kommen	Einsatzbefehl
+D1	D1 müsste neue Batterien bekommen dazu müssen wir landen bitte kommen	Information_geben
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	Hier WHS kommen	Kontakt_Bestaetigung
+ZF	Der D1 ist jetzt gerade im Akkuwechsel	Information_geben
+ZF	für sie Übergangsauftrag Bilddarstellung in der Lagerhalle innen kommen	Einsatzbefehl
+WHS	Auftrag verstanden ende	Zusage
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	Frage ist die Position des Überfasses ausreichend kommen	Information_nachfragen
+D2	Die Position von D3 ist OK kommen	Zusage
+ZF	Ja das ist verstanden ende	Information_geben
+WHS	Zugführer an WHS kommen	Kontakt_Anfrage
+D1	Zugführer von D1	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+D1	D1 ist wieder bereit bitte kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+ZF	für sie noch kurze Pause WHS ist gerade im Erkundungsflug kommen	Information_geben
+D1	Haben verstanden ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Frage Status Lagebildsystem	Information_nachfragen
+GF	Ja die Roboter D1 und D2 im Lagebild ersichtlich kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+GF	D3 und D5 können nicht im Lagebild dargestellt werden	Information_geben
+ZF	D3 und D5 können nicht im Lagebild dargestellt werden das ist verstanden	Information_geben
+D2	Zugführer von D2 kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+D2	D2 hat den Kanister aufgenommen und fährt ihn jetzt zu D3 kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+ZF	bitte melden wenn durchgeführt	Einsatzbefehl
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	hier WHS kommen	Kontakt_Bestaetigung
+ZF	Für sie ist der Erkundungsauftrag beendet kommen	Information_geben
+WHS	Haben verstanden ende	Information_geben
+ZF	D1 mitgehört sie können wieder die Innenerkundung starten kommen	Einsatzbefehl
+D1	Verstanden ende	Zusage
+ZF	WHS von Zugführer kommen	Kontakt_Anfrage
+WHS	Hier WHS kommen	Kontakt_Bestaetigung
+ZF	Für sie Erkundungsauftrag Panoramabild der gesammten Lagerhalle kommen	Einsatzbefehl
+WHS	Soll das Panoramabild über der Lagerhalle gemacht werden kommen	Information_nachfragen
+ZF	Ja das ist so korrekt kommen	Zusage
+WHS	haben verstanden ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Für sie auch Erkundungsauftrag mit dem D5 an der linken Flanke außerhalb der Lagerhalle Erkundung kommen	Einsatzbefehl
+GF	Erkundungsauftrag mit dem D5 linke Seite der Lagerhalle kommen	Zusage
+ZF	Ja das ist so korrekt	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Wie sieht der Status dafür aus den D3 gleich mit geschlossenem Überfass aus der Lagerhalle zu fahren kommen	Information_nachfragen
+GF	Ja ich melde mich gleich kommen	Information_geben
+ZF	Ja das ist verstanden ende	Zusage
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Zur Information D5 zur Erkundung vor kommen	Information_geben
+ZF	D5 zur Erkundung linker Seite das ist verstanden	Information_geben
+WHS	Zugführer von WHS kommen	Kontakt_Anfrage
+GF	Ja genau ende	Information_geben
+ZF	Hier Zugführer kommen wer hat gerufen kommen	Kontakt_Bestaetigung
+WHS	Zugführer von WHS kommen	Kontakt_Anfrage
+ZF	Ja hier Zugführer kommen	Kontakt_Bestaetigung
+WHS	Panoramabild wurde erstellt kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+ZF	ist das im Lagebildsystem zu erkennen kommen	Information_nachfragen
+WHS	Im Lagebildsystem ist nicht kann es nicht erkannt werden kommen	Absage
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Frage der D3 soll noch nicht zurückgesetzt werden kommen	Information_nachfragen
+ZF	Ja das ist korrekt	Zusage
+ZF	wir warten noch auf die Verfrachtung des Behälters und danach wird er verschlossen kommen	Information_geben
+GF	Ja verstanden ende	Information_geben
+GF	D5 von Gruppenführer kommen	Kontakt_Anfrage
+GF	falsches Funkgerät	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+D2	Zugführer von D2 kommen	Kontakt_Anfrage
+ZF	Bitte ich sehe das bild vom D5 im Lagebildsystem bitte einmal die Gasse komplett durch	Einsatzbefehl
+D2	Zugführer von D2 kommen	Kontakt_Anfrage
+GF	Ja verstanden	Zusage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+D2	D2 hat das Fass in das Überfass abgelegt	Information_geben
+D2	soll das Überfass auch abgedichtet werden kommen	Information_nachfragen
+ZF	Behältniss wurde ins Überfass verfrachtet	Information_geben
+ZF	positiv  das Fass soll geschlossen werden kommen	Zusage
+D2	Verstanden ende	Information_geben
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	Hier D1 kommen	Kontakt_Bestaetigung
+ZF	Ja für sie Unterstützung durch Bildübertragung des D2 bei der Fassversiegelung kommen	Einsatzbefehl
+D1	So verstanden ende	Zusage
+WHS	Zugführer von WHS kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+WHS	Die Drohne muss jetzt landen	Information_geben
+WHS	weil der Akku leer ist kommen	Information_geben
+ZF	Schon wieder dann schicken wir doch wieder WHS ins Rennen kommen	Information_geben
+ZF	WHS mitgehört kommen	Information_geben
+WHS	WHS muss landen kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+WHS	Zugführer von WHS kommen	Kontakt_Anfrage
+ZF	Ja hier Zugführer kommen	Kontakt_Bestaetigung
+WHS	Unsere Drohne ist wieder einsatzbereit kommen	Information_geben
+ZF	Ja das ist verstanden	Information_geben
+ZF	für sie noch kein Einsatz der D1 ist noch im Flug im inneren kommen	Information_geben
+WHS	Haben verstanden kommen	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Ja Frage status Erkundungsergebnisse vom D5 kommen	Information_nachfragen
+GF	Ja bleiben sie kurz dran	Sonstiges
+GF	Zugführer von Gruppenführer	Kontakt_Anfrage
+ZF	Hier Zugführer hört	Kontakt_Bestaetigung
+GF	Ja noch keine Auffälligkeiten bei Erkundung durch D5	Information_geben
+ZF	Das ist verstanden	Information_geben
+ZF	dann für sie neuer Erkundungssauftrag in die Halle einfahren und den D2 durch eine Bildübertragung unterstützen kommen	Einsatzbefehl
+GF	Ja den D2 duch eine Bildübertragung unterstützen kommen	Zusage
+ZF	Ja das ist so korrekt	Information_geben
+ZF	für sie noch zur Information der Kanister wurde geborgen das Fass wird nun versiegelt kommen	Information_geben
+GF	Der Gefahrgutbehälter wurde geborgen das Überfass wird verschlossen habe verstanden kommen	Information_geben
+ZF	Ja so korrekt ende	Information_geben
+ZF	D1 von Zugführer kommen	Kontakt_Anfrage
+D1	D1 hört	Kontakt_Bestaetigung
+ZF	Frage wolltet ihr nicht landen kommen	Information_nachfragen
+D1	Wir haben noch 4 Minuten mindestens	Information_geben
+ZF	Ja perfekt für sie zur Information der D5 kommt jetzt auch zur Unterstützung mit Bildübertragung in die Halle kommen	Information_geben
+D1	Alles klar ende	Information_geben
+ZF	D2 für Zugführer kommen	Kontakt_Anfrage
+ZF	D2 für Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	Ja für sie zur Information der D5 kommt auch noch zur Unterstützung mittels Bildübertragung in die Halle kommen	Information_geben
+D2	Verstanden ende	Information_geben
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Zugführer kommen	Kontakt_Bestaetigung
+GF	Ja zur Information der D5 fährt jetzt in die Halle ein um D2 zu unterstützen kommen	Information_geben
+ZF	Ja soweit verstanden	Information_geben
+D2	Zugführer von D2 kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Gruppenführer warten sie kurz ende	Sonstiges
+D2	Das Überfass wurde verschlossen kommen	Information_geben
+ZF	Ja hier Zugführer das Überfass wurde versiegelt ist das korrekt kommen	Information_nachfragen
+D2	Das ist korrekt kommen	Zusage
+ZF	Alles klar für sie Rückkehr an den Gefahrenbereich vor die Halle kommen	Einsatzbefehl
+D2	Verstanden kommen	Zusage
+ZF	So korrekt ende	Information_geben
+ZF	Gruppenführer von Zugführer kommen	Kontakt_Anfrage
+GF	Gruppenführer hört	Kontakt_Bestaetigung
+ZF	Sie hatten vorhin Sprechwunsch kommen	Information_nachfragen
+GF	Der D5 hat den Zielort erreicht	Information_geben
+GF	frage ausreichend Bildmaterial zur Unterstützung erhalten kommen	Information_nachfragen
+D1	Zugführer von D1 kommen	Kontakt_Anfrage
+ZF	Das Bild ist super	Information_geben
+ZF	für sie zur Information das Überfass wurde versiegelt und der D2 fährt jetzt an der Gefahrenbereich heran kommen	Information_geben
+GF	Ja verstanden	Information_geben
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 hört kommen	Kontakt_Bestaetigung
+ZF	Sofortiger Stop des Roboters	Einsatzbefehl
+ZF	Kontaminationsverschleppung	Information_geben
+ZF	bitte verweilen sie am Gefahrenbereich kommen	Einsatzbefehl
+D2	Verstanden kommen	Zusage
+ZF	Schön wieder zurück	Einsatzbefehl
+ZF	das zeug wollen wir hier nicht draußen haben	Information_geben
+D2	Verstanden kommen	Zusage
+D1	Zugführer von D1 bitte kommen	Kontakt_Anfrage
+ZF	Hier Zugführer kommen	Kontakt_Bestaetigung
+D1	D1 muss landen bitte kommen	Information_geben
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Ja das ist verstanden	Information_geben
+ZF	auch für sie zur Information der D2 hat seinen Auftrag erledigt	Information_geben
+ZF	für sie auch bitte die Drohne in der Nähe des Gefahrenbereiches an der Grenze absetzen kommen	Einsatzbefehl
+D1	verstanden ende	Zusage
+ZF	hier Zugführer kommen	Kontakt_Bestaetigung
+GF	Ja frage Einsatzbefehl für den D2	Information_nachfragen
+GF	der D2 steht zum Abstransport mit Behälter bereit	Information_geben
+ZF	Korrektur der D3 Fragezeichen kommen	Information_nachfragen
+GF	Ja das ist korrekt der D3 kommen	Zusage
+ZF	Dann Auftag für den D3 das Fass an die Gefahrengrenze bringen	Einsatzbefehl
+GF	Ja das Überfass mit dem D3 an die Gefahrengrenze bringen verstanden	Zusage
+ZF	D2 von Zugführer kommen	Kontakt_Anfrage
+D2	D2 kommen	Kontakt_Bestaetigung
+ZF	Für sie ist der einsatz hier beendet	Einsatzbefehl
+ZF	der roboter wird an den Dekontaminationstrupp übergeben kommen	Information_geben
+D2	Verstanden kommen	Zusage
+GF	Zugführer von Gruppenführer kommen	Kontakt_Anfrage
+ZF	Zugführer hört	Kontakt_Bestaetigung
+GF	Ja der D3 ist jetzt mit Überfass an der Gefahrengrenze kommen	Information_geben
+ZF	Verstanden	Information_geben
+ZF	für sie hier auch Einsatzende	Einsatzbefehl
+GF	Ja verstanden ende	Zusage
+TL	Operator Boden 2 hörst du mich?	Kontakt_Anfrage
+UGV-2	hier spricht der Roboter-Operator 2, ich höre Sie klar und deutlich	Kontakt_Bestaetigung
+TL	Operator Boden 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	ich kann dich klar und deutlich verstehen	Kontakt_Bestaetigung
+TL	großartig	Information_geben
+TL	Mission Commander für Teamleader	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	wir sind soweit, Kommunikation klappt	Information_geben
+MC	ja, verstanden	Information_geben
+MC	dann warten wir auf das Startsignal das wird ein Martinhorn sein	Information_geben
+MC	UAV auf Position?	Information_nachfragen
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	auf dem Gelände hat es eine Explosion gegeben in nem unklaren Raum	Information_geben
+MC	wir haben im Moment Feuer drei gemeldet	Information_geben
+MC	bitte bringen Sie Ihre Gerätschaften in Stellung, in sicherem Bereich innerhalb der großen Halle	Einsatzbefehl
+MC	so, ihr Einsatzauftrag postieren Sie sich innerhalb der großen Halle im sicheren Bereich	Einsatzbefehl
+MC	und melden Sie mir, wenn Sie einsatzbereit sind	Einsatzbefehl
+TL	hier Teamleader, verstanden	Zusage
+TL	Team, auf Position gehen	Einsatzbefehl
+TL	Boden 1 nach rechts	Einsatzbefehl
+UGV-2	ja, ich versuche das rauszufinden	Zusage
+MC	Teamleader für Mission Commander	Kontakt_Anfrage
+TL	hier Teamleader	Kontakt_Bestaetigung
+MC	wenn Sie einsatzbereit sind, lautet der Einsatzauftrag bitte geben Sie mir einen Gesamtüberblick aus der Luft	Einsatzbefehl
+MC	suchen Sie nach möglichen Rauchentwicklungen	Einsatzbefehl
+MC	konzentrieren Sie sich besonders auf den Bereich zwischen den beiden Hochöfen beziehungsweise am linken Hochofen	Einsatzbefehl
+TL	ja, Einsatzauftrag verstanden	Zusage
+TL	Operator Boden 1 fahren Sie nach links	Einsatzbefehl
+UGV-1	Operator Boden 1 hat gehört	Information_geben
+UGV-1	ich fahre nach links	Zusage
+UGV-1	sehe dort schon Rauch- entwicklung	Information_geben
+TL	da ein Foto machen	Einsatzbefehl
+TL	Operator Boden 2 ein Foto senden	Einsatzbefehl
+UGV-2	hier ist Operator Boden 2	Kontakt_Anfrage
+UGV-2	wir können momentan keine Fotos machen	Absage
+TL	hier Teamleader, verstanden	Information_geben
+TL	UAV?	Kontakt_Anfrage
+TL	bitte eine Gesamtübersicht von dem zentralen Gebäude	Einsatzbefehl
+MC	Teamleader von Mission Commander	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	zu Ihrer Information es werden zwei vermisste Personen gemeldet	Information_geben
+TL	zwei vermisste Personen, verstanden	Information_geben
+TL	Operator Boden 1	Kontakt_Anfrage
+TL	das Bild ist noch nicht angekommen	Information_geben
+UGV-1	Teamleader, hast du jetzt ein Bild?	Information_nachfragen
+TL	negativ	Absage
+UGV-1	ja, es klappt irgendwie nicht	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	ich hab auf meinem Bildschirm ein Bild der UAV	Information_geben
+MC	können Sie das Bild interpretieren?	Information_nachfragen
+TL	das Bild habe ich auch, ich versuch's gerade größer zu machen	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	einer der Arbeiter hat zuletzt auf einem höheren Level der Anlage gearbeitet im Bereich des linken Hochofens, ungefähr in 50 Meter Höhe	Information_geben
+TL	hier Teamleader, verstanden	Information_geben
+TL	UAV-Operator für Teamleader, kommen	Kontakt_Anfrage
+UAV	UAV-Operator, ja?	Kontakt_Bestaetigung
+TL	fliegen Sie mit der Drohne über den linken Hochofen oberste Höhe	Einsatzbefehl
+TL	und dann ein Foto senden	Einsatzbefehl
+UAV	okay	Zusage
+TL	Operator Boden 2	Kontakt_Anfrage
+TL	können Sie ein Bild senden?	Information_nachfragen
+UGV-2	hier Operator Boden 2	Kontakt_Bestaetigung
+UGV-2	momentan kann ich keine Bilder senden	Absage
+MC	Teamleader von Mission Commander	Kontakt_Anfrage
+TL	hier Teamleader	Kontakt_Bestaetigung
+MC	auf einem der Fotos sind Rauchentwicklungen zu erkennen	Information_geben
+MC	wie ist der Status Ihrer Bodenroboter, beziehungsweise der Standort?	Information_nachfragen
+MC	ist es möglich, die Quelle der Rauchentwicklung mit dem Bodenroboter zu finden?	Information_nachfragen
+UGV-1	Teamleader zu Bodenoperator 1, kommen	Kontakt_Anfrage
+TL	Bodenoperator 1, sprechen	Kontakt_Bestaetigung
+UGV-1	Leckage entdeckt über Bodenroboter	Information_geben
+TL	sehr gut	Information_geben
+TL	einmal ein Foto machen	Einsatzbefehl
+UGV-1	ich versuch' das mal	Zusage
+UAV	UAV Operator	Kontakt_Anfrage
+UAV	wir haben uns den Hochofen jetzt von oben angeguckt, es ist nirgendwo ein Opfer zu sehen	Information_geben
+TL	ist von oben Verrauchung zu sehen?	Information_nachfragen
+UAV	ja	Zusage
+TL	dann bitte einmal ein Foto davon und wieder landen	Einsatzbefehl
+UAV	okay	Zusage
+TL	Mission Commander für Teamleader	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	der Operator Boden 1 hat eine Leckage entdeckt	Information_geben
+TL	das ist auf der ersten Etage, und man könnte von hier unten einen Löscheingriff aufbauen und das Ganze eingrenzen	Information_geben
+MC	ja	Information_geben
+MC	dann überstelle ich Ihnen einen Trupp der sich auf der entgegengesetzten Seite auf der Brücke bereitet	Information_geben
+MC	bitte über Kanal 53WU ansprechen	Einsatzbefehl
+TL	ja, verstanden	Zusage
+UGV-1	Teamleader von Bodenoperator 1	Kontakt_Anfrage
+TL	hier Teamleader	Kontakt_Bestaetigung
+UGV-1	's ist technisch nicht möglich, Bilder zu senden	Information_geben
+TL	ja, verstanden	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Mission Commander für Teamleader	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	Sie hatten was?	Information_nachfragen
+MC	ja	Zusage
+MC	gibt es eine Information über die Substanz, die dort austritt?	Information_nachfragen
+TL	ja von Operator Boden 1	Zusage
+TL	Operator Boden 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	Operator Boden 1 hört	Kontakt_Bestaetigung
+TL	was hatten Sie?	Information_nachfragen
+UGV-1	die ausströmende Flüssigkeit ist ein dichter weißlicher Nebel Flüssigkeit unbekannt	Information_geben
+TL	alles klar	Information_geben
+TL	ist es möglich, ein Foto von dem Fass zu machen, was daneben steht?	Information_nachfragen
+UGV-1	weiterhin technisch nicht möglich, Fotos zu senden	Absage
+TL	gut	Information_geben
+TL	Mission Commander für Teamleader, kommen	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	ein Trupp ist in der Nähe dort wo auch der Operator Boden 1 seinen Roboter hat und hat dort ein Fass entdeckt in Grün, und ein weiteres Fass mit einer Plakette drauf - ätzend - in Gelb und braucht weitere Unterstützung	Information_geben
+TL	ich fordere weitere Kräfte an	Information_geben
+MC	okay, dann ändern wir Einsatzstichwort auf technische Hilfe ABC	Information_geben
+MC	versuchen Sie mit hilfe der Bodenroboter die Substanzen herauszufinden	Einsatzbefehl
+MC	oder ob es möglich ist, die Leckage abzudichten	Einsatzbefehl
+TL	ja, verstanden	Zusage
+TL	Mission Commander für Teamleader	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	draußen steht ein Löschzug mit Blaulicht	Information_geben
+TL	soll ich die mal ansprechen? nicht, dass sie wegen dem Rauch hier stehen	Information_nachfragen
+MC	ja, auf jeden Fall, mach das mal	Zusage
+TL	alles klar	Information_geben
+TL	es kommt jetzt hier ein Gruppenführer	Information_geben
+TL	Übungende	Einsatzbefehl
+TL	für alle: Übungende	Einsatzbefehl
+UAV	okay	Zusage
+UGV-2	okay	Zusage
+TL	Bodenoperator für Teamleader kommen	Kontakt_Anfrage
+TL	Bodenoperator 1 für Teamleader	Kontakt_Anfrage
+UGV-1	Bodenoperator 1 hört	Kontakt_Bestaetigung
+TL	wir können jetzt gleich starten, die Drohne ist bereit	Information_geben
+TL	Bodenoperator 2 für Teamleader, kommen	Kontakt_Anfrage
+TL	Bodenoperator 2 für Teamleader, kommen	Kontakt_Anfrage
+UGV-2	hier Bodenoperator 2	Kontakt_Bestaetigung
+TL	Verständigung einwandfrei	Information_nachfragen
+UGV-2	ja, ich verstehe Sie	Zusage
+TL	gut	Information_geben
+TL	Drohnenoperator für Teamleader, kommen	Kontakt_Anfrage
+TL	Drohnenoperator für Teamleader, kommen	Kontakt_Anfrage
+TL	Drohnenoperator für Team-Operator, kommen	Kontakt_Anfrage
+UGV-2	hier Robot-Operator 2	Kontakt_Anfrage
+TL	Verständigung war einwandfrei?	Information_nachfragen
+UGV-2	ja, ich verstehe Sie einwandfrei	Zusage
+UAV	UAV-Operator	Kontakt_Bestaetigung
+UAV	wir sind einsatzbereit	Information_geben
+UAV	UAV operator für team leader	Kontakt_Anfrage
+UAV	sollen wir starten mit der UAV und einen Überblick verschaffen?	Information_nachfragen
+TL	ja	Zusage
+TL	Drohnenoperator, starten Sie und machen Sie sich einen Überblick über die Lage	Einsatzbefehl
+TL	über- machen	Sonstiges
+TL	wir vermissen Personen und eine unklare Sache in der ganzen Area	Information_geben
+UAV	okay	Zusage
+TL	Bodenoperator für Teamleader, kommen	Kontakt_Anfrage
+UGV-2	hier Bodenoperator 2	Kontakt_Bestaetigung
+TL	starten Sie Ihre Roboter zur Erkundung der Area	Einsatzbefehl
+TL	ist eine unklare Sache, wir wissen noch nicht genau, was da passiert ist	Information_geben
+TL	Personen sind vermisst	Information_geben
+UGV-2	starten die Suche mit Roboter 2 jetzt	Zusage
+TL	Bodenoperator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	Bodenoperator 1 hat mitgehört und startet ebenfalls	Kontakt_Bestaetigung
+UAV	UAV-Operator an Teamleader	Kontakt_Anfrage
+UAV	ich habe ein Bild veröffentlicht	Information_geben
+UAV	was zeigte, dass keine Rauchentwicklung gibt über der Anlage	Information_geben
+TL	ja, Teamleader hat mitgehört	Information_geben
+TL	aber so leichte Rauchentwicklung ist jetzt zu sehen	Information_geben
+TL	mehr Richtung Hochofen einmal schauen	Einsatzbefehl
+UAV	okay	Zusage
+UGV-1	Teamleader von Bodenoperator 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ich bin am Ende der ersten Rampe, hab in beiden Richtungen geguckt	Information_geben
+UGV-1	in keiner Richtung was Auffälliges	Information_geben
+UGV-1	soll ich rechts oder links rum?	Information_nachfragen
+TL	Position beibehalten	Information_geben
+TL	wir versuchen weitere Informationen zu bekommen	Information_geben
+TL	Drohnenoperator für Teamleader, kommen	Kontakt_Anfrage
+UAV	hier Drohnenoperator	Kontakt_Bestaetigung
+TL	ist bei euch was zu sehen?	Information_nachfragen
+UAV	wir mussten gerade die Applikation nochmal neu starten	Information_geben
+UAV	ich hab Bilder freigegeben, wir versuchen sie gerade sichtbar zu machen	Information_geben
+TL	auf meinem Tablet ist nix zu sehen	Information_geben
+UAV	okay	Information_geben
+UAV	ein paar Sekunden noch	Information_geben
+TL	Bodenoperator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	hier Bodenoperator 1	Kontakt_Bestaetigung
+TL	da ich eine leichte Rauchentwicklung auf der linken Seite sehe, bitte den Weg zur linken Seite fortsetzen	Einsatzbefehl
+UGV-1	nach links, verstanden	Zusage
+TL	Bodenoperator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	hier Bodenoperator 1	Kontakt_Bestaetigung
+TL	fährst du die falsche Richtung?	Information_nachfragen
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	voraus ist 'ne Treppe und da drüber relativ dichter Rauch zu sehen	Information_geben
+UGV-1	soll ich ein Foto machen?	Information_geben
+TL	ja, wenn's geht	Zusage
+TL	näher ranfahren zum Lokalisieren, wo dieser Rauch entsteht, und Foto machen und mir senden	Einsatzbefehl
+TL	aber ich kann immer noch nichts empfangen	Information_geben
+UAV	Teamleader für UAV bereit da?	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+TL	die Bilder habe ich jetzt bekommen	Information_geben
+UAV	alles klar	Information_geben
+UAV	man kann von oben sehen, dass der Rauch aus dem Gebäude austritt	Information_geben
+TL	das habe ich auch gesehen	Information_geben
+TL	ich schick da erst mal ein Trupp ein	Information_geben
+UGV-2	Teamleader für Robot-Operator 2	Kontakt_Anfrage
+TL	ja, Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir haben leider Probleme mit dem Joystick und sitzen noch an der Startposition fest	Information_geben
+UGV-2	wir versuchen, das jetzt zu beheben	Information_geben
+TL	wenn ihr ja weiter einsatzbereit seid, dann bitte melden	Einsatzbefehl
+UGV-2	machen wir	Zusage
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	vor mir ist ein grünes Fass und da obendrauf steht noch ein gelbes und ich habe Personen in dem Rauch gesehen	Information_geben
+UGV-1	der Rauch kommt von rechts	Information_geben
+TL	verstanden	Information_geben
+UGV-1	ich versuche, von dem Fass ein gutes Foto zu machen	Information_geben
+TL	okay	Zusage
+UGV-1	Teamleader für Bodenroboter 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	Bodenoperator 1 hat die Leckage gefunden an einem Stromerzeuger	Information_geben
+UGV-1	Foto wurde gesendet	Information_geben
+UGV-1	hast du denn es empfangen?	Information_nachfragen
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	eine Person gesichtet	Information_geben
+UGV-1	ist in der Nähe von dem Fass und von der Leckage, wo der Rauch austritt	Information_geben
+UGV-1	Foto habe ich dir geschickt	Information_geben
+TL	versta- Mission	Sonstiges
+TL	Mission Operator für Teamleader, kommen	Kontakt_Anfrage
+UAV	Teamleader für UAV-Operator	Kontakt_Anfrage
+UAV	Teamleader für UAV-Operator	Kontakt_Anfrage
+TL	Teamleiter kann hören	Kontakt_Bestaetigung
+UAV	wir haben ein Opfer gefunden, liegt auf liegt auf der hinteren Seite des Hochofens angelehnt, scheint bewusstlos zu sein	Information_geben
+TL	ja, ich schick mal ein Trupp hin	Information_geben
+UAV	da ist keine Rauchentwicklung	Information_geben
+TL	okay, ich schick ein Trupp hin	Information_geben
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+UGV-1	hab Sie nicht verstanden	Information_geben
+TL	ich kann nur noch kommunizieren, ich kann keine Bilder empfangen, oder auch senden	Information_geben
+TL	kommen	Kontakt_Anfrage
+UGV-2	Teamleader für Bodenoperator 2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir haben das Problem behoben, mit der Fernsteuerung, und machen uns auf auf den Weg hinein	Information_geben
+TL	wie gesagt, ich kann keine Bilder empfangen	Information_geben
+UGV-1	Teamleader für Bodenoperator 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	eine Person gesichtet, ist auf der Ebene, auf der auch die Leckage ist, hinter dem ersten Hochofen	Information_geben
+UGV-1	halb liegend	Information_geben
+TL	verstanden	Information_geben
+TL	UGV-1 von Teamleader Leiter	Kontakt_Anfrage
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+TL	Nicht gerade	Sonstiges
+TL	UGV-2 von Teamleiter	Kontakt_Anfrage
+UGV-2	UGV-2 hört	Kontakt_Bestaetigung
+TL	Für Sie kurze Lageinformation es gab einen Unglücksfall in dem länglichen Graphecs Gebäude Luftbildaufnahmen sagen dass es unstabil und unsicher für Personen ist	Information_geben
+TL	Unsere Aufgabe erstellen einer Karte des Gebäudes	Information_geben
+UGV-2	Erstellen einer Lage einer Karte des länglichen Gebäudes verstanden	Information_geben
+TL	Für Sie konkreter Auftrag Sie begeben sich zur nördlichen Gebäudekante und bewegen sich dann westwärts	Einsatzbefehl
+TL	Das ist so korrekt	Information_geben
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+UAV	Teamleader von UAV operator kommen	Kontakt_Anfrage
+TL	Teamleader	Kontakt_Bestaetigung
+UAV	Ja die 3D Karte ist in Arbeit Dauer für das Modell circa halbe Stunde	Information_geben
+UAV	in der Ar- in Arbeit	Sonstiges
+UAV	komme wieder wenn Aufgabe beendet	Information_geben
+TL	Das ist verstanden	Zusage
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+UGV-1	Hier ist UGV-1	Kontakt_Bestaetigung
+TL	Frage Standort	Information_nachfragen
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+TL	Teamleiter	Kontakt_Bestaetigung
+UGV-2	Ich hab mal ein Foto gemacht	Information_geben
+UGV-2	das ist die Wand meines Erachtens in nördlicher Feuerlöscheinrichtung und Lagerteile an den Wänden der Regalen	Information_geben
+TL	Bis jetzt ist das Foto noch nicht angekommen	Information_geben
+TL	haben Sie auf Teilen geklickt?	Information_nachfragen
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+UGV-1	Hier ist UGV-1	Kontakt_Bestaetigung
+TL	Frage Ihr Standort immer noch mittig in der Halle oder inzwischen weiter in Richtung Westen	Information_nachfragen
+UGV-1	Ja ist mittig in der Halle	Information_geben
+UGV-1	Ich habe hier eine Erkenntniss hier ist ein Feuerlöscher fehlt	Information_geben
+UGV-1	Bild kommt	Information_geben
+TL	Das ist verstanden	Zusage
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+UGV-1	Hier ist UGV-1	Kontakt_Bestaetigung
+TL	Teilen Sie mir bitte auch mal ein Foto in ihrer Fahrtrichtung	Einsatzbefehl
+UGV-1	Ja kommt	Zusage
+TL	UGV-2 von Teamleiter	Kontakt_Anfrage
+UGV-2	Direction is correct	Information_geben
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+UGV-1	Hier ist UGV-1	Kontakt_Bestaetigung
+TL	Haben Sie das Foto bereits geteilt?	Information_nachfragen
+UGV-1	Bild müsste da sein ja	Zusage
+TL	Ja hier ist mal nichts	Information_geben
+TL	dann liegt's an mir	Information_geben
+UGV-1	Dann mag es so sein	Information_geben
+TL	UGV-2 von Teamleiter	Kontakt_Anfrage
+UGV-2	Hier UGV-2	Kontakt_Bestaetigung
+TL	Haben Sie irgendwelche Anzeichen von Gebäudeschäden gefunden?	Information_nachfragen
+UGV-2	Bisschen rissige Säulen aber es wird halten Überdimensionierung	Information_geben
+TL	Ja das ist verstanden	Information_geben
+TL	UGV-1 von Teamleiter	Kontakt_Anfrage
+TL	UAV operator von Teamleiter	Kontakt_Anfrage
+UAV	Hier UAV operator	Kontakt_Bestaetigung
+TL	Für sie Auftrag innerhalb des Gebäudes nach Hitze- und Rauchquellen suchen	Einsatzbefehl
+TL	Sollten dabei Verletzte oder chemische Substanzen gesichtet werden ebenfalls bitte melden und auf der Karte markieren	Einsatzbefehl
+UAV	Ja zur Erkundung von Rauchquellen Personen	Zusage
+UAV	Vor zur Information und Protektion oberhalb	Information_geben
+TL	Ja das ist verstanden	Information_geben
+TL	Sie kommt sehr leise über Funk	Information_geben
+UAV	Ja	Information_geben
+TL	Jetzt hör ich dich besser	Information_geben
+TL	UGV-2 von Teamleiter	Kontakt_Anfrage
+UGV-2	Hier UGV-2	Kontakt_Bestaetigung
+TL	Für Sie Auftrag Sie sind mit Messgeräten zur Gasmessung ausgestattet alle 15 Minuten die Gaskonzentration messen	Einsatzbefehl
+TL	Und desweiteren erkunden Sie die südliche Gebäudewand von ihrem Standort aus in westlicher Richtung	Einsatzbefehl
+UGV-2	Südliche Gebäudewand in westlicher Richtung kontrollieren	Zusage
+UGV-2	Und alle 15 Minuten Gasdetektoren einschalten verstanden	Zusage
+UGV-2	Zur Info ich hab keinen Kontakt zu meinem Roboter	Information_geben
+TL	Ja das ist erst mal verstanden	Information_geben
+UGV-1	Hier ist UGV-1	Kontakt_Anfrage
+TL	Sie suchen die nördliche Gebäudewand in westlicher Richtung ab	Einsatzbefehl
+TL	In erster Linie suchen wir nach Verletzten	Einsatzbefehl
+TL	Aber auch Hitzequellen Rauchquellen oder chemische Substanzen melden und auf der Karte markieren	Einsatzbefehl
+UGV-1	Gebäude nördliche Wand in westlicher Richtung absuchen nach Hitzequellen und vermissten Personen verstanden	Zusage
+TL	Ja ebenfalls auf Chemikalien achten Trader Fluorid und Trader Oxin müssten auch irgendwo sein	Einsatzbefehl
+UGV-1	Ja das ist okay ist verstanden	Zusage
+UAV	Teamleader von UAV operator kommen	Kontakt_Anfrage
+TL	Teamleiter	Kontakt_Bestaetigung
+UAV	Hier ist ein recht guter Überblick	Information_geben
+UAV	kommen	Kontakt_Anfrage
+UAV	von der Halle vielleicht hilft das zu	Information_geben
+TL	Ich kann Sie nicht aufnehmen	Information_geben
+TL	wiederholen	Einsatzbefehl
+UAV	Ja ich hab dir ein Bild geteilt mit einem recht guten Überblick über die Gebäudestruktur und die Halle	Information_geben
+UAV	vielleicht hilft es zu	Information_geben
+TL	Ich gucke mir erst mal an	Information_geben
+TL	Verbindung ist aber immer noch sehr schlecht	Information_geben
+UAV	Teamleader von UAV operator kommen	Kontakt_Anfrage
+TL	Teamleader	Kontakt_Bestaetigung
+UAV	Zur Information eine Person im oberen Gebäudeteil identifiziert und ein Chemikalienfass	Information_geben
+TL	UAV operator von Teamleader	Kontakt_Anfrage
+UAV	UAV operator	Kontakt_Bestaetigung
+TL	Habt ihr den Standort geteilt?	Information_nachfragen
+UAV	Ich hab weiter	Information_geben
+TL	UAV operator von Teamleader	Kontakt_Anfrage
+UAV	Hier UAV operator	Kontakt_Bestaetigung
+TL	Habt ihr neuen Status zum Standort der Person oder der Chemikalien?	Information_nachfragen
+TL	Ich krieg keinen Standort	Information_geben
+UAV	Ja ich habe da ich keine GPS Daten	Information_geben
+UAV	Muss ich kurz identifizieren wo ich bin ich versuche mich mal zu orientieren	Information_geben
+TL	UGV-1 von Teamleader	Kontakt_Anfrage
+UGV-1	Vom Startpunkt entfernt	Information_geben
+TL	Na ja das ist verstanden	Information_geben
+TL	Sehen Sie den Victim der durch die Drohne eingegeben wurde?	Information_nachfragen
+TL	Auf eurem TDS müsste mittig der Halle eine Person eingetragen worden sein	Information_geben
+UGV-1	Viel zu weit entfernt	Information_geben
+TL	Ja das ist verstanden	Information_geben
+TL	Wenn Sie sich an der nördlichen Gebäudewand entlang nach Westen bewegen nehmen sie immer so den Victim als Ziel	Einsatzbefehl
+UGV-1	Ja die nördliche Wand kann ich gar nicht erreichen	Absage
+UGV-1	ich kann höchstens den UGV-2 folgen	Information_geben
+TL	Der UGV-2 geht zur südlichen Gebäudewand das ist Ihnen bekannt	Information_geben
+UGV-1	Das ist mir bekannt	Information_geben
+UGV-1	Aber die nördliche Wand besaß kein Zugang	Information_geben
+UGV-1	Kannst du uns zur nördlichen Gebäudewand?	Information_nachfragen
+TL	Das ist verstanden	Information_geben
+TL	dann folgen Sie den UGV-2	Einsatzbefehl
+UAV	Teamleader von UAV operator kommen	Kontakt_Anfrage
+TL	Teamleader	Kontakt_Bestaetigung
+UAV	Ja ich hab dir die vermutliche Position die mögliche Position vom Opfer und dem Chemikalienfass geschickt	Information_geben
+UAV	Weiter kann ich die Aufschrift des Chemikalienfasses nicht identifizieren	Information_geben
+UAV	da die verletzte Person im Weg sitzt	Information_geben
+UAV	Über dem Zustand der Person keine weiteren Erkenntnisse zu bekommen	Information_geben
+TL	Sven, kommen	Kontakt_Anfrage
+TL	Lena für Benno, kommen	Kontakt_Anfrage
+UGV-1	ja, der Operator 1 hört	Kontakt_Bestaetigung
+UGV-2	der Operator 2 hört	Kontakt_Bestaetigung
+UAV	UAV Operator hört	Kontakt_Bestaetigung
+TL	ja, folgende Lage: im Bereich zwischen den Hochöfen hat es eine Explosion gegeben	Information_geben
+TL	Ursache ist unbekannt Rauchentwicklung, vermutlich auch Feuer, mehrere vermisste Personen, Anzahl der vermissten Personen ist ebenfalls unbekannt	Information_geben
+TL	unsere Aufgabe ist es halt Menschenrettung	Information_geben
+TL	Frage zunächst, wer hat den Roboter mit dem Arm?	Information_nachfragen
+UGV-2	ja, das ist der Sven, Operator 2	Information_geben
+TL	ja, hab ich verstanden	Information_geben
+TL	Sven, Tom und Lena zur Kenntnis: der Angriffstrupp geht unter Atemschutz im Bereich zwischen den Hochöfen vor und erkundet zunächst	Information_geben
+UGV-1	ja, ist verstanden	Information_geben
+UGV-2	ja, Operator 2 hat verstanden	Information_geben
+UAV	UAV Operator, verstanden	Information_geben
+TL	so, UAV one über den Benno kommen	Kontakt_Anfrage
+UAV	UAV Operator hört	Kontakt_Bestaetigung
+TL	ja, ich hätte gerne dass du mit dem Vogel da einmal über die Hochöfen fliegst, nen Rundflug machstguckst, ob du da irgendwelche Personen entdecken kannst	Einsatzbefehl
+TL	von oben uns Fotos machst und guckst, wo wir 'ne Rauchentwicklung haben und auch mit der Infrarot-Kamera	Einsatzbefehl
+UAV	ja, das habe ich verstanden	Zusage
+TL	Operator 2 für Benno, kommen	Kontakt_Anfrage
+UGV-2	ja, Operator 2 hört, Benno	Kontakt_Bestaetigung
+TL	du hast den Roboter mit der Infrarot-Kamera, ist das richtig?	Information_nachfragen
+UGV-2	negativ, ich hab den Roboter mit dem Arm, dort ist keine Infrarot-Kamera vorne	Absage
+TL	verstanden	Information_geben
+TL	Operator 1 für Benno, kommen	Kontakt_Anfrage
+UGV-1	ja, der Operator 1 hört	Kontakt_Bestaetigung
+TL	Auftrag für dich geradeaus die Treppe hochfahren, 50 meter rein, linksseitig dichte Rauchentwicklung	Einsatzbefehl
+TL	dort mit dem Roboter hinfahren und mit der Menschensuche beginnen	Einsatzbefehl
+UGV-1	ja, 50 meter geradeaus, links rein und erkunde nach Menschen	Zusage
+TL	das ist korrekt	Information_geben
+TL	Operator 1 für Benno	Kontakt_Anfrage
+UGV-1	hier der Operator 1	Kontakt_Bestaetigung
+TL	mach mal bitte an den relevanten Punkten Fotos, dass wir den hinterher nachvollziehen können	Einsatzbefehl
+UGV-1	ja, ist verstanden, ich mach hier Fotos	Zusage
+UAV	Benno für UAV Operator	Kontakt_Anfrage
+TL	Augenblick	Sonstiges
+UGV-1	der Teamleader von Operator 1, kommen	Kontakt_Anfrage
+TL	UAV 1, kommen	Kontakt_Bestaetigung
+UGV-1	ja, ich hab gerade ein Foto geschossen, hier sind zwei Treppen auf der linken Seite, allerdings kein Angriffstrupp	Information_geben
+UGV-1	Rauchentwicklung weiter rechts	Information_geben
+UGV-1	Frage: zur Rauchentwicklung vorfahren?	Information_nachfragen
+TL	Augenblick	Sonstiges
+TL	Operator 1 für Teamleiter, kommen	Kontakt_Anfrage
+UGV-1	ja, hier Operator 1	Kontakt_Bestaetigung
+TL	der Angriffstrupp steht an der Rauchentwicklung	Information_geben
+TL	du sollst zur Rauchentwicklung fahren	Einsatzbefehl
+UGV-1	ja, ich fahr zur Rauchentwicklung	Zusage
+TL	UAV Operator für Teamleader, kommen	Kontakt_Anfrage
+TL	Lena für Benno?	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	du hattest mich angesprochen?	Information_nachfragen
+UAV	ja, ich hätte jetzt einmal ein Luftbild von oben, einmal eins zu Übersicht, das schicke ich dir jetzt	Information_geben
+TL	verstanden	Information_geben
+TL	Operator 1, schickst du mir die Bilder auch einmal rüber, die du gemacht hast?	Einsatzbefehl
+UGV-1	ja, das erste Bild hab ich dir gerade schon gesch-	Information_geben
+TL	Operator 1, schickst du mir das nochmal rüber	Einsatzbefehl
+TL	ich habe nichts gekriegt hier	Information_geben
+UGV-1	ja, ich schicke	Zusage
+UGV-1	Teamleader vom Operator 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	das Bild müsstest du schon haben	Information_geben
+TL	ja, verstanden	Information_geben
+TL	hab kein Bild	Information_geben
+UAV	Teamleiter 1 für UAV Operator	Kontakt_Anfrage
+TL	Operator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	hier Operator 1	Kontakt_Bestaetigung
+TL	Frage: Standort Roboter?	Information_nachfragen
+UGV-1	ist gerade die erste Treppe nach oben gefahren zur Rauchentwicklung, ich erkunde dort im ersten Raum	Information_geben
+TL	die linke Treppe oder die rechte Treppe auf dein'm Foto?	Information_nachfragen
+UGV-1	die rechte Treppe, wo die Rauchentwicklung zu sehen war	Information_geben
+TL	das heißt, du bist da rechts abgebogen, in den Raum rein, richtig?	Information_nachfragen
+UGV-1	das ist richtig	Zusage
+UGV-1	und da bin ich gerade am Anfangen	Information_geben
+TL	ja - Auftrag war, sich mit dem Angriffstrupp zu treffen, zunächst	Information_geben
+UGV-1	ja, Angriffstrupp war nicht vor Ort	Information_geben
+TL	ja, dann möchte ich dort eine Meldung haben	Einsatzbefehl
+TL	dann kümmere ich mich darum	Information_geben
+TL	Augenblick	Sonstiges
+TL	UAV Operator für Teamleader, kommen	Kontakt_Anfrage
+UAV	UAV Operator hört	Kontakt_Bestaetigung
+TL	du hattest mich gerufen?	Information_nachfragen
+UAV	ja	Zusage
+UAV	wir haben einmal den Akku gewechselt, bis jetzt noch kein Rauch festzustellen, aber wir haben eine Person gefunden	Information_geben
+UAV	ich schick dir jetzt das Foto	Information_geben
+TL	ja	Zusage
+TL	Könnten -	Sonstiges
+TL	darauf kann ich sehen, wo der Standort ist?	Information_nachfragen
+UAV	müsste zu erkennen sein	Zusage
+UAV	ja, verstanden	Information_geben
+UGV-1	der Teamleadaer von Operator 1, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	also - ich bin jetzt oben im ersten Raum, auch hier ist der Angriffstrupp nicht vorzufinden	Information_geben
+UGV-1	Frage: Raum weiter erkunden?	Information_nachfragen
+TL	ja, richtig	Zusage
+TL	der Angriffstrupp musste raus	Information_geben
+TL	der hatt' keine Luft mehr, den Raum weiter erkunden	Information_geben
+UGV-1	ja, ist verstanden	Information_geben
+TL	Lena für Benno	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	Lena, jetzt sag mir mal genau den Standort dieser Person	Information_nachfragen
+UAV	ich schick dir eben noch zwei andere Fotos, da müsstest du es besser erkennen	Information_geben
+UAV	das ist könnte aber eventuell eine andere Person sein	Information_geben
+TL	ja, habe verstanden	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich habe jetzt bei der zweiten Person auch eventuell Rauch gefunden	Information_geben
+TL	du hast mir jetzt ein weiteres Foto geschickt, ist das richtig?	Information_nachfragen
+UAV	ich habe drei geschickt	Zusage
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	Operator 2 für Teamleader, kommen	Kontakt_Anfrage
+UGV-2	Operator 2 hört	Kontakt_Bestaetigung
+TL	folgenden Auftrag: den gleichen Weg nehmen wie Operator 1	Einsatzbefehl
+TL	Auftrag ist: Erkundung nach weiteren Zugangsmöglichkeiten, nach Verletzten	Einsatzbefehl
+TL	schau auch mal wie weit die Rauchentwicklung da ausgedehnt ist	Einsatzbefehl
+UGV-2	ja, ist soweit verstanden	Zusage
+UGV-1	der Teamleader von Operator 1	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	im ersten großen Raum eine Person gefunden	Information_geben
+TL	prima	Information_geben
+TL	ich schick dir den Angriffstrupp	Information_geben
+TL	Operator 1, der Angriffstrupp ist unterwegs	Information_geben
+TL	rechte Treppe hoch, rechts in den Raum rein, korrekt?	Information_nachfragen
+UGV-1	ja, richtig so	Zusage
+TL	verstanden	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UAV	ich habe Rauch gefunden, und weitere Personen	Information_geben
+UAV	schi-	Sonstiges
+UAV	ich versuch, dir nochmal die Bilder zu schicken	Information_geben
+TL	ja, verstanden	Information_geben
+TL	bin - ich – k-	Sonstiges
+TL	kann da noch nichts lokalisieren, auch anhand der großen Karte, wo genau diese Personen sich befinden	Information_geben
+UAV	ja, das habe ich verstanden	Information_geben
+TL	Operator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	ja, ich höre dich	Kontakt_Bestaetigung
+TL	hast du von der Person ein Foto gemacht und mir geschickt?	Information_nachfragen
+TL	Fo-	Sonstiges
+UGV-1	ja, Foto gemacht habe ich	Zusage
+UGV-1	ich weiß bloß nicht, ob es angekommen ist	Information_geben
+TL	ist das der Mensch, der da an einem Pfeiler hockt?	Information_nachfragen
+UGV-1	ganz genau	Zusage
+TL	phantastisch	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	ich höre, Lena	Kontakt_Bestaetigung
+UAV	also - die Person müsste hinter dem großen Hochofen auf dem freien Weg sein	Information_geben
+UAV	der Akku ist jetzt leer	Information_geben
+UAV	wir müssen jetzt auch landen, und warten am Boden auf weitere Anweisungen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	ist das welcher Hochofen ist es, der rechte oder der linke von uns aus gesehen?	Information_nachfragen
+UAV	der eine ist nur das Gerüst und der andere ist voll, ich meine den vollen	Information_geben
+TL	ist das der, der von dir weiter entfernt ist?	Information_nachfragen
+UAV	ja, das ist richtig	Zusage
+TL	hab ich verstanden	Information_geben
+TL	neuer Auftrag ist: Akku tauschen, damit die Drohne wieder fliegen kann	Einsatzbefehl
+UAV	ja, das habe ich verstanden	Zusage
+UGV-1	der Teamleader von Operator 1, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-1	ja, Frage: soll ich nach weiteren Personen suchen?	Information_nachfragen
+TL	ja, klar	Zusage
+TL	einen Augenblick, ich melde mich gleich	Sonstiges
+TL	erst muss der Angriffstrupp da gewesen sein	Information_geben
+UGV-1	ja, verstanden	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+UAV	wir sind jetzt wieder startklar	Information_geben
+TL	Lena, sag nochmal die letzte Meldung, hab ich nicht mitgekriegt	Information_nachfragen
+UAV	wir sind jetzt wieder startklar	Information_geben
+UAV	neuer Akku ist bereit	Information_geben
+TL	ja	Information_geben
+TL	ich melde mich sofort	Information_geben
+TL	Operator 1 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	hier Operator 1	Kontakt_Bestaetigung
+TL	der Raum ist vollständig abgesucht?	Information_nachfragen
+UGV-1	bis zum Opfer auf jeden Fall	Zusage
+TL	gibt es noch mehr Raum, der noch nicht abgesucht ist?	Information_nachfragen
+UGV-1	ja	Zusage
+UGV-1	der Bereich hinter dem Pfeiler, also hinter dem Teil, wo die Person war	Information_geben
+TL	jo	Information_geben
+TL	dann bitte weiter suchen	Einsatzbefehl
+UGV-1	ja, ist verstanden	Zusage
+TL	Operator 2 für Teamleader, kommen	Kontakt_Anfrage
+TL	Operator 2 für Teamleader, kommen	Kontakt_Anfrage
+UGV-2	ja, hört	Kontakt_Bestaetigung
+TL	wo bist du jetzt? Standort	Information_nachfragen
+TL	mach mal Fotos auch	Einsatzbefehl
+TL	wenn du was findest, dass man den Weg nachvollziehen kann	Information_geben
+UGV-2	ja, mach ich	Zusage
+UGV-2	ich bin gerade dabei, einfach schon mal Richtung den Weg zu kommen, wo der Operator 1 lang gefahren ist	Information_geben
+TL	ja	Information_geben
+TL	dein Auftrag ist, an diesem Raum vorbei, wo der Operator 1 drin ist, und da ab da weiter zu suchen nach Menschen	Einsatzbefehl
+UGV-2	ja	Zusage
+UGV-2	und das Fass, hast du gesagt, da soll ich dran vorbei fahren, ne?	Information_nachfragen
+TL	ja, korrekt	Zusage
+TL	das Fass, das steht dort irgendwo, das war nur zur Orientierung	Information_geben
+TL	aber mach mir mal ein Foto von dem Fass	Einsatzbefehl
+UGV-2	ja, mache ich	Zusage
+TL	Lena für Benno, kommen	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	Lena, du hast alle Fotos jetzt von einer Stelle aus gemacht	Information_geben
+TL	ich möchte mal, dass du mit der Drohne jetzt weiter fliegst zum anderen Hochofen, quasi von der anderen Seite der Einsatzstelle aus Fotos machst	Einsatzbefehl
+TL	mit der - mit der Drohne	Sonstiges
+TL	und guckst, ob du von dort aus noch Personen erkennen kannst	Einsatzbefehl
+UAV	das habe ich verstanden	Zusage
+TL	Operator 2, wie ist dein Standort?	Information_nachfragen
+UGV-2	wir haben gerade ein kleines technisches Problem	Information_geben
+UGV-2	ich melde mich gleich	Information_geben
+TL	verstanden	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir gerade ein Übersichtsbild geschickt, da erkennt man den gefüllten - also den großen Hochofen sag mir, wo du hinmöchtest	Information_geben
+TL	dass du dieses Bild nochmal machst, aber reinzoomst	Einsatzbefehl
+UAV	wo soll ich reinzoomen, in den - eher in den Hochofen oder genau in die Mitte?	Information_nachfragen
+TL	das gleiche Bild, was du jetzt gemacht hast, da in die Mitte reinzoomen, da wo die Rauchentwicklung ist	Information_geben
+UAV	das habe ich verstanden	Information_geben
+TL	Operator 1 und 2 für Teamleader, kommen	Kontakt_Anfrage
+UGV-1	hier Operator 1	Kontakt_Bestaetigung
+TL	wer von euch beiden hat 'n Foto gemacht auf der Treppe?	Information_nachfragen
+UGV-1	ja, das habe ich gemacht	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	ich hab dir nochmal ein Bild ein herangezoomtes Bild geschickt, wo der Qualm besser zu sehen ist, aber keine Personen gefunden, von dieser Position aus	Information_geben
+TL	verstanden	Information_geben
+TL	Lena, dann flieg mal mit deinem Fluggerät da weiter ja, weiter nach rechts, würde ich jetzt erst mal sagen, was immer auch rechts sein mag so wie du jetzt guckst quasi in deiner Position in Richtung deiner Position	Einsatzbefehl
+TL	Lena für Benno?	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	flieg mal mit der Drohne genau in die andere Richtung	Einsatzbefehl
+TL	ich seh dich auf dem Bildschirm	Information_geben
+UAV	wir müssen gerade den Akku tauschen	Information_geben
+UAV	ich schick dir jetzt noch mal ein Bild von weit oben rechts auf dem Bild, was nicht mehr zu sehen ist, sind diese drei klein' Hochöfen und links ist der ganz große gefüllte Hochofen	Information_geben
+UAV	genau in der Mitte davon, also bei den grünen, da kommt der Qualm her	Information_geben
+TL	verstanden	Information_geben
+UGV-1	der Teamleader von Operator 1, kommen	Kontakt_Anfrage
+TL	höre	Kontakt_Bestaetigung
+UGV-1	ja, ich hab den ersten Raum weitestgehend abgesucht, gerade so ein bisschen technische Schwierigkeiten	Information_geben
+UGV-1	geht's einmal die Treppe noch weiter hoch oder soll ich in der Ebene bleiben und nach weiteren Räumen suchen?	Information_nachfragen
+TL	ich melde mich sofort	Information_geben
+UGV-1	ja, verstanden	Information_geben
+UAV	Benno für Lena	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UAV	kannst du jetzt nochmal genau beschreiben, wo ich hinfliegen sollte?	Information_nachfragen
+TL	ja, ich melde mich gleich	Information_geben
+TL	Operator 1 für Teamleader, kommen	Kontakt_Anfrage
+TL	Operator 1 für Teamleader, kommen	Kontakt_Anfrage
+TL	Operator 2 für Teamleader, kommen	Kontakt_Anfrage
+UGV-2	hört	Kontakt_Bestaetigung
+TL	was machen die technischen Probleme, wieder einsatzbereit?	Information_nachfragen
+UGV-2	negativ	Absage
+TL	verstanden	Information_geben
+UGV-2	wir stehen in der Nähe des grünen Fasses	Information_geben
+UGV-2	also ist das grüne Fass kann ich durch die Kamera sehen, aber ich kann ihn nicht verfahren	Information_geben
+UGV-2	das Radar scheint irgendwie nicht richtig zu funktionieren	Information_geben
+UGV-2	nicht ge- richtig	Sonstiges
+TL	kannst du dich denn noch bewegen?	Information_nachfragen
+UGV-2	ne, ich kann hier nichts machen	Absage
+UGV-2	es sind ja mit drei, vier Technikern die ganze Zeit am PC zugange	Information_geben
+TL	alles klar	Information_geben
+TL	Foto machen geht auch nicht?	Information_nachfragen
+UGV-2	ne	Absage
+UGV-2	ich mache hier gar nichts gerade am Rechner	Information_geben
+TL	alles klar	Information_geben
+UGV-2	Teamleader von Operator 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, ich gucke mal, dass ich dir jetzt ein Foto schicke	Information_geben
+UGV-2	scheint weiter zu gehen bei uns	Information_geben
+TL	ja, verstanden	Information_geben
+TL	Lena für Benno	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	wenn du jetzt startest, den Hochofen, der von euch weiter weg ist - von dort aus hätte ich gerne Bilder aus der Mitte zwischen den Hochöfen	Einsatzbefehl
+UAV	ja, das habe ich verstanden	Zusage
+TL	immer noch Menschen suchen, ne	Einsatzbefehl
+UAV	ja, das habe ich auch verstanden	Zusage
+UGV-2	ja, Benno für den Operator 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, hier steht wieder alles	Information_geben
+TL	wo ist denn deine Position jetzt?	Information_nachfragen
+UGV-2	immer noch in der Nähe des grünen Fasses	Information_geben
+UGV-2	aber hier geht im Moment nichts	Information_geben
+TL	alles klar	Information_geben
+TL	Lena für Benno	Kontakt_Anfrage
+UAV	Lena hört	Kontakt_Bestaetigung
+TL	zwischen den Hochöfen, da steht irgendwo ein grünes Fass und da kommt die Rauchentwicklung her	Information_geben
+TL	ich hab im Moment keinen Roboter einsatzbereit	Information_geben
+TL	kannst du gucken, ob du dieses Fass findest und entsprechende Bilder machst?	Einsatzbefehl
+UAV	ja, das habe ich verstanden	Zusage
+UAV	das hab ich auch verstanden	Zusage
+UGV-2	so, der Benno für Operator 2, kommen	Kontakt_Anfrage
+TL	ich höre	Kontakt_Bestaetigung
+UGV-2	ja, es geht weiter	Information_geben
+UGV-2	ich habe dir ein Foto geschickt von dem grünen Fass und wo ich mich jetzt gerade befinde	Information_geben
+TL	ja, bleib mal da, wo du jetzt bist	Einsatzbefehl
+TL	dieses grüne Fass - da ist der Rauch, korrekt?	Information_nachfragen
+UGV-2	ja, ich weiß	Zusage
+UGV-2	ich seh den Rauch ab und zu	Information_geben
+UGV-2	soll ich in die Richtung fahren?	Information_nachfragen
+TL	fahr zu dem grünen Fass	Zusage
+TL	und erkunde um dieses grüne Fass herum, warum es da raucht	Einsatzbefehl
+UGV-2	ja, verstanden	Zusage
+TL	Operator 2 für Teamleader	Kontakt_Anfrage
+UGV-2	melde mich sofort	Sonstiges
+TL	so, der Benno an alle	Kontakt_Anfrage
+TL	Übungsende	Information_geben
+TL	die Roboter sollen alle zurückfahren und dann treffen wir uns hier	Einsatzbefehl
+TL	UGV 1 von Teamleader	Kontakt_Anfrage
+UGV-1	hier UGV 1, kommen	Kontakt_Bestaetigung
+TL	du bist soweit?	Information_nachfragen
+UGV-1	ja, natürlich	Zusage
+TL	UGV 2 von Teamleader	Kontakt_Anfrage
+UGV-2	hier UGV-	Sonstiges
+UGV-2	hier UGV 2	Kontakt_Bestaetigung
+TL	ihr seid auch soweit?	Information_nachfragen
+UGV-2	sind bereit, ja	Zusage
+TL	verstanden	Information_geben
+TL	UAV 1 von Teamleader	Kontakt_Anfrage
+UAV	hier UAV 1 kommen	Kontakt_Bestaetigung
+TL	ihr seid auch soweit?	Information_nachfragen
+UAV	bereit, wenn Sie es sind	Zusage
+TL	verstanden	Information_geben
+TL	der Einsatzauftrag kommt wunderbar	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	wie besprochen Gebiet erkunden rund um die beiden Hochöfen	Einsatzbefehl
+MC	vermutlich Explosion, oder irgendwas mit Chemikalien	Information_geben
+MC	wir wissen nicht, ob es eine Leckage ist, oder was Anderes	Information_geben
+MC	Rauchentwicklung ist schon gemeldet worden	Information_geben
+MC	möglicherweise sind dann auch Personen vermisst	Information_geben
+MC	also Personensuche voran- bringen	Einsatzbefehl
+MC	und dann eventuell noch nach der Schadenursache gucken	Einsatzbefehl
+TL	das ist verstanden	Zusage
+TL	an UGV 1, UGV 2, UAV	Kontakt_Anfrage
+TL	kurze Lagedarstellung	Information_geben
+TL	es gab ein'n Zwischenfall zwischen zwei Hochöfen	Information_geben
+TL	dort werden eine oder mehrere Personen vermisst	Information_geben
+TL	eine Rauchentwicklung ist zu erkennen	Information_geben
+TL	und da ist das Einsatzgebiet	Information_geben
+TL	Auftrag für die UAV 1	Einsatzbefehl
+TL	hören Sie mit?	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	genau	Information_geben
+TL	Auftrag für die UAV 1	Einsatzbefehl
+TL	ich brauch' einmal ein Lagebild von oben, wo das komplette Objekt abgebildet wird und dann speziell ein Foto zwischen den beiden Türen	Einsatzbefehl
+TL	verstanden?	Information_nachfragen
+UAV	ein Lagebild von oben komplette Lage und ein Lagebild zwischen den beiden Türen, verstanden	Zusage
+TL	das ist korrekt	Information_geben
+TL	bitte, auch per Infrarot, bitte	Einsatzbefehl
+TL	auf Menschen und sonstige Ereignisse scannen	Einsatzbefehl
+UAV	ja, beide Bilder in Infrarot ebenfalls	Zusage
+TL	korrekt	Information_geben
+TL	UGV 1 von Teamleader?	Kontakt_Anfrage
+UGV-1	UGV 1, kommen	Kontakt_Bestaetigung
+TL	ja, Ihr Auftrag ist in das Objekt reinzufahren und den Schadensort zu scannen, zu bebildern	Einsatzbefehl
+UGV-1	ja, verstanden	Zusage
+UGV-1	ich fahr rein	Information_geben
+TL	UGV 2 von Teamleader?	Kontakt_Anfrage
+UGV-2	UGV 2, kommen	Kontakt_Bestaetigung
+TL	ebenfalls Ihr Auftrag vom Westen her Richtung Osten die Einsatzstelle anfahren mir Ihrem UGV und Kontrolle ob Menschen zu erkennen sind, beziehungsweise, ob irgend ein Schadensereignis zu erkennen ist	Einsatzbefehl
+UGV-2	verstanden	Zusage
+TL	Mission Commander von Teamleader	Kontakt_Anfrage
+MC	kommen Sie	Kontakt_Bestaetigung
+TL	ja	Sonstiges
+TL	erste Maßnahmen eingeleitet, wir erstellen ein Lagebild mit der Drohne von oben und per Infrarot	Information_geben
+TL	des Weiteren die zwei UGVs eingeteilt die fahren vor, zum Schadensereignis, zwecks Menschensuche und weitere Lagedarstellung	Information_geben
+MC	verstanden	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	welcher Roboter ist jetzt für die Verletztensuche eingeteilt?	Information_nachfragen
+TL	UGV 1 und UGV 2	Information_geben
+TL	die suchen Verletzte ein- feststellen	Sonstiges
+TL	die suchen Verletzte, feststellen, was da genau los ist	Information_geben
+MC	ja, verstanden	Information_geben
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	Bild von der UAV eingetroffen?	Information_nachfragen
+TL	ja, das erste Bild	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	Rauchentwicklung erste Treppe nach oben,	Information_geben
+UGV-1	ich schick dir mal ein Screenshot	Information_geben
+TL	korrekt	Zusage
+TL	und wenn weitere Erkenntnis, das auch melden	Einsatzbefehl
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	aus dem ersten Foto von der UAV mit der Übersicht ist da so ein heller Fleck zu sehen	Information_geben
+MC	vielleicht kann man nochmal dran zoomen	Einsatzbefehl
+MC	ich weiß nicht, was das ist - ob das jetzt eine Person ist, oder - das ist	Sonstiges
+MC	ich weiß nicht, was das ist - ob das jetzt eine Person ist, das ist unten am unteren Rand, da ist ein [<unintelligible>]	Information_geben
+MC	kommen	Kontakt_Anfrage
+UGV-1	Teamleader von UGV 1, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, ich werde jetzt die Treppe mal hochfahren und weiter erkunden oben	Information_geben
+TL	ja	Zusage
+TL	ja, verstanden	Information_geben
+TL	UGV 1, ist das die erste Etage oder so ne - nur fünf Stufen?	Information_nachfragen
+UGV-1	ja, zwölf Metallstufen	Information_geben
+TL	verstanden	Information_geben
+TL	mach mal ein Foto davon	Einsatzbefehl
+UGV-2	Teamleader für UGV 2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	ich bin jetzt auch in der Nähe vom Hochofen angekommen, ich sehe Rauchentwicklung und auch einen umgestürtzten blauen Kanister	Information_geben
+UGV-2	ich schicke Ihnen gleich mal ein Screenshot drüber	Information_geben
+TL	ja, genau	Zusage
+TL	bitte darauf achten, eine Bezeichnung auf dem Kanister zu erkennen	Einsatzbefehl
+UGV-2	verstanden	Zusage
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	liegen irgend welche Erkenntnisse nochmal vor, inwiefern die Strukturen noch stabil genug sind, um Eingriffstrupp reinzuschicken?	Information_nachfragen
+TL	UGV 1, UGV 2	Kontakt_Anfrage
+TL	könnt ihr abschätzen, ob das Gebäude noch Tragfähigkeit hat?	Information_nachfragen
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	ich habe jetzt d- den Kanister gefunden, es handelt sich um Otalin Pera-cet, zirka 20 bis 30 liter Fassungsvermögen, es scheint auch eine Leckage da zu sein	Information_geben
+UGV-2	d- den Kanister	Sonstiges
+UGV-2	darüber hinaus habe ich auch - sehe ich auch Teile v-vom Gebäude hier liegen, also es - ist - die strukturelle Integrität könnte gefährdet sein	Information_geben
+UGV-2	darüber hinaus habe ich auch - sehe ich auch	Sonstiges
+UGV-2	v-vom Gebäude	Sonstiges
+UGV-2	also es - ist - die strukturelle Integrität könnte gefährdet sein	Sonstiges
+TL	ja, verstanden	Information_geben
+TL	Mission Commander von Teamleader	Kontakt_Anfrage
+MC	kommen Sie	Kontakt_Bestaetigung
+TL	ja, diese Substanz wurde gefunden, ein Foto folgt	Information_geben
+MC	ja, verstanden	Information_geben
+UGV-2	Teamleader für UGV2	Kontakt_Anfrage
+UGV-2	ich habe jetzt ein Foto gemacht und geschickt, vom Conta- von dem Kanister	Information_geben
+UGV-2	vom Conta- von dem Kanister	Sonstiges
+TL	verstanden	Information_geben
+MC	Teamleader v-von Mission Commander, kommen	Kontakt_Anfrage
+MC	v-von	Sonstiges
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	sind schon Verletzte gefunden worden?	Information_nachfragen
+TL	bisher noch nicht, wir haben eine Erkenntnis auf auf einem Foto, dem gehen wir jetzt nach	Information_geben
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UAV	Teamleader von UAV-Operator, kommen	Kontakt_Anfrage
+UAV	Teamleader	Kontakt_Bestaetigung
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	Foto von dem blauen Kanister ist eingetroffen	Information_geben
+MC	auf Nachfrage handelt es sich um Kraftstoff	Information_geben
+MC	Frage ist der Kanister defekt, hat eine Leckage oder ist er noch dicht?	Information_nachfragen
+TL	ich klär das	Information_geben
+TL	UGV2 für Teamleader?	Kontakt_Anfrage
+UGV-2	UGV2, kommen	Kontakt_Bestaetigung
+TL	ja, der Kanister mit Otalin, ist er defekt?	Information_nachfragen
+TL	ist nur eine kleine Lache, oder ist er komplett ausgelaufen?	Information_nachfragen
+TL	wie viel Liter sind das?	Information_nachfragen
+UGV-2	so, ich kann nicht genau einschätzen, wie viel ausgelaufen ist	Information_geben
+UGV-2	aber eine Leckage hat stattgefunden	Information_geben
+UGV-2	der K-Kanister hat zirka 30 liter Fassvermögen	Information_geben
+UGV-2	K-Kanister	Sonstiges
+UGV-2	ich kann aber eine Probe nehmen, ich habe einen Arm dabei	Information_geben
+TL	ja	Zusage
+TL	dann bitte eine Probe nehmen	Einsatzbefehl
+TL	gibt's irgendwelche Erkenntnisse, wo die Rauchentwicklung herkommt?	Information_nachfragen
+UGV-1	der GUV1 hat jetzt die Treppe erklommen, ich werd' nach der Rauchquelle suchen	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-1	aber mein Laser ist ausgefallen, ich kann nur noch optisch fahren, ist schon sehr verraucht	Information_geben
+TL	ja, verstanden	Information_geben
+TL	du hast doch auch eine Infrarot-Kamera drauf	Information_nachfragen
+TL	kannst du damit was erkennen?	Information_nachfragen
+UGV-1	die funktioniert doch nicht	Absage
+TL	ja, verstehe	Information_geben
+MC	Teamleader für Mission Commander	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	wir müssten eine Stelle mal genauer untersuchen	Einsatzbefehl
+UGV-1	Teamleader von UGV1, kommen	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+TL	kurz warten	Sonstiges
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir haben jetzt eine Probe genommen und auch dabei	Information_geben
+UGV-2	sollen wir jetzt die Suche fortsetzen nach Verletzten, oder zurückkehren, um die Probe zu analysieren?	Information_nachfragen
+TL	ja, wir konnten bereits feststellen, das Otalin was es genau ist fortsetzen der Suche	Information_geben
+UGV-1	Thorsten, kannst du mich noch hören?	Information_nachfragen
+UGV-1	Teamleader von UGV1, kommen	Kontakt_Anfrage
+TL	Mission Commander von Teamleader	Kontakt_Anfrage
+MC	Mission Commander hört	Kontakt_Bestaetigung
+TL	ja, Rückmeldung	Information_geben
+TL	Trupp eine Person gefunden, wieder aus dem Gefahrenbereich	Information_geben
+TL	geht jetzt und an den Rettungsdienst übergeben	Information_geben
+MC	ja, verstanden	Information_geben
+MC	wir bräuchten mal eine genauere Untersuchung, Bild Nummer 3	Einsatzbefehl
+UGV-1	Teamleader von UGV1, kommen	Kontakt_Anfrage
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	ja, war- kurz warten	Sonstiges
+TL	war- kurz warten	Sonstiges
+TL	UGV1 von Teamleader	Kontakt_Anfrage
+UGV-1	ja	Kontakt_Bestaetigung
+UGV-1	die Verrauchung kommt aus einem grünen Fass, ich hab mal ein Screenshot geschickt	Information_geben
+UGV-1	ich versuch' die Beschriftung noch besser zu fotografieren	Information_geben
+UGV-1	es ist aber sehr verraucht	Information_geben
+UGV-1	und mein Laser ist ausgefallen	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir sind jetzt auch an dem grünen Kanister angekommen	Information_geben
+UGV-2	wir haben einen Arm dabei, sehen auch den zweiten Roboter	Information_geben
+UGV-2	wir können vielleicht etwas bessere Bilder machen	Information_geben
+TL	ja, genau	Zusage
+TL	und da wieder die Kennzeichnung, die brauchen wir	Einsatzbefehl
+TL	und eine Einschätzung, ob Undichtigkeit, und wenn ja, wie viel Flüssigkeit ausgetreten ist	Einsatzbefehl
+MC	so, jetzt mal stopp	Einsatzbefehl
+MC	Teamleader für Mission Commander	Kontakt_Anfrage
+MC	eine verletzte Person hier in diesen Strukturen	Information_geben
+MC	Teamleader von Mission Commander	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UGV-1	Teamleader-Funk ist ausgefallen	Information_geben
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+MC	Teamleader für Mission Commander, kommen	Kontakt_Anfrage
+UGV-1	Teamleader-Funk ist ausgefallen	Information_geben
+MC	okay	Information_geben
+TL	so, der Team- der Teamleader hört wieder	Information_geben
+TL	der Team- der Teamleader	Sonstiges
+TL	Funk funktioniert wieder	Information_geben
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir haben den grünen Container identifiziert, haben auch ein Foto gemacht, und es - es müsste in der Datenbank liegen	Information_geben
+UGV-2	es scheint - handelt sich um eine gift- giftige entzündliche - hochentzündliche Flüssigkeit	Information_geben
+UGV-2	es scheint - handelt sich	Sonstiges
+UGV-2	eine gift- giftige	Sonstiges
+UGV-2	entzündliche - hochentzündliche	Information_geben
+UGV-1	UGV2 von 1	Kontakt_Anfrage
+UGV-2	UGV1, kommen	Kontakt_Bestaetigung
+UGV-1	davor ist noch ein gelber Kanister, brennbares Material, den hab ich auch mit fotografiert	Information_geben
+UGV-2	super, den habe ich noch nicht gesehen	Information_geben
+UGV-2	danke schön	Sonstiges
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+MC	Teamleader von Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	wie ist der Stand der Rettung der Verletzten?	Information_nachfragen
+TL	ein Trupp arbeitet sich vor der Flug-Roboter fliegt vor die Position des Verletzten z- zwecks besseres Auffinden	Information_geben
+TL	z- zwecks	Sonstiges
+MC	ja, verstanden	Information_geben
+UGV-1	Teamleader von UGV1, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, ich bin an der Grenze zur Datenübertragung, habe ich so den Eindruck	Information_geben
+UGV-1	da geht alles etwas langsamer, aber ich versuch' mal hier die Gegend noch weiter abzusuchen	Information_geben
+TL	ja	Zusage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+UGV-2	Teamleader für UGV2, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-2	wir haben noch eine weitere Flasche gefunden, mit 'ner Chemikalie	Information_geben
+UGV-2	wir haben ein Foto gemacht	Information_geben
+UGV-2	das schicke ich jetzt rüber	Information_geben
+TL	ja, verstanden	Information_geben
+MC	Teamleader für Mission Commander, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	aus dem Foto sehe ich jetzt drei Behältnisse	Information_geben
+MC	haben wir das grüne Fass dann einen roten Kanister und das untere ist ein blauer umgestürtzter Eimer, oder was?	Information_nachfragen
+MC	gibt's da nähere Erkenntnisse drüber?	Information_nachfragen
+TL	ja, die Erkenntnisse, was auf dem Foto zu erkennen ist	Information_geben
+TL	brennbarer, mit Wasser gefährlicher, gährender Stoff alles Weitere müsst ihr von der Einsatzseite eruieren	Information_geben
+MC	ja, die Bilder sind nicht so ganz scharf	Information_geben
+MC	kann er noch vielleicht mal eine bessere Auflösung schicken?	Einsatzbefehl
+TL	ich kümmere mich drum	Zusage
+TL	UGV 2 von Teamleader	Kontakt_Anfrage
+UGV-2	UGV 2, kommen	Kontakt_Bestaetigung
+TL	ja, UGV 2, wir brauchen nochmal schärfere Bilder von dem Fass und der Kennzeichnung	Einsatzbefehl
+UGV-2	ich habe Sie nicht gut verstanden, können Sie wiederholen?	Information_nachfragen
+TL	ja, von dem Fass brauchen wir nochmal bessere Bilder, und auch von der Kennzeichnung	Einsatzbefehl
+UGV-2	ja, ich versuche nochmal zu dem Fass zu fahren	Zusage
+UGV-2	es ist sehr verraucht, mittlerweile	Information_geben
+UGV-2	aber ich versuche, bessere Bilder aufzunehmen	Information_geben
+UGV-1	der UGV 1 ist auch in der Nähe, ich kann auch nochmal gucken	Information_geben
+UGV-2	Teamleader vo- für UGV 2, kommen	Kontakt_Anfrage
+UGV-2	vo- für	Sonstiges
+MC	Teamleader für Mission Commander	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+MC	nach den Fotos müsste die verletzte Person am linken Hochofen liegen und die UGV 2 müsste da dran vorbei gefahren sein	Information_geben
+MC	und zwar, zwischen der Halle hier, wo wir sind, und dem Hochofen	Information_geben
+MC	da müsste die Person liegen	Information_geben
+UAV	der Einsatleiter vom Operator UAV, kommen	Kontakt_Anfrage
+TL	ich hör' dich	Kontakt_Bestaetigung
+UAV	also, derzeit sind wir nicht startbereit mit der UAV	Information_geben
+UAV	weil es noch zu sehr regnet	Information_geben
+TL	hab verstanden	Information_geben
+TL	UGV 1, UGV 2 seid ihr startklar?	Information_nachfragen
+UGV-1	ja, ich rolle bereits	Zusage
+UGV-2	ja, ich rolle auch schon	Zusage
+TL	verstanden	Information_geben
+TL	UGV 1, hast du schon ein Bild gemacht?	Information_nachfragen
+UGV-1	ist negativ, noch nicht	Absage
+TL	dann bitte mal eins gerade vorweg	Einsatzbefehl
+UGV-2	Teamleader von UGV 2	Kontakt_Anfrage
+TL	hör' dich	Kontakt_Bestaetigung
+UGV-2	ja, ich hab ein grünes Fass ausgemacht, und Rauch	Information_geben
+UGV-2	hab dir ein Bild gemacht und geteilt	Information_geben
+TL	verstanden	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	starke Rauchentwicklung vor mir	Information_geben
+UGV-1	ich mach ein Foto und schick's dir	Information_geben
+TL	Teamleader, verstanden	Information_geben
+UGV-2	Teamleader von UGV 2	Kontakt_Anfrage
+UGV-2	im ersten Obergeschoss ein grünes Fass und starke Rauchentwicklung	Information_geben
+TL	ja, verstanden	Information_geben
+TL	Bild hast du verschickt?	Information_nachfragen
+UGV-2	korrekt	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	ich verlasse das Erdgeschoss und gehe ins erste Obergeschoss	Information_geben
+TL	Teamleader, verstanden	Information_geben
+TL	UGV 2 von Teamleader	Kontakt_Anfrage
+UGV-2	hört	Kontakt_Bestaetigung
+TL	hast du eine Möglichkeit, dass Fass näher zu identifizieren, was da drin ist?	Information_nachfragen
+UGV-2	ja, warten	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	ich habe die Nebelmaschine gefunden	Information_geben
+TL	ja, verstanden	Information_geben
+TL	mach mal ein Foto	Einsatzbefehl
+TL	UGV 2 von Teamleader, kommen	Kontakt_Anfrage
+UGV-2	hört	Kontakt_Bestaetigung
+TL	Frage gerade: aktueller Standort?	Information_nachfragen
+UGV-2	im ersten Obergeschoss vor einem Hochofen rechtsseitig ein grünes Fass und Rauchentwicklung	Information_geben
+UGV-1	Teamleader, UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, ich hab 'n blaues Fass gefunden mit Aufschrift	Information_geben
+UGV-1	hab dir ein Foto geschickt und werde mich dem jetzt nähern	Information_geben
+TL	UGV 1 von Teamleader	Kontakt_Anfrage
+TL	UGV 1 von Teamleader, kommen	Kontakt_Anfrage
+UGV-1	ich höre	Kontakt_Bestaetigung
+TL	kommst du näher an das blaue Fass, dass wir eine Erkennung haben?	Information_nachfragen
+UGV-1	ja, ich fahr' gerade näher	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	UGV 1?	Kontakt_Bestaetigung
+UGV-1	ja, es handelt sich um einen blauen Kanister, der aufrecht steht, verschlossen ist mit dem Inhalt Otalin	Information_geben
+UGV-1	ich hab ein Foto gemacht und schick's dir	Information_geben
+TL	verstanden	Information_geben
+UGV-1	von außen keine Gefahrensymbole von der Vorderseite	Information_geben
+UGV-1	ich werde jetzt noch die rechte Seite erkunden	Information_geben
+TL	zu allen Roboter mal kurz Stop	Einsatzbefehl
+TL	UAV für Einsatzleiter	Kontakt_Anfrage
+UGV-1	können wir weitermachen?	Information_nachfragen
+TL	warten	Absage
+TL	UAV für Teamleader	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	Frage: Einsatzbereitschaft?	Information_nachfragen
+UAV	negativ	Absage
+TL	melden wenn Einsatzbereitschaft gegeben	Einsatzbefehl
+UAV	verstanden	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, Frage: kommen meine Fotos an?	Information_nachfragen
+TL	warten	Sonstiges
+UGV-1	müsste ein blauer Kanister sein	Information_geben
+UGV-1	ich habe weiterhin eine grüne Tonne mit einer drauf befindlichen Flasche gefunden	Information_geben
+UGV-2	auf dem Weg zu der Tonne mit der Flasche obendrauf, da befinde ich mich gerade	Information_geben
+UGV-1	ja okay, dann müsste ich dich ja sehen	Information_geben
+UGV-1	der steht ja vor die Nebelmaschine?	Information_nachfragen
+UGV-2	ne, ich bin vor diesem Hochofen der mehrere Bullaugen hat	Information_geben
+UGV-2	sag ich mal, ne	Absage
+UGV-2	und da bin ich auf einer Seite vom Geländer	Information_geben
+UGV-2	ich umfahre jetzt diese Bullaugen und müsste dann direkt vor dem Fass stehen	Information_geben
+UGV-1	ja, das ist negativ	Absage
+UGV-1	ich stehe vor dem Fass	Information_geben
+UGV-1	so kannst du auf deiner Seite bleiben	Information_geben
+UGV-2	na ja gut, dann mach du ein Foto von dem Fass	Zusage
+UGV-2	und ich drehe um und erkunde die andere Seite	Information_geben
+TL	UGV 1 von Teamleader, kommen	Kontakt_Anfrage
+UGV-1	kommen Sie	Kontakt_Bestaetigung
+TL	Frage: hast du ein Foto von dem grünen Fass gemacht?	Information_nachfragen
+UGV-1	ja, ist korrekt	Zusage
+UGV-1	grüne Fass mit Flasche drauf	Information_geben
+UGV-1	werde aber jetzt auch mal die rückwärtige Seite des Fasses erkunden	Information_geben
+TL	UGV 1 damit warten	Einsatzbefehl
+UGV-1	also, ich stehe jetzt genau vor dem Fass	Information_geben
+UGV-1	ich werde nochmal ein Foto machen und dir schicken	Information_geben
+UGV-2	können wir weiterfahren oder warten wir noch?	Information_nachfragen
+TL	ja, können weiter fahren	Information_geben
+TL	UGV 1 aber warten	Einsatzbefehl
+UGV-1	ja, das verstanden	Zusage
+UGV-1	weitere Foto von grünen Fass mit grüner Flasche drauf wurde dir entsandt	Information_geben
+UGV-2	ja, UGV 2, ich dreh dann um und erkunde die andere Gebäudeseite	Information_geben
+TL	Teamleiter, verstanden	Information_geben
+TL	UGV 1 von Teamleader	Kontakt_Anfrage
+UGV-1	kommen	Kontakt_Bestaetigung
+TL	ja, jetzt haben wir die Erkundung der rückwärtigen Seite in nördlicher Bereich	Information_geben
+UGV-1	welche rückwärtige Seite, vom Fass?	Information_nachfragen
+UGV-2	Teamleader von UGV 2	Kontakt_Anfrage
+TL	UGV 2, hört	Kontakt_Bestaetigung
+UGV-2	ja, von meiner jetztigen Position aus ist quasi aus der Halle raus kein Rauch und keine Gefahren zu erkennen	Information_geben
+UGV-2	Frage, anderer Auftrag?	Information_nachfragen
+TL	mach mal ein Foto zur Orientierung für mich	Information_geben
+UGV-2	hab ich schon	Information_geben
+UGV-2	Teamleader von UGV 2	Kontakt_Anfrage
+TL	UGV, warten	Sonstiges
+UGV-2	Teamleader von UGV 2	Kontakt_Anfrage
+TL	warten	Sonstiges
+TL	UGV 2 von Teamleader, kommen	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, ich hab dir jetzt erneut das Foto geschickt	Information_geben
+UGV-1	ich konnte beide Rauchquellen identifizieren, beides Nebelmaschinen	Information_geben
+UGV-1	hab dir jetzt ein Übersichtsfoto geschickt von einmal den blauen Kanister und dem grünen Fass mit der grünen Flasche drauf	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-1	jetzt die Frage, ob ich mich weiter fortbewegen soll	Information_nachfragen
+UGV-1	ich kann das Fass noch einmal umkreisen und gucken ob es eine Beschriftung drauf ist	Information_geben
+TL	negativ	Absage
+TL	UGV 1, UGV 2	Kontakt_Anfrage
+TL	gab es Möglichkeiten eine Etage weiter nach oben zu kommen?	Information_nachfragen
+UGV-2	ja, UGV 2	Zusage
+UGV-2	ich hab hier einen Treppenraum	Information_geben
+TL	nach oben?	Information_nachfragen
+UGV-2	das ist korrekt	Zusage
+TL	Möglichkeiten, mit dem Bodenroboter da hochzufahren?	Information_nachfragen
+UGV-2	ja, ich kann das mal probieren	Zusage
+TL	dann Erkundung zweiter Obergeschoss	Einsatzbefehl
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	ich muss mich erst mal orientiere und gucken, ob ich irgendwo hochkomme	Information_geben
+UGV-1	zur Zeit hier bei den Fässern kann ich nicht hoch	Information_geben
+TL	verstanden	Information_geben
+UGV-1	UGV 1 Teamleader von UGV 1	Kontakt_Anfrage
+TL	UGV 1, höre	Kontakt_Bestaetigung
+TL	kommen	Kontakt_Bestaetigung
+UGV-1	ja, ich hab jetzt das Fass einmal umkreist kann auf dem Fass zwei Gefahrensymbole identifizieren, einmal rot mit Flamme, brennbar und einmal umweltgefährdend	Information_geben
+UGV-1	werde davon ein Foto machen und dir zusanden	Information_geben
+UGV-1	und eine UN-Nummer kann ich erkennen	Information_geben
+TL	verstanden	Information_geben
+UGV-1	es handelt sich um die UN-Nummer 12 03 moment	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	Fotos sind raus	Information_geben
+UGV-1	ich kann nur bestätigen, UN-Nummer 12 03, Gefahrenzettel leicht entflammbar und umweltgefährdend	Information_geben
+TL	verstanden	Information_geben
+UGV-1	noch als Zusatz, dieses Fass scheint nicht auszulaufen	Information_geben
+UGV-1	steht aufrecht und ist keinerlei Flüssigkeitsaustritt zu erkennen	Information_geben
+TL	verstanden	Information_geben
+UGV-1	ich werde jetzt versuchen, ins Obergeschoss zu kommen	Information_geben
+TL	wiederholen	Einsatzbefehl
+UGV-1	ich werde jetzt auch einen Weg suchen, ins Obergeschoss zu kommen	Information_geben
+TL	ja, ist verstanden	Information_geben
+TL	UGV 2 von Teamleader	Kontakt_Anfrage
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	viel Erfolg mit dem Treppenbesteigen?	Information_nachfragen
+UGV-2	ja, negativ	Absage
+UGV-2	ich hab hier gerade Probleme mit mir selbst	Information_geben
+UGV-1	ja, hier ist der UGV 1 von Teamleader	Kontakt_Anfrage
+TL	hör dich	Kontakt_Bestaetigung
+UGV-1	ja, ich hab ein weiteres grünes Fass gefunden beim Erkunden der Treppe gefunden in der Nähe von dem anderen aufrecht stehenden Fass festzustellen	Information_geben
+UGV-1	werde dies jetzt fotografieren und einmal um-kreisen, um eine Leckage	Information_geben
+TL	ja, ist verstanden	Information_geben
+TL	kannst du einmal ein Foto von dem Fass machen in Richtung der Treppe, dass man einen Orientierungspunkt hat?	Einsatzbefehl
+UGV-1	ja, das kann ich versuchen	Zusage
+UGV-1	ich kann höchstens so fotografieren, dass ich halt den Hochofen drauf hab'	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-1	ja, wir können die Orientierung nehmen von dem ersten Fass von dem ersten Fass geht's ja die Treppe hoch, und da stand direkt das erste Fass und davon gesehen dann rechts	Information_geben
+TL	ja, machen wir so	Zusage
+UGV-1	also, ich werde das nachher nachvollziehen können	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+TL	ja, das zweite Fass ist liegt auf dem Boden ist aber auch augenscheinlich verschlossen, läuft nichts aus, keine Flüssigkeit läuft aus	Information_geben
+TL	das ist verstanden	Information_geben
+UGV-1	hab auch davon ein Foto gemacht und dir zugesandt	Information_geben
+UGV-1	da siehst du im hinteren Bereich des des Fasses auch die Öffnung die Bullaugen des Hochofens, also können wir uns daran orientieren	Information_geben
+TL	wiederholen	Einsatzbefehl
+UGV-1	wenn du das Foto von dem Fass siehst, siehst du im hinteren Bereich, hinter dem Fass die Bullaugen des Hochofens	Information_geben
+TL	verstanden	Information_geben
+UGV-1	ja, Teamleader von UGV 1	Kontakt_Anfrage
+TL	UGV 1, kommen	Kontakt_Bestaetigung
+UGV-1	ja, Frage: soll ich weiter erkunden? das Fass liegen lassen, weiterfahren?	Information_nachfragen
+TL	UGV 1, UGV 2, kommen	Kontakt_Anfrage
+UGV-1	UGV 1 hört	Kontakt_Bestaetigung
+UGV-2	UGV 2 hört	Kontakt_Bestaetigung
+TL	Maßnahme momentan: warten, wir machen hier gerade Übergabe	Information_geben
+UGV-1	okay	Information_geben
+UGV-2	hier UGV 2, verstanden	Information_geben
+TL	UGV 1, versuch noch in kochsweite ein bisschen nähere Ergebnisse zu kriegen	Einsatzbefehl
+UGV-2	ja, UGV 1 von UGV 2	Kontakt_Anfrage
+UGV-1	kommen	Kontakt_Bestaetigung
+UGV-2	ja, ich hab hier technische Probleme	Information_geben
+UGV-2	ich kann meine Flipper nicht bewegen und der Laser hat hinter sich	Information_geben
+UGV-1	ich hab jetzt nochmal ein Foto gesendet wo man das auch seiteliegende Fass und den blauen Kanister so im rückwärtigen Bereich erkennen kann	Information_geben
+UGV-1	da musst du genau hingucken	Einsatzbefehl
+TL	kannst du mir weitere Details zu dem liegenden Fass geben? eine Nummer, zum Beispiel?	Information_nachfragen
+UGV-1	ja, das ist negativ	Information_geben
+UGV-1	das Fass wurde einmal umkreist es liegt wahrscheinlich genau darauf	Information_geben
+UGV-1	ich kann mal versuchen mal es ein bisschen zu drehen	Information_geben
+TL	ja, verstanden	Zusage
+TL	aber sehr vorsichtig beim Vorgehen	Zusage
+UGV-1	ja, ist verstanden	Information_geben
+TL	sieht man irgendwo eine Leckage in der Nähe des Fasses?	Information_nachfragen
+UGV-1	ja, das ist negativ	Absage
+UGV-1	keine Leckage, aus dem Fass läuft nichts aus	Information_geben
+UGV-1	beide Verschluss-Stopfen sind fest verschlossen	Information_geben
+TL	beide Fässer sind noch nicht beschädigt	Information_geben
+UGV-1	da, das ist korrekt	Information_geben
+UGV-1	nur auf dem einen stehenden grünen Fass steht noch eine grüne Flasche	Information_geben
+TL	was kann in der grünen Flasche drin sein?	Information_nachfragen
+UGV-1	es sieht aus wie Gerolsteiner	Information_geben
+TL	weitere Erkenntnisse um das Fass herum an Leckagen?	Information_nachfragen
+TL	da es ja eine Explosion gewesen ist	Information_geben
+TL	kann man da irgendwo was sehen? sehen wo es ein drittes Fass im Umlauf liegen könnte	Information_nachfragen
+UGV-1	also, im Moment kann ich dazu nichts sagen	Information_geben
+UGV-1	um diesen beiden Fässern und dem Kanister ist kein Anschein von irgend einer Leckageaber erneut nochmal versuchen muss	Information_geben
+UGV-1	ich versuche jetzt noch von dem liegenden Fass die UN-Nummer rauszu'kommen, was ich bereits schon gedreht hab was ich	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-2	ja, Teamleader von UGV 2	Kontakt_Anfrage
+TL	hört	Kontakt_Bestaetigung
+UGV-2	ja, ich versuche eigentlich, ins zweite Obergeschoss zu kommen	Information_geben
+UGV-2	aber ich hab hier erhebliche Probleme mit der Technik mein Roboter ist Made in Taiwan	Information_geben
+TL	kann man es denn manuell nicht beheben?	Information_nachfragen
+UGV-2	ich glaube nicht	Absage
+TL	UGV 1	Kontakt_Anfrage
+UGV-1	ja, jetzt nicht	Sonstiges
+UGV-1	Moment mal, bitte	Sonstiges
+UGV-1	ja, hier ist der UGV 1 von Teamleader	Kontakt_Bestaetigung
+UGV-1	ich hab das Fass jetzt hier drehen können und festgestellt, dass es sich um dasselbe Piktogramm beziehungsweise den selben Piktogramme handelt, wie bei dem ersten Fass	Information_geben
+UGV-1	weiterhin, das Fass nicht beschädigt	Information_geben
+TL	kann man die Temperatur von dem Fass messen?	Information_nachfragen
+UGV-1	negativ	Absage
+TL	ich will wissen, ob die das Fass noch durch die Explosion ein Wärmebaustein ist	Information_nachfragen
+UGV-1	ich sehe ein Fass was einfach nur umgekippt ist, keine Leckage	Information_geben
+UGV-1	ich wollte jetzt mit dem UGV 1 nach oben ins Obergeschoss versuchen	Information_geben
+UGV-1	weil da wollte der Tim hin und konnte nicht weiter erkunden, wenn das okay ist	Information_geben
+UGV-1	wenn das okay ist	Information_geben
+TL	ja, versuch das mal	Zusage
+UGV-1	UGV 2 von UGV 1	Kontakt_Anfrage
+UGV-2	hört	Kontakt_Bestaetigung
+UAV	Teamleader von der UAV, kommen	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UAV	also, aufgrund der Wetterlage	Information_geben
+UAV	wäre jetzt ein Inspektionsflug möglich	Information_geben
+TL	ja, dann werden wir jetzt fliegen und versuchen, Bilder vor der Unfallstelle aufzunehmen	Zusage
+UAV	welcher Gebäudeteil soll umflogen werden?	Information_nachfragen
+TL	der mittlere Gebäudeteil	Information_geben
+UAV	das ist verstanden	Information_geben
+UAV	wir müssen jedoch nochmal wieder warten	Information_geben
+UAV	weil noch eine Schauerwolke durchläuft	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	wir gehen automatisch in die Operation sobald der Regen nachlässt	Information_geben
+TL	Gruppe Drohne von Teamleader, kommen	Kontakt_Anfrage
+UAV	die UAV hört	Kontakt_Bestaetigung
+TL	wie sieht's aus, könnt ihr fliegen?	Information_nachfragen
+UAV	noch negativ	Absage
+UAV	im Moment ist wieder zu viel Regen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UGV 1 von Teamleader, kommen	Kontakt_Anfrage
+UGV-1	kommen Sie	Kontakt_Bestaetigung
+TL	UGV 2 erreicht?	Information_nachfragen
+UGV-1	ja, ist negativ	Absage
+UGV-1	ich bin einmal jetzt um das Gebäude rum Tim, war dat 'ne schräge Treppe	Information_geben
+UGV-2	ja, wie so 'ne Stahltreppe halt aussieht, ne biegt erst mal einer nach oben weiter konnte ich nicht sehen	Information_geben
+UGV-2	weil meine Kamera nicht höher ge-	Information_geben
+UGV-1	ja, weil ich stehe vor einer da liegt auch ein Trümmerteil davor	Information_geben
+UGV-2	es gab einmal eine Treppe, da stand 'n Schild kein Durchgang	Information_geben
+UGV-2	dann bin ich natürlich nicht hochgefahren	Information_geben
+UGV-2	und dann war die andere Treppe, war mit so 'nem weißen Geländer abgesperrt, hier	Information_geben
+UGV-2	in dem Bereich befinde ich mich	Information_geben
+UGV-1	ja, hab ich verstanden, ich guck nochmal	Information_geben
+TL	UGV 1 von Teamleader	Kontakt_Anfrage
+UGV-1	ich komm'	Kontakt_Bestaetigung
+TL	könnt ihr was erkunden, was da in lauter Rauch steht?	Information_nachfragen
+UGV-1	ja, hab ich, da müsstest ein Foto von hab'n	Information_geben
+TL	ich gucke	Information_geben
+TL	dann schick mir mal 'n Foto davon	Einsatzbefehl
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	ich hab 'nen weiteren Kanister gefunden, weiß	Information_geben
+UGV-1	werde jetzt ein Foto davon machen und dir schicken	Information_geben
+UGV-1	Tim, bist du so 'nen Gang entlang gefahren?	Information_nachfragen
+UGV-2	ja, korrekt	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	hört	Kontakt_Bestaetigung
+UGV-1	ja, der weiße Kanister steht aufrecht	Information_geben
+UGV-1	scheint verschlossen zu sein, ich werd ihn jetzt mal versuchen, zu drehen um eventuell 'n Piktogramm darauf zu sehen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UGV 2, wie sieht's bei euch aus? UGV 2 von Teamleader, kommen	Kontakt_Anfrage
+TL	UGV 2 von Teamleader, kommen	Kontakt_Anfrage
+UGV-2	UGV 2 gerufen?	Information_nachfragen
+TL	ja, richtig	Zusage
+TL	wie sieht's bei euch aus, geht gar nichts mehr, oder seid ihr wieder im Spiel?	Information_nachfragen
+TL	UGV 2 von Teamleader, kommen	Kontakt_Anfrage
+UGV-2	UGV 2 gerufen?	Information_nachfragen
+TL	ja, richtig	Zusage
+UGV-2	ja, mein Roboter hier, der hat jetzt ne Kette fast verloren	Information_geben
+TL	also defekt	Information_geben
+TL	UGV 1 von Teamleader, kommen	Kontakt_Anfrage
+UGV-1	ja, mir ist jetzt gelungen, das Gefäß zu bergen, beziehungsweise zu drehen	Information_geben
+UGV-1	werd jetzt einmal ne Rundumschau von dem Gefäß machen	Information_geben
+UGV-1	ich schick' dir aber erst nochmal 'n Foto	Information_geben
+UGV-1	beim wenden des Gefäßes ist ein leichter flüssiger Stoff ausgetreten	Information_geben
+UGV-1	aber nur ein Spritzer	Information_geben
+UGV-1	keine Gefahr	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, der Kanister wurde jetzt von allen Seiten begutachtet, Kanister ist verschlossen keine Gefahr und Piktogramme auf dem Kanister	Information_geben
+UGV-1	ich beweg' mich weiter fort	Information_geben
+TL	ja, verstanden	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	ich versuche jetzt zur UGV 2 zu kommen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	was ist mit der Drohne? Teamleader, kommen	Kontakt_Anfrage
+UAV	die UAV hört	Kontakt_Bestaetigung
+TL	ja, UAV, wie sieht's aus, könnt ihr fliegen?	Information_nachfragen
+UAV	ne, leider immer noch nicht	Absage
+UAV	es regnet zu sehr	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Teamleader von UAV, kommen	Kontakt_Anfrage
+UAV	Teamleader von UAV, kommen	Kontakt_Anfrage
+TL	hört	Kontakt_Bestaetigung
+UAV	wir sind mit der Drohne jetzt in der Luft und werden hinter das Gebäude fliegen	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UAV 1 habt ihr das Ziel erreicht?	Information_nachfragen
+UGV-1	also, ich hab den UAV 2 getroffen kann da aber mich nicht weiter	Information_geben
+UGV-1	aber ich seh' jetzt wieder 'ne Rauchentwicklung	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UAV Drohne?	Kontakt_Anfrage
+UAV	die Drohne hört	Kontakt_Bestaetigung
+UAV	wir haben auch gerade mal zwei Bilder gemacht	Information_geben
+UAV	die Rauchentwicklung kommt neben dem Hochofen zustande	Information_geben
+TL	UAV Drohne	Kontakt_Anfrage
+TL	kann man von oben vielleicht mir ein Foto schicken?	Einsatzbefehl
+UAV	wir haben ein Foto geschickt	Zusage
+UAV	wir schalten jetzt mal auf Infrarot, um zu gucken, ob wir irgendwo eine thermische Entwicklung erkennen können	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Teamleader -	Kontakt_Anfrage
+UGV-1	UAV 1 von UGV 1	Kontakt_Anfrage
+UGV-1	UAV 1 von UGV 1	Kontakt_Anfrage
+UGV-1	Drohne von UGV 1	Kontakt_Anfrage
+UAV	die Drohne hört	Kontakt_Bestaetigung
+UGV-1	kannst du mir nochmal ein bisschen näher beschreiben, wo die Rauchentwicklung ist?	Information_nachfragen
+UAV	ich hab' gerade Schwierigkeiten	Information_geben
+UAV	weil ich seh' dich auf dem anderen Bild gerade nicht	Information_geben
+UAV	du kannst aber in die Bilderbox gucken, da müsstest du eigentlich das Bild aus Sichtweise der Drohne sehen	Information_geben
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+TL	Teamleader hört	Kontakt_Bestaetigung
+UGV-1	ja, ich komme nicht weiter höher ins Obergeschoss ohne dass ich eine Absperrung durchfahre	Information_geben
+TL	ja, fahren Sie wieder zurück ins Untergeschoss	Einsatzbefehl
+TL	UGV Drohne von Teamleader, kommen	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	noch ein Bild schicken, und das aber mit einem Schwarz-Weiß-Hintergrund	Einsatzbefehl
+UAV	machen wir dir fertig	Zusage
+UGV-1	Teamleader von UGV 1	Kontakt_Anfrage
+UGV-1	hast du mittlerweile den blauen Kanister gesehen	Information_nachfragen
+UGV-1	weil ich komm da gerade nochmal vorbei	Information_geben
+UGV-1	könnt ich ein neues Foto machen	Information_geben
+TL	ja, schick ich jetzt den Angriff dorthin zum Lesen	Information_geben
+TL	aber wenn du direkt vorbeikommst, dann mach nur ein näheres Foto als Nachweis	Zusage
+UAV	Teamleader von UAV	Kontakt_Anfrage
+UAV	wir haben ein neues Live-Bild, neue Rauchentwicklung in dem hinteren Bereich	Information_geben
+TL	ja, verstanden	Information_geben
+TL	schicken Sie mir das Foto?	Einsatzbefehl
+UAV	schon da	Zusage
+TL	UAV Drohne	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+UAV	aber ich hab nochmal ein Bild hinterher geschickt	Information_geben
+UAV	die Rauchentwicklung, die verringert sich zwischenzeitlich immer wieder	Information_geben
+UAV	es ist aber auch sehr schwierig,  genaue Bilder zu erkennen	Information_geben
+UAV	aufgrund des Windes, weil die Drohne noch sehr stark hin und her schwankt	Information_geben
+TL	ja, verstanden	Information_geben
+UAV	Teamleader von der UAV Drohne	Kontakt_Anfrage
+TL	hört	Kontakt_Bestaetigung
+UGV-1	wir machen jetzt erst mal noch eine Zwischenlandung für einen Akkuwechsel	Information_geben
+TL	ja, verstanden	Information_geben
+TL	UAV 1 von Teamleader, kommen	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	hattest du von dem blauen Kanister noch ein Foto gemacht?	Information_nachfragen
+UGV-1	ich bin gerade dabei	Information_geben
+TL	verstanden	Information_geben
+TL	Teamleader an alle	Kontakt_Anfrage
+TL	Übung beendet	Information_geben
+TL	alle bitte hier zum Treffpunkt ans Zelt kommen	Einsatzbefehl
+TL	Der Radio Check	Information_geben
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+UGV-1	Ja ich kann dich hören	Kontakt_Bestaetigung
+TL	UGV-2	Kontakt_Anfrage
+UGV-2	UGV-2 hört dich auch	Kontakt_Bestaetigung
+TL	Wenn ihr gleich vorgeht bitte meldet mir die üblichen Gefahren an der Einsatzstelle, Feuer, Opfer	Einsatzbefehl
+TL	Macht bitte Fotos von Positionen die euch blöd vorkommen oder interessant vorkommen	Einsatzbefehl
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+TL	Bitte mach mir mal ein Foto von deinem Standort kommen	Einsatzbefehl
+TL	Ich seh euch gleich am Eingang der Halle	Information_geben
+UGV-1	Okay ja	Zusage
+UGV-1	Ich hab dir jetzt ein Foto von meinem Blickfeld geschickt	Information_geben
+UGV-1	Es befindet sich schon mal links ein Gefahrgutfass Ölfass	Information_geben
+UGV-1	Dort auch senden?	Information_nachfragen
+TL	Also sieht so aus als hätte gerade ich gar keine Connection zur Database	Information_geben
+TL	Also beschreibe mir einfach wo du stehst	Information_nachfragen
+UGV-1	Ich bestehe an einem Gang am Anfang der Halle Eingang	Information_geben
+UGV-1	Blickrichtung kann ich dir jetzt nicht sagen	Information_geben
+UGV-1	Rechts von mir sehe ich den Ölfass	Information_geben
+UGV-1	Ich denke also ich denke das ist ein Ölfass ich weiß nicht genau was drin ist übliches Rundfass	Information_geben
+UGV-1	Ich würde jetzt einfach geradeaus fahren und schauen was ich so weiter finde	Information_geben
+UGV-1	Kommen	Kontakt_Anfrage
+TL	Verstanden	Zusage
+TL	Einsatzauftrag du fährst den langen Gang entlang ich gehe mal davon aus dass es am südlichen Wand der Halle ist und bleibst bitte auf der Ebene	Einsatzbefehl
+TL	Wenn du hoch oder runterfährst sagst mir bitte vorher Bescheid	Einsatzbefehl
+TL	Kommen	Kontakt_Anfrage
+UGV-2	UGV-2 hört dich	Kontakt_Bestaetigung
+TL	Frage kannst du den anderen Roboter sehen?	Information_nachfragen
+UGV-2	Ich seh einen Roboter aber das wird aufgrund der Beschreibung nicht der Roboter sein	Absage
+TL	Verstanden	Information_geben
+TL	Okay	Information_geben
+TL	Einsatzauftrag für dich du fährst weiter in die Halle rein und suchst nach dem Zugang mit dem du dich weiter nach Osten entwickeln kannst	Einsatzbefehl
+TL	Kommen	Kontakt_Anfrage
+UGV-2	Ja das ist so verstanden Ich fahr weiter Richtung Norden in die Halle rein und suche mir einen Zugang in Richtung Osten	Zusage
+TL	Okay	Information_geben
+TL	Einsatzleitung für beide Roboter	Kontakt_Anfrage
+TL	Ich habe jetzt wieder Connection zur Datenbank	Information_geben
+TL	Ihr könnt also Fotos schicken	Information_geben
+TL	ich sehe auch eure Position live	Information_geben
+UGV-1	Ja Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Kannst du denn mein Foto empfangen das ich gerade geteilt habe?	Information_nachfragen
+TL	Hey ja	Zusage
+TL	Ich sehe dass die Fotos geadded wurden ich seh sie noch nicht auf der Karte	Information_geben
+TL	Geh einfach weiter vor wir versuchen das Problem hier zu lösen	Einsatzbefehl
+UGV-1	Teamleader von UT-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja ich gehe jetzt rechter Hand	Information_geben
+TL	UGV-2 für Einsatzleiter kommen	Kontakt_Anfrage
+UGV-2	UGV-2	Kontakt_Bestaetigung
+TL	Kannst du mir mal ein Foto von deiner Position machen?	Einsatzbefehl
+UGV-2	Ja ich mach dir mal ein Snapshot	Zusage
+UGV-2	Ist das bei dir angekommen?	Information_nachfragen
+TL	Ja	Zusage
+TL	das braucht mal paar Sekunden	Information_geben
+UGV-1	Ja Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja ich werd jetzt rechts abbiegen	Information_geben
+UGV-1	Rechtseitig ein blaues Fass mit ner undefinierten Aufschrift gefunden	Information_geben
+UGV-1	Hab dir ein Foto gemacht geteilt	Information_geben
+UGV-1	kommen	Kontakt_Anfrage
+TL	Ja	Kontakt_Bestaetigung
+TL	verstanden	Information_geben
+TL	UGV-1	Kontakt_Anfrage
+TL	Kannst du mal abschätzen wie weit du bis jetzt gefahren bist?	Information_nachfragen
+TL	Deine Position auf meiner Karte hat sich kaum geändert	Information_geben
+UGV-1	Ja ich denke so 5-6 meter weiter bin ich noch nicht gekommen kommen	Information_geben
+TL	Verstanden	Information_geben
+TL	UGV-2 für Einsatzleiter	Kontakt_Anfrage
+UGV-2	UGV-2	Kontakt_Bestaetigung
+TL	Hat das mit dem Foto geklappt?	Information_nachfragen
+TL	Bei mir ist nichts angekommen	Information_geben
+UGV-2	Also bei mir sind zwei Fotos auf der Karte hinterlegt	Zusage
+UGV-2	Die müssten auch ungefähr von meiner Position gekommen sein	Information_geben
+TL	UGV-2 ich krieg deine Daten immer noch nicht	Information_geben
+TL	Kannst du mir mal grob deine Position auf der Karte durchgeben?	Einsatzbefehl
+TL	Ja okay verstanden	Information_geben
+UGV-1	I lost the connection to the TDF	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja mein TDS muss neu gestartet werden	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Gib mir Bescheid wenn du weiterfährst	Einsatzbefehl
+UGV-2	Teamleader von UGV-2	Kontakt_Anfrage
+TL	Teamleader	Kontakt_Bestaetigung
+UGV-2	Ja also ich hab gerade jetzt hier ein blaues Fass gefunden	Information_geben
+	so ein übliches Chemikalienfass	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Wie ist der Zustand des Fasses?	Information_nachfragen
+UGV-2	Steht senkrecht und sieht auf dem ersten Blick heil aus keine Lache oder so was drumherum	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Dann Foto machen	Einsatzbefehl
+TL	Und dann weiter vorgehen	Einsatzbefehl
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja ich kann hier weiterfahren	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Gib mir bitte nochmal ein Foto von deiner Fahrtrichtung	Einsatzbefehl
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	UGV-1 UGV-2 und UAV kommen	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+UGV-1	UGV-1 hört	Kontakt_Bestaetigung
+UGV-2	UGV-2	Kontakt_Bestaetigung
+UAV	UAV	Kontakt_Bestaetigung
+TL	So weiteren Einsatzauftrag erhalten folgende Lage grundsätlich die Lage die selbe wie heute morgen Explosion in diesem länglichen Gebäude unklare Ausdehnung	Information_geben
+TL	Jetzt neuer Bericht von Gasgeruch in der Mitte des Gebäudes	Information_geben
+TL	Unsereines Auftrag Gasquelle lokalisieren	Einsatzbefehl
+TL	Und weiter mappen	Einsatzbefehl
+TL	UAV von Einsatzleiter	Kontakt_Anfrage
+UAV	UAV hört	Kontakt_Bestaetigung
+TL	Dein Standort ist Position ECO richtig?	Information_nachfragen
+UAV	Mein Standard ist im Moment Position ECO	Zusage
+UAV	Aber du wirst keine Updates kriegen	Information_geben
+TL	Ja soweit verstanden	Information_geben
+TL	Einsatzauftrag bitte aufsteigen Übersichtsfoto machen wenn möglich aus allen vier Himmelsrichtungen	Einsatzbefehl
+TL	kommen	Kontakt_Anfrage
+UAV	Verstanden	Zusage
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+TL	Du machst mir jetzt ein Foto dann gucken wir	Einsatzbefehl
+TL	Verstanden?	Information_nachfragen
+UGV-1	Ja verstanden	Zusage
+TL	UGV-2 für Einsatzleiter mitgehört?	Information_nachfragen
+UGV-2	UGV-2 mitgehört	Zusage
+UGV-2	kriegst auch ein Foto	Information_geben
+UGV-1	Teamleader von UGV-1 kommen	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-1	Ja soll ich mal losfahren dem Tango hinterher quasi?	Information_nachfragen
+TL	Wer fährt denn da schon?	Information_nachfragen
+UGV-2	UGV-2 hat sich nur ein meter fortbewegt	Information_geben
+	damit UGV-1 da weg kommt	Information_geben
+TL	Okay	Information_geben
+TL	Also ich seh euch beide ihr steht beide am Eingang des Ganges hintereinander	Information_geben
+TL	Und jetzt fahrt ihr beide hintereinander her zum Punkt ASA 325 - 352 danke	Einsatzbefehl
+UGV-2	UGV-2 verstanden	Zusage
+TL	UGV-1 für Einsatzleiter	Kontakt_Anfrage
+UGV-2	Hier UGV-2	Kontakt_Anfrage
+UGV-2	UGV-1 kriegt da noch eine Einweisung	Information_geben
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+UGV-2	Du müsstest ein Bild gekriegt haben ASA 352 müsste rechts von mir von meiner Position auf dem Bild sein	Information_geben
+TL	Ja verstanden	Information_geben
+TL	Nimm doch mal bitte einen Rundblick	Einsatzbefehl
+TL	Wenn du da nichts entdeckst weiter Richtung Osten	Einsatzbefehl
+UGV-2	Ja ist verstanden	Zusage
+UGV-2	Teamleiter von UGV-2	Kontakt_Anfrage
+TL	Höre	Kontakt_Bestaetigung
+UGV-2	Gucke dir mal das Bild an was gerade gekommen ist das ist rechts von meiner Position	Information_geben
+UGV-2	Ergeht irgendwie so eine Plattform mit so einer Metallbox auf Palette	Information_geben
+TL	Ja ich gucke	Zusage
+TL	UGV-2 von Einsatzleiter	Kontakt_Anfrage
+TL	Guck dir das mal genauer an bitte wenn du da hochkommst	Einsatzbefehl
+UGV-2	Ja das ist verstanden	Zusage
+UGV-2	Ich versuch das mal	Zusage
