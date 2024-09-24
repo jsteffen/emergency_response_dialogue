@@ -169,7 +169,7 @@ for task in tasks:
         test_task_dataset = test_task_dataset.map(encode_data, batched=True, batch_size=16)
 
         test_task_dataset.set_format(type="torch", columns=["input_ids", "token_type_ids", "attention_mask", "labels"])
-        test_dataloader = torch.utils.data.DataLoader(test_task_dataset)
+        test_dataloader = torch.utils.data.DataLoader(test_task_dataset, batch_size=16)
 
         # set adapter and head for current task
         model.active_adapters = task+"_adapter"
