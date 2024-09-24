@@ -1,3 +1,4 @@
+import logging
 import os
 
 import datasets
@@ -17,6 +18,13 @@ adapters_dir = "adapters_" + data_type
 heads_dir = "heads_" + data_type
 do_train = False
 
+# configure logger
+logging.basicConfig(
+    format="%(asctime)s: %(levelname)s: %(message)s",
+    level=logging.INFO,
+    force=True)
+logger = logging.getLogger(__file__)
+logger.setLevel(logging.INFO)
 
 def encode_labels(example):
     r_tags = []
