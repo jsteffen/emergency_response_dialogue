@@ -181,9 +181,14 @@ for task in tasks:
             batch = {k: v.to(device) for k, v in batch.items()}
             outputs = model(batch["input_ids"])
             predictions = torch.argmax(outputs[0], 2)
-            expected = batch["labels"].float()        
-            predictions_list.append(predictions)
-            expected_list.append(expected)
+            expected = batch["labels"].float()
+            for k in range(len(batch['labels'])):
+                att_mask = batch['attention_mask'][k]
+                # get first index where attention is not 1
+                index = torch.where(att_mask != 1)[0][0].item()
+                # ignore padded tokens in evaluation
+                predictions_list.append(predictions[k][:index])
+                expected_list.append(expected[k][:index])
         print("Test set evaluation!")
         true_labels = torch.flatten(torch.cat(expected_list)).cpu().numpy()
         predicted_labels = torch.flatten(torch.cat(predictions_list)).cpu().numpy()
