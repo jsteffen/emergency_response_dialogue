@@ -179,7 +179,7 @@ for task in tasks:
         expected_list = []
         for i, batch in enumerate(test_dataloader):
             batch = {k: v.to(device) for k, v in batch.items()}
-            outputs = model(batch["input_ids"])
+            outputs = model(batch["input_ids"], attention_mask=batch['attention_mask'])
             predictions = torch.argmax(outputs[0], 2)
             expected = batch["labels"].float()
             for k in range(len(batch['labels'])):
