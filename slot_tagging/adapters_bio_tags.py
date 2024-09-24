@@ -51,15 +51,25 @@ def encode_data(data):
     encoded = tokenizer([doc for doc in data["tokens"]], pad_to_max_length=True, padding="max_length", max_length=max_len_bio, truncation=True, add_special_tokens=True)
     return (encoded)
 
-for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
-    labels = ["B", "I", "O"]
-    id2label = {id_: label for id_, label in enumerate(labels)}
-    label2id = {label: id_ for id_, label in enumerate(labels)}
+labels = ["B", "I", "O"]
+id2label = {id_: label for id_, label in enumerate(labels)}
+label2id = {label: id_ for id_, label in enumerate(labels)}
 
-    model_name = "bert-base-german-cased"
-    config = AutoConfig.from_pretrained(model_name, num_label=len(labels), id2label=id2label, label2id=label2id, layers=2)
-    model = AutoAdapterModel.from_pretrained(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+model_name = "bert-base-german-cased"
+config = AutoConfig.from_pretrained(model_name, num_label=len(labels), id2label=id2label, label2id=label2id, layers=2)
+model = AutoAdapterModel.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+tasks = ["einheit", "auftrag", "mittel", "ziel", "weg"]
+for task in tasks:
+    #load adapters and heads
+    model.load_adapter(adapters_dir+"/"+task+"_adapter", load_as=task+"_adapter")
+    model.load_head(heads_dir+"/"+task+"_head", load_as=task+"_head")
+
+model.to(device)
+model.eval()
+
+for task in tasks:
 
     if do_train:
         model.add_adapter(task)
@@ -161,17 +171,15 @@ for task in ["einheit", "auftrag", "mittel", "ziel", "weg"]:
         test_task_dataset.set_format(type="torch", columns=["input_ids", "token_type_ids", "attention_mask", "labels"])
         test_dataloader = torch.utils.data.DataLoader(test_task_dataset)
 
-        ad = model.load_adapter(adapters_dir+"/"+task+"_adapter")
-        model.load_head(heads_dir+"/"+task+"_head")
-        model.active_adapters = ad
+        # set adapter and head for current task
+        model.active_adapters = task+"_adapter"
+        model.active_head = task+"_head"
 
-        model.to(device)
-        model.eval()
         predictions_list = []
         expected_list = []
         for i, batch in enumerate(test_dataloader):
             batch = {k: v.to(device) for k, v in batch.items()}
-            outputs = model(batch["input_ids"], adapter_names=["adapters/"+task+"_adapter"])
+            outputs = model(batch["input_ids"])
             predictions = torch.argmax(outputs[0], 2)
             expected = batch["labels"].float()        
             predictions_list.append(predictions)
