@@ -9,6 +9,8 @@ from torch import nn
 from torch.utils.data import Dataset
 from transformers import AutoTokenizer, AutoConfig
 
+from slot_tagging.adapters_bio_tags_server import merge_labels
+
 os.environ["WANDB_DISABLED"] = "true"
 label_type = "neg_samples"  # "all_samples" "neg_samples"
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -37,7 +39,7 @@ def encode_labels(example):
         for ti, t in enumerate(tokenized):
             if ti != 0:
                 if label == "O":
-                    r_tags.append(label2id[label])
+                    r_tags.append(label2id["O"])
                 else:
                     r_tags.append(label2id["I"])
             else:
@@ -57,6 +59,14 @@ def encode_data(data):
                         padding="max_length", max_length=max_len_bio, truncation=True,
                         add_special_tokens=True)
     return (encoded)
+
+
+def tokenize(line: str):
+    all_tokens = ['#BOS']
+    for token in line.split():
+        tokenized = tokenizer.tokenize(token)
+        all_tokens.extend(tokenized)
+    return all_tokens
 
 
 labels = ["B", "I", "O"]
@@ -198,7 +208,7 @@ for task in tasks:
 
         test_task_dataset.set_format(type="torch",
                                      columns=["input_ids", "token_type_ids", "attention_mask",
-                                              "labels"])
+                                              "labels", "tokens", "tags"])
         test_dataloader = torch.utils.data.DataLoader(test_task_dataset, batch_size=16)
 
         # set adapter and head for current task
@@ -207,18 +217,28 @@ for task in tasks:
 
         predictions_list = []
         expected_list = []
-        for i, batch in enumerate(test_dataloader):
-            batch = {k: v.to(device) for k, v in batch.items()}
-            outputs = model(batch["input_ids"], attention_mask=batch['attention_mask'])
+        merged_predictions_list = []
+        merged_expected_list = []
+        for batch in test_dataloader:
+            outputs = (model(batch["input_ids"].to(device),
+                             attention_mask=batch['attention_mask'].to(device)))
             predictions = torch.argmax(outputs[0], 2)
-            expected = batch["labels"].float()
-            for k in range(len(batch['labels'])):
+            for k in range(len(batch[next(iter(batch))])):
+                expected = batch["labels"][k].int()
                 att_mask = batch['attention_mask'][k]
                 # get first index where attention is not 1
                 index = torch.where(att_mask != 1)[0][0].item()
                 # ignore padded tokens in evaluation
                 predictions_list.append(predictions[k][:index])
-                expected_list.append(expected[k][:index])
+                expected_list.append(expected[:index])
+                # evaluation of merged labels
+                merged_predicted = predictions[k][:index]
+                merged_predicted = torch.flatten(merged_predicted).cpu().numpy()
+                merged_predicted = [id2label[l] for l in merged_predicted]
+                merged_predicted = merge_labels(merged_predicted, tokenize(batch['tokens'][k]))
+                merged_expected = batch["tags"][k].split()
+                merged_predictions_list.extend(merged_predicted)
+                merged_expected_list.extend(merged_expected)
         print("Test set evaluation!")
         true_labels = torch.flatten(torch.cat(expected_list)).cpu().numpy()
         predicted_labels = torch.flatten(torch.cat(predictions_list)).cpu().numpy()
@@ -226,3 +246,9 @@ for task in tasks:
         print("Micro f1:", f1_score(true_labels, predicted_labels, average="micro"))
         print("Macro f1:", f1_score(true_labels, predicted_labels, average="macro"))
         print("Weighted f1:", f1_score(true_labels, predicted_labels, average="weighted"))
+        print("Merged test set evaluation!")
+        print(confusion_matrix(merged_expected_list, merged_predictions_list))
+        print("Micro f1:", f1_score(merged_expected_list, merged_predictions_list, average="micro"))
+        print("Macro f1:", f1_score(merged_expected_list, merged_predictions_list, average="macro"))
+        print("Weighted f1:",
+              f1_score(merged_expected_list, merged_predictions_list, average="weighted"))
