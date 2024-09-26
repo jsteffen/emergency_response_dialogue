@@ -96,9 +96,57 @@ def _get_text_from_request(req: Request) -> str:
     return text
 
 
+def tokenize(line: str):
+    all_tokens = ['#BOS']
+    for token in line.split():
+        tokenized = tokenizer.tokenize(token)
+        all_tokens.extend(tokenized)
+    return all_tokens
+
+
+def merge_labels(pred_labels, subtokens):
+    current_labels = set()
+    merged_labels = []
+    for idx, tok in enumerate(subtokens):
+        # skip first subtoken, as it's a beginning-of-sentence marker
+        if idx == 0:
+            continue
+        if tok.startswith('##'):
+            # add to current token label set
+            current_labels.add(pred_labels[idx])
+        else:
+            # new token start found
+            # first determine the label of the current token,
+            if 'B' in current_labels:
+                # B overrides I
+                merged_labels.append('B')
+            elif 'I' in current_labels:
+                # label dependes on the previous label:
+                # if O -> B, if B or I -> I
+                if merged_labels[-1] == 'O':
+                    merged_labels.append('B')
+                else:
+                    merged_labels.append('I')
+            else:
+                merged_labels.append('O')
+            current_labels.clear()
+            current_labels.add(pred_labels[idx])
+    # handle last token
+    if 'B' in current_labels:
+        merged_labels.append('B')
+    elif 'I' in current_labels:
+        if merged_labels[-1] == 'O':
+            merged_labels.append('B')
+        else:
+            merged_labels.append('I')
+    else:
+        merged_labels.append('O')
+    return merged_labels[1:]
+
+
 def _annotate_line(line: str) -> dict[str, dict[str, list[str]]]:
     clean_line = line.translate(str.maketrans('', '', string.punctuation))
-    tokens: list[str] = _tokenize(clean_line)
+    subtokens = tokenize(clean_line)
     encoded_line = tokenizer(clean_line, pad_to_max_length=True, padding="max_length",
                              max_length=max_len_bio,
                              truncation=True, add_special_tokens=True)
@@ -114,49 +162,31 @@ def _annotate_line(line: str) -> dict[str, dict[str, list[str]]]:
         model_result = model(tensor, attention_mask=torch.tensor([encoded_line['attention_mask']]))
         predictions = torch.argmax(model_result[0], 2)[0].tolist()
 
-        # collect tagged phrases
+        # merge subtokens and labels
+        merged_labels = merge_labels([id2label[k] for k in predictions], subtokens)
+
+        # group tagged tokens into tagged phrases
         phrases = []
         current_phrase = ''
-        current_token = ''
-        current_labels = set()
-        for idx, tok in enumerate(tokens):
-            if tok.startswith('##'):
-                if not current_token:
-                    # this should never happen
-                    logger.error('ERROR: no current token when ## subtoken is found!')
-                else:
-                    current_token += tok.replace('##', '')
-                    current_labels.add(id2label[predictions[idx]])
-            else:
-                # new token start found
-                # first check if last token is part of phrase
-                if current_token and ('B' in current_labels or 'I' in current_labels):
-                    current_phrase += ' ' + current_token
-                else:
-                    # if there was a previous phrase, it now has ended
-                    if current_phrase:
-                        phrases.append(current_phrase.strip())
-                        current_phrase = ''
-                current_token = tok
-                current_labels.clear()
-                current_labels.add(id2label[predictions[idx]])
-        # handle last token
-        if 'B' in current_labels or 'I' in current_labels:
-            current_phrase += ' ' + current_token
-            phrases.append(current_phrase.strip())
+        for la, to in zip(merged_labels, clean_line.split()):
+            if la == 'B':  # beginning of a new phrase
+                if current_phrase:  # if a phrase is already being built, add it to phrases
+                    phrases.append(current_phrase)
+                current_phrase = to  # start a new phrase with the current token
+            elif la == 'I':  # continuation of the current phrase
+                current_phrase += ' ' + to
+            else:  # if it's an 'O' (outside), finalize the current phrase (if any)
+                if current_phrase:
+                    phrases.append(current_phrase)
+                    current_phrase = ''
+        # add the last phrase if it exists
+        if current_phrase:
+            phrases.append(current_phrase)
         if phrases:
             logger.info(f'{task} phrases: {phrases}')
             result[task] = phrases
 
     return {'text': line, 'phrases': result}
-
-
-def _tokenize(line: str):
-    all_tokens = ['#BOS']
-    for token in line.split():
-        tokenized = tokenizer.tokenize(token)
-        all_tokens.extend(tokenized)
-    return all_tokens
 
 
 def start_server(port: int, host: str) -> None:
