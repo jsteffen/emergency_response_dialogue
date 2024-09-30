@@ -10,3 +10,5 @@ bert-extractive-summarizer==0.10.1 # summarization
 tqdm~=4.66.5
 scikit-learn~=1.5.2
 numpy~=1.26.4
+Flask~=3.0.3
+waitress~=3.0.0
